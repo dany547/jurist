@@ -1,0 +1,59 @@
+# Relatii EU <-> RO pentru jurist (sursa: verificare juridica manuala a perechilor).
+# Format: source_act_id<TAB>relation_type<TAB>target_act_id<TAB>source_reference
+# Fiecare pereche este introdusa in ambele sensuri: transposed_by <-> transposes,
+# supplemented_by <-> supplements.
+# Actele de transpunere RO pentru 98/6 (HG 947/2000) si 2013/11 (OG 38/2015) sunt în
+# corpus din 2026-09-29 -> relatiile lor sunt mai jos, cu dovada din textul oficial.
+EU:DIR:2000:31	transposed_by	RO:LEGE:365:2002	Directiva 2000/31/CE privind comertul electronic, transpusa de Legea nr. 365/2002
+RO:LEGE:365:2002	transposes	EU:DIR:2000:31	Legea nr. 365/2002 transpune Directiva 2000/31/CE privind comertul electronic
+EU:DIR:2002:58	transposed_by	RO:LEGE:506:2004	Directiva 2002/58/CE (ePrivacy), transpusa de Legea nr. 506/2004
+RO:LEGE:506:2004	transposes	EU:DIR:2002:58	Legea nr. 506/2004 transpune Directiva 2002/58/CE (ePrivacy)
+EU:DIR:2005:29	transposed_by	RO:LEGE:363:2007	Directiva 2005/29/CE privind practicile comerciale incorecte, transpusa de Legea nr. 363/2007
+RO:LEGE:363:2007	transposes	EU:DIR:2005:29	Legea nr. 363/2007 transpune Directiva 2005/29/CE privind practicile comerciale incorecte
+EU:DIR:2011:83	transposed_by	RO:OUG:34:2014	Directiva 2011/83/UE privind drepturile consumatorilor, transpusa de OUG nr. 34/2014
+RO:OUG:34:2014	transposes	EU:DIR:2011:83	OUG nr. 34/2014 transpune Directiva 2011/83/UE privind drepturile consumatorilor
+EU:DIR:2019:770	transposed_by	RO:OUG:141:2021	Directiva (UE) 2019/770 privind continutul digital, transpusa de OUG nr. 141/2021
+RO:OUG:141:2021	transposes	EU:DIR:2019:770	OUG nr. 141/2021 transpune Directiva (UE) 2019/770 privind continutul digital
+EU:DIR:2019:771	transposed_by	RO:OUG:140:2021	Directiva (UE) 2019/771 privind vanzarea de bunuri, transpusa de OUG nr. 140/2021
+RO:OUG:140:2021	transposes	EU:DIR:2019:771	OUG nr. 140/2021 transpune Directiva (UE) 2019/771 privind vanzarea de bunuri
+EU:DIR:2019:2161	transposed_by	RO:OUG:58:2022	Directiva (UE) 2019/2161 (Omnibus), transpusa de OUG nr. 58/2022
+RO:OUG:58:2022	transposes	EU:DIR:2019:2161	OUG nr. 58/2022 transpune Directiva (UE) 2019/2161 (Omnibus)
+EU:DIR:2019:882	transposed_by	RO:LEGE:232:2022	Directiva (UE) 2019/882 (accesibilitate), transpusa de Legea nr. 232/2022
+RO:LEGE:232:2022	transposes	EU:DIR:2019:882	Legea nr. 232/2022 transpune Directiva (UE) 2019/882 privind accesibilitatea
+# NIS2: Directiva (UE) 2022/2555 e in corpus din 2026-09-29; relatia cu OUG 155/2024 e mai jos.
+EU:REG:2016:679	supplemented_by	RO:LEGE:190:2018	GDPR completat cu masuri nationale de aplicare din Legea nr. 190/2018
+RO:LEGE:190:2018	supplements	EU:REG:2016:679	Legea nr. 190/2018 completeaza GDPR cu masuri nationale de aplicare
+# --- Extensie corpus 2026-09-29 (actele noi RO+UE; fiecare rand cu dovada din
+# textul oficial, nu din memoria modelului). ---
+EU:DIR:1998:6	transposed_by	RO:HG:947:2000	HG 947/2000, text oficial Portal Legislativ (DetaliiDocument/24730, republicare 97219): "Prezenta hotărâre transpune prevederile Directivei Parlamentului European și a Consiliului 98/6/CE din 16 februarie 1998 privind protecția consumatorilor în indicarea prețurilor"
+RO:HG:947:2000	transposes	EU:DIR:1998:6	HG 947/2000 notează expres transpunerea Directivei 98/6/CE (HTML oficial, accesat 2026-09-29)
+EU:DIR:2013:11	transposed_by	RO:OG:38:2015	OG 38/2015, text oficial Portal Legislativ (DetaliiDocument/170960): "Prezenta ordonanță transpune prevederile Directivei 2013/11/UE ... privind soluționarea alternativă a litigiilor în materie de consum"
+RO:OG:38:2015	transposes	EU:DIR:2013:11	OG 38/2015 notează expres transpunerea Directivei 2013/11/UE (HTML oficial, accesat 2026-09-29)
+EU:DIR:2015:2366	transposed_by	RO:LEGE:209:2019	Legea 209/2019 (DetaliiDocument/219736) citează Directiva (UE) 2015/2366 de 1 ori în textul consolidat oficial (titlul II PSD2); este legea română a serviciilor de plată — transpunerea PSD2 rezultă din trimiterea expresă, nu dintr-o frază de transpunere verbatim
+RO:LEGE:209:2019	transposes	EU:DIR:2015:2366	Legea 209/2019 transpune PSD2; textul consolidat oficial face trimitere expresă la prevederile titlului II din Directiva (UE) 2015/2366
+EU:REG:2022:2065	supplemented_by	RO:LEGE:50:2024	Legea 50/2024 (DetaliiDocument/280106), titlu: "privind stabilirea unor măsuri pentru aplicarea Regulamentului (UE) 2022/2.065 ... (Regulamentul privind serviciile digitale)"
+RO:LEGE:50:2024	supplements	EU:REG:2022:2065	Legea 50/2024 completează DSA cu autoritatea națională (ANCOM), ordine, notificatori și sancțiuni
+RO:LEGE:365:2002	amended_by	RO:LEGE:50:2024	Textul consolidat oficial al Legii 365/2002 conține 15 adnotări "la ..., Articolul ... a fost modificat de ... LEGEA nr. 50 din 18 martie 2024" (HTML oficial, accesat 2026-09-29)
+RO:LEGE:50:2024	amends	RO:LEGE:365:2002	Legea 50/2024 modifică Legea 365/2002 privind comerțul electronic (adnotările din consolidarea oficială a L365/2002)
+EU:REG:2014:910	supplemented_by	RO:LEGE:214:2024	Legea 214/2024 (DetaliiDocument/285178), art. 1: "Prezenta lege creează cadrul juridic intern de aplicare directă a Regulamentului (UE) nr. 910/2014 ... privind identificarea electronică și serviciile de încredere"
+RO:LEGE:214:2024	supplements	EU:REG:2014:910	Legea 214/2024 completează eIDAS prin măsuri naționale (prestatori de încredere, registrul ANCD, marca temporală)
+EU:DIR:2022:2555	transposed_by	RO:OUG:155:2024	OUG 155/2024, text oficial Portal Legislativ (DetaliiDocument/293121): "... transpune Directiva (UE) 2022/2555"
+RO:OUG:155:2024	transposes	EU:DIR:2022:2555	OUG 155/2024 transpune NIS2 (Directiva (UE) 2022/2555) — fraza de transpunere verificată în HTML-ul oficial
+EU:DIR:2024:825	transposed_by	RO:LEGE:363:2007	Consolidarea oficială a L363/2007 conține 52 de adnotări "Articolul I din ORDONANȚA DE URGENȚĂ nr. 18 din 19 martie 2026 (MO 236/26.03.2026)" și noile definiții "afirmație generică legată de mediu", "etichetă de durabilitate", "sistem de certificare"
+EU:DIR:2024:825	transposed_by	RO:OUG:34:2014	Consolidarea oficială a OUG 34/2014 conține 81 de adnotări ale aceluiași Articol I/II din OUG 18/2026, inclusiv noile articole 16^1-16^3 privind durabilitatea și garantațiile
+RO:LEGE:363:2007	transposes	EU:DIR:2024:825	OUG 18/2026 art. I a modificat Legea 363/2007 pentru transpunerea Directivei (UE) 2024/825 (verificat în consolidarea oficială)
+RO:OUG:34:2014	transposes	EU:DIR:2024:825	OUG 18/2026 a modificat OUG 34/2014 pentru transpunerea Directivei (UE) 2024/825 (verificat în consolidarea oficială)
+EU:DIR:2023:2673	transposed_by	RO:OUG:34:2014	OUG 18/2026 art. II a introdus în OUG 34/2014 art. 16^1-16^3 pentru "contracte la distanță privind servicii financiare" (textul consolidat oficial conține "servicii financiare" de 15 ori), transpunând Directiva (UE) 2023/2673
+RO:OUG:34:2014	transposes	EU:DIR:2023:2673	Prin OUG 18/2026, OUG 34/2014 reglementează contractele de servicii financiare la distanță — Directiva (UE) 2023/2673
+EU:DIR:2024:825	amends	EU:DIR:2005:29	Directiva (UE) 2024/825, art. 1 (text oficial Cellar): "Directiva 2005/29/CE se modifică după cum urmează"
+EU:DIR:2005:29	amended_by	EU:DIR:2024:825	Directiva (UE) 2024/825, art. 1 — modifică UCPD; consolidarea oficială 02005L0029-20260927 include noile afirmații de mediu
+EU:DIR:2024:825	amends	EU:DIR:2011:83	Directiva (UE) 2024/825, art. 2 (text oficial Cellar): "Directiva 2011/83/UE se modifică după cum urmează"
+EU:DIR:2011:83	amended_by	EU:DIR:2024:825	Directiva (UE) 2024/825, art. 2 — modifică CRD; consolidarea oficială 02011L0083-20260927 include dispozițiile privind durabilitatea
+EU:DIR:2023:2673	amends	EU:DIR:2011:83	Directiva (UE) 2023/2673, art. 1 (text oficial Cellar): "Directiva 2011/83/UE se modifică după cum urmează"; art. 3 abrogă Directiva 2002/65/CE de la 19 iunie 2026
+EU:DIR:2011:83	amended_by	EU:DIR:2023:2673	Directiva (UE) 2023/2673, art. 1 — introduce art. 16a-16f în CRD (servicii financiare la distanță); verificat în consolidarea 02011L0083-20260927
+EU:DEC:2021:914	supplements	EU:REG:2016:679	Decizia (UE) 2021/914, art. 1: clauze contractuale standard "în temeiul articolului 46 alineatul (2) litera (c) din Regulamentul (UE) 2016/679" (text oficial Cellar)
+EU:REG:2016:679	supplemented_by	EU:DEC:2021:914	Decizia (UE) 2021/914 completează GDPR cu setul de clauze contractuale standard pentru transferuri în țări terțe
+EU:DEC:2021:915	supplements	EU:REG:2016:679	Decizia (UE) 2021/915, art. 1: clauze standard "prevăzute la articolul 28 alineatul (7) din Regulamentul (UE) 2016/679" (text oficial Cellar)
+EU:REG:2016:679	supplemented_by	EU:DEC:2021:915	Decizia (UE) 2021/915 completează GDPR cu clauzele standard operator–împuternicit
+EU:DEC:2023:1795	supplements	EU:REG:2016:679	Decizia (UE) 2023/1795, art. 1: "În sensul articolului 45 din Regulamentul (UE) 2016/679, Statele Unite ale Americii asigură un nivel adecvat de protecție..." (text oficial Cellar)
+EU:REG:2016:679	supplemented_by	EU:DEC:2023:1795	Decizia (UE) 2023/1795 (EU-US Data Privacy Framework) completează GDPR cu decizia de adecvare pentru SUA

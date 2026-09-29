@@ -1,0 +1,11 @@
+{
+  "skill": "jurist",
+  "schema_version": 1,
+  "built_at": null,
+  "sources": {
+    "legislatie_just_ro": {"method": "SOAP", "last_sync": null, "documents": 0},
+    "eurlex_cellar": {"method": "CELLAR", "last_sync": null, "documents": 0}
+  },
+  "acts": {},
+  "raw_snapshots": {}
+}

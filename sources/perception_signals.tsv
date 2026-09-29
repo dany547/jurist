@@ -1,0 +1,117 @@
+# marcă sau tipar	categorie
+# Fișierul optimizează recall-ul; precizia vine din testul de subiect aplicat de model.
+# Potrivirea se face cu diacritice pliate, ca în sursele de rutare.
+# O marcă precum „trebuie” poate da fals pozitiv când subiectul este aplicația (ex.: „trebuie să apeși Continua”).
+trebuie	obligatie
+trebuie să	obligatie
+trebuie sa	obligatie
+este obligatoriu	obligatie
+este obligatorie	obligatie
+sunt obligatorii	obligatie
+obligatoriu pentru	obligatie
+se impune	obligatie
+se impune să	obligatie
+se impune sa	obligatie
+ai obligația să	obligatie
+ai obligatia sa	obligatie
+aveți obligația	obligatie
+este necesar să	obligatie
+este necesar sa	obligatie
+se semnează de	semnatar
+se semneaza de	semnatar
+semnat de	semnatar
+semnată de	semnatar
+semnata de	semnatar
+semnătură obligatorie	semnatar
+semnatura obligatorie	semnatar
+valabil numai dacă este semnat de	semnatar
+valabil numai daca este semnat de	semnatar
+semnează asociatul unic	semnatar
+semneaza asociatul unic	semnatar
+necesită avizul	aprobare
+necesita avizul	aprobare
+necesită aprobarea	aprobare
+necesita aprobarea	aprobare
+se cere autorizația	aprobare
+se cere autorizatia	aprobare
+este necesar acordul	aprobare
+este necesar avizul	aprobare
+cu aprobarea	aprobare
+nu ai nevoie de	scutire
+nu aveți nevoie de	scutire
+nu aveti nevoie de	scutire
+nu este necesar să	scutire
+nu este necesar sa	scutire
+nu se aplică în cazul tău	scutire
+nu se aplica in cazul tau	scutire
+este exceptat de la	scutire
+este exceptată de la	scutire
+beneficiază de o excepție	scutire
+beneficiaza de o exceptie	scutire
+nu trebuie să	scutire
+nu trebuie sa	scutire
+depunerea produce efectul	efect_juridic
+depunerea are ca efect	efect_juridic
+produce efecte juridice	efect_juridic
+produce efect juridic	efect_juridic
+după depunere ești autorizat	efect_juridic
+dupa depunere esti autorizat	efect_juridic
+te consideri autorizat	efect_juridic
+actul devine valabil	efect_juridic
+este recunoscut juridic	efect_juridic
+îți conferă dreptul	efect_juridic
+iti confera dreptul	efect_juridic
+astfel vei fi conform	conformitate
+astfel veți fi conform	conformitate
+astfel veti fi conform	conformitate
+vei fi conform cu legea	conformitate
+vei fi conform cu legislația	conformitate
+vei fi conform cu legislatia	conformitate
+procedura este conformă	conformitate
+procedura este conforma	conformitate
+respectă cerințele legale	conformitate
+respecta cerintele legale	conformitate
+îndeplinește toate cerințele	conformitate
+indeplineste toate cerintele	conformitate
+acestea sunt documentele necesare	exhaustivitate
+acestea sunt toate documentele	exhaustivitate
+lista completă de documente	exhaustivitate
+lista completa de documente	exhaustivitate
+documentele necesare sunt doar	exhaustivitate
+documentele necesare sunt următoarele	exhaustivitate
+documentele necesare sunt urmatoarele	exhaustivitate
+nu mai sunt necesare alte documente	exhaustivitate
+nu sunt necesare alte acte	exhaustivitate
+dosarul este complet	exhaustivitate
+lista este completă	exhaustivitate
+lista este completa	exhaustivitate
+în termen de 15 zile	termen_cuantum
+in termen de 15 zile	termen_cuantum
+în termen de	termen_cuantum
+in termen de	termen_cuantum
+până la data de	termen_cuantum
+pana la data de	termen_cuantum
+termenul este de	termen_cuantum
+în maximum 30 de zile	termen_cuantum
+in maximum 30 de zile	termen_cuantum
+în cel mult	termen_cuantum
+in cel mult	termen_cuantum
+taxa este	termen_cuantum
+costul este	termen_cuantum
+se plătește suma de	termen_cuantum
+se plateste suma de	termen_cuantum
+amenda este de	sanctiune
+riști amendă de	sanctiune
+risti amenda de	sanctiune
+riscă o amendă	sanctiune
+risca o amenda	sanctiune
+poți fi sancționat	sanctiune
+poti fi sanctionat	sanctiune
+se sancționează cu	sanctiune
+se sanctioneaza cu	sanctiune
+fapta constituie contravenție	sanctiune
+fapta constituie contraventie	sanctiune
+actul poate fi anulat	sanctiune
+poate atrage nulitatea	sanctiune
+răspunzi contravențional	sanctiune
+raspunzi contraventional	sanctiune

@@ -1,0 +1,68 @@
+# question	expected canonical provision IDs
+# Scris contra corpusului REAL (46 acte, 10.187 provizii, extins 2026-09-29). Fiecare ID a
+# fost verificat ca exista in data/legal.db. 40 de întrebări inițiale + 23 adăugate
+# la 2026-09-29 = 63 în total (green claims, GPSR, Data Act, AI Act, PLD, SCC/DPF, NIS2,
+# semnătură electronică, plăți, SAL, prețuri, DSA/ANCOM, lege aplicabilă și competență).
+trebuie banner de cookies pe site	RO:LEGE:506:2004:ART:4:P:5,RO:LEGE:506:2004:ART:4:P:5:L:a,EU:DIR:2002:58:ART:5:P:3
+pot pune cookies fara sa intreb utilizatorul	RO:LEGE:506:2004:ART:4:P:5,RO:LEGE:506:2004:ART:4:P:5:L:a,EU:DIR:2002:58:ART:5:P:3
+art. 6 GDPR	EU:REG:2016:679:ART:6:P:1
+ce inseamna consimtamant valabil	EU:REG:2016:679:ART:7:P:1
+cum dovedesc ca userul a consimtit	EU:REG:2016:679:ART:7:P:1
+pe ce temei legal pot prelucra date	EU:REG:2016:679:ART:6:P:1
+interes legitim ca temei	EU:REG:2016:679:ART:6:P:1:L:f,EU:REG:2016:679:ART:6:P:1
+ce trebuie sa scriu in politica de confidentialitate	EU:REG:2016:679:ART:13:P:1
+ce informatii dau utilizatorului cand ii colectez datele	EU:REG:2016:679:ART:13:P:1
+dreptul de a fi uitat	EU:REG:2016:679:ART:17:P:1
+utilizatorul cere stergerea contului si a datelor	EU:REG:2016:679:ART:17:P:1
+dreptul de acces la date	EU:REG:2016:679:ART:15:P:1
+portabilitatea datelor	EU:REG:2016:679:ART:20:P:1
+contract cu procesatorul de date	EU:REG:2016:679:ART:28:P:3
+ce pun in DPA cu un subimputernicit	EU:REG:2016:679:ART:28:P:3
+transfer date in afara UE	EU:REG:2016:679:ART:44
+folosesc un server in Statele Unite	EU:REG:2016:679:ART:44
+cand am nevoie de responsabil cu protectia datelor	EU:REG:2016:679:ART:37:P:1
+trebuie DPO pentru firma mea	EU:REG:2016:679:ART:37:P:1
+evaluare impact protectia datelor	EU:REG:2016:679:ART:35:P:1
+am avut o scurgere de date ce fac	EU:REG:2016:679:ART:33:P:1
+in cat timp raportez o bresa de securitate	EU:REG:2016:679:ART:33:P:1
+varsta minima pentru consimtamant online	EU:REG:2016:679:ART:8:P:1
+profilare si decizii automate	EU:REG:2016:679:ART:22:P:1
+responsabil protectia datelor in Romania	RO:LEGE:190:2018:ART:10:P:1
+sanctiuni GDPR in Romania	RO:LEGE:190:2018:ART:12:P:1
+client vrea sa returneze produsul in 14 zile	RO:OUG:34:2014:ART:9:P:1,EU:DIR:2011:83:ART:9:P:1
+drept de retragere magazin online	RO:OUG:34:2014:ART:9:P:1,EU:DIR:2011:83:ART:9:P:1
+in cat timp dau banii inapoi la retur	RO:OUG:34:2014:ART:13:P:1
+ce informatii afisez inainte de comanda	RO:OUG:34:2014:ART:6:P:1
+ce date despre firma pun pe site	RO:LEGE:365:2002:ART:5:P:1
+obligatii de identificare comerciant online	RO:LEGE:365:2002:ART:5:P:1
+clauza din termeni si conditii e abuziva	RO:LEGE:193:2000:ART:4:P:1
+clauza nenegociata cu consumatorul	RO:LEGE:193:2000:ART:4:P:1
+vand abonament software conformitate	RO:OUG:141:2021:ART:1:P:2:L:a
+continut digital neconform cu contractul	RO:OUG:141:2021:ART:1:P:2:L:a
+produs defect in primul an	RO:OUG:140:2021:ART:10:P:1
+garantie bunuri vandute online	RO:OUG:140:2021:ART:10:P:1
+raspunderea platformei pentru continut ilegal	EU:REG:2022:2065:ART:6:P:1
+gazduire continut si exonerare de raspundere	EU:REG:2022:2065:ART:6:P:1
+pot scrie pe site ca produsul e eco friendly	EU:DIR:2005:29:ANN:1,EU:DIR:2024:825:ART:1,EU:DIR:2005:29:ART:6:P:2:L:d,RO:LEGE:363:2007:ART:6:P:2:L:d
+vind haine online si vreau sa scriu ca sunt sustenabile	EU:DIR:2005:29:ART:6:P:2:L:d,RO:LEGE:363:2007:ART:2,EU:DIR:2005:29:ANN:1
+verific produsul meu e sigur inainte sa-l pun pe piata	EU:REG:2023:988:ART:5,EU:REG:2023:988:ART:9,EU:REG:2023:988:ART:6
+ce trebuie sa fac cand pe marketplace apar produse periculoase	EU:REG:2023:988:ART:22:P:1,EU:REG:2023:988:ART:22:P:3
+răspunderea producătorului pentru un software care i-a stricat clientului alt aparat	EU:DIR:2024:2853:ART:4,EU:DIR:2024:2853:ART:5,EU:DIR:2024:2853:ART:7
+clientul cere datele generate de dispozitivul conectat pe care i-l vand	EU:REG:2023:2854:ART:4:P:1,EU:REG:2023:2854:ART:5:P:1,EU:REG:2023:2854:ART:15:P:1
+pot pune in contract clauza sa nu isi mute datele la alt furnizor	EU:REG:2023:2854:ART:25:P:1,EU:REG:2023:2854:ART:13:P:1,EU:REG:2023:2854:ART:23
+cata taxe ii pun clientului cand pleaca de pe cloudul meu	EU:REG:2023:2854:ART:29:P:1,EU:REG:2023:2854:ART:23,EU:REG:2023:2854:ART:25:P:1
+trebuie sa anunt vizitatorul ca vorbeste cu un bot	EU:REG:2024:1689:ART:50,EU:REG:2024:1689:ART:50:P:1
+poze generate cu inteligența artificială pentru reclame trebuie marcate	EU:REG:2024:1689:ART:50:P:2,EU:REG:2024:1689:ART:50:P:4,EU:REG:2024:1689:ART:50
+pot pune in contract ca se aplica legea din Austria	EU:REG:2008:593:ART:6:P:1,EU:REG:2008:593:ART:3:P:1
+unde ma da in judecata un client din Bucuresti	EU:REG:2012:1215:ART:18:P:1,EU:REG:2012:1215:ART:17:P:1
+pot semna electronic un contract de prestari servicii	RO:LEGE:214:2024:ART:3:P:1,RO:LEGE:214:2024:ART:3:P:2,EU:REG:2014:910:ART:25:P:1
+trebuie sa afisez pretul pe kilogram pe site	RO:HG:947:2000:ART:3:P:1,RO:HG:947:2000:ART:4:P:1,RO:HG:947:2000:ART:5:P:1
+cum afisez reducerea de pret la o promotie	RO:HG:947:2000:ART:4^1:P:1,RO:HG:947:2000:ART:4^1:P:5,EU:DIR:1998:6:ART:6
+trebuie sa-i spun clientului unde poate face o sesizare alternativa	RO:OG:38:2015:ART:25:P:1,RO:OG:38:2015:ART:25:P:2
+mai functioneaza platforma europeana de solutionare a litigiilor	EU:REG:2024:3228:ART:1,EU:REG:2024:3228:ART:2:P:1
+clientul zice ca plata de pe card nu a fost autorizata de el	RO:LEGE:209:2019:ART:171,RO:LEGE:209:2019:ART:173,EU:DIR:2015:2366:ART:74:P:1
+vind asigurari pe site ce informatii dau inainte de cumparare	RO:OUG:34:2014:ART:16^1:P:1,EU:DIR:2011:83:ART:16a:P:1,EU:DIR:2023:2673:ART:1
+trimit datele clientilor pe AWS in Statele Unite mai am nevoie de clauze	EU:DEC:2023:1795:ART:1,EU:REG:2016:679:ART:45,EU:REG:2016:679:ART:44
+ce pun in contractul cu o firma din strainatate care imi stocheaza datele clientilor	EU:DEC:2021:914:ANN:1,EU:DEC:2021:914:ART:1,EU:REG:2016:679:ART:46
+pe cine reclam la ANCOM pentru continut ilegal de pe o platforma	RO:LEGE:50:2024:ART:21:P:1,RO:LEGE:50:2024:ART:8,RO:LEGE:50:2024:ART:23:P:1
+masuri de securitate cibernetica pentru magazinul meu online	EU:DIR:2022:2555:ART:21:P:1,EU:DIR:2022:2555:ART:6,RO:OUG:155:2024:ART:21

@@ -1,0 +1,233 @@
+# keyword or phrase	domain[,domain...]
+# Column 2 MUST use tags that exist on acts in corpus.yaml (English v1 vocabulary).
+cookie	cookies
+cookies	cookies
+banner	cookies
+banner cookie	cookies
+banner de cookies	cookies
+echipament terminal	cookies
+stocare pe terminal	cookies
+consimțământ	personal_data,privacy
+consent	personal_data,privacy
+opt-in	personal_data,privacy
+temei legal	personal_data,privacy
+interes legitim	personal_data,privacy
+legitimate interest	personal_data,privacy
+transparență	transparency,personal_data,privacy
+politica de confidentialitate	transparency,personal_data,privacy
+informare	transparency
+colectez	transparency
+drepturi persoanei	personal_data,privacy
+drepturi consumator	consumer
+uitat	personal_data,privacy
+stergere	personal_data,privacy
+dpo	personal_data,privacy
+responsabil cu protectia datelor	personal_data,privacy
+responsabil protectia datelor	personal_data,privacy
+responsabil protectia datelor in romania	employment
+sanctiuni	enforcement
+dpa	compliance
+procesator	compliance
+procesatorul	compliance
+imputernicit	compliance
+bresa	personal_data,privacy
+scurgere	personal_data,privacy
+profilare	personal_data,privacy
+transfer date	international_transfers
+statele unite	international_transfers
+tara terta	international_transfers
+marketing direct	direct_marketing,marketing
+newsletter	direct_marketing,marketing
+spam	direct_marketing,marketing
+retragere	withdrawal,distance_contracts
+withdrawal	withdrawal,distance_contracts
+retur	withdrawal,distance_contracts
+14 zile	withdrawal,distance_contracts
+inainte de comanda	distance_contracts
+clauze abuzive	terms_and_conditions,contracts
+clauza abuziva	terms_and_conditions,contracts
+nenegociata	terms_and_conditions,contracts
+unfair terms	terms_and_conditions,contracts
+garanție	sales,conformity
+garanții	sales,conformity
+warranty	sales,conformity
+abonament	distance_contracts,digital_content
+abonament software	digital_content
+software	digital_content
+subscription	distance_contracts,digital_content
+preț	pricing
+price	pricing
+conținut digital	digital_content
+digital content	digital_content
+marketplace	marketplaces,online_platforms
+platformă	marketplaces,online_platforms
+gazduire	online_platforms,intermediaries
+continut ilegal	online_platforms,intermediaries
+exonerare	online_platforms,intermediaries
+contract online	electronic_contracts
+date despre firma	commercial_information,ecommerce
+identificare comerciant	commercial_information,electronic_contracts,ecommerce
+comerciant online	ecommerce,electronic_contracts
+p2b	marketplaces,online_platforms
+platforma de intermediere	marketplaces,online_platforms
+clasament	marketplaces,online_platforms
+ranking	marketplaces,online_platforms
+accesibilitate	accessibility
+accesibil	accessibility
+site accesibil	accessibility
+eaa	accessibility
+nis2	cybersecurity
+securitate cibernetica	cybersecurity
+entitate esentiala	cybersecurity
+comerț electronic	ecommerce
+consumator	consumer
+# --- rutare pentru actele adaugate la 2026-09-29 ---
+eco friendly	green_claims,advertising,marketing
+eco-friendly	green_claims,advertising,marketing
+ecologic	green_claims,advertising,marketing
+produs ecologic	green_claims,advertising
+verde	green_claims,advertising
+afirmație de mediu	green_claims,advertising
+afirmații despre mediu	green_claims,advertising
+etichetă de durabilitate	green_claims,advertising,product_information
+durabil	green_claims,product_information
+durabilitate	green_claims,product_information
+sustenabil	green_claims,product_information
+greenwashing	green_claims,advertising
+carbon neutral	green_claims,advertising
+zero emisii	green_claims,advertising
+claim de mediu	green_claims,advertising
+siguranța produsului	product_safety,product_information
+produs periculos	product_safety,product_information
+produs nesigur	product_safety,product_information
+rechemare produs	product_safety,complaints
+retragere de pe piață	product_safety,enforcement
+safety gate	product_safety,enforcement
+răspunderea producătorului	product_liability,consumer
+daune cauzate de produs	product_liability,consumer
+servicii financiare	financial_services,distance_contracts
+serviciu financiar	financial_services,distance_contracts
+credit online	financial_services,distance_contracts
+credit de nevoi personale	financial_services,consumer
+asigurare online	financial_services,distance_contracts
+produs financiar	financial_services,consumer
+inteligență artificială	artificial_intelligence,compliance
+sistem de inteligență artificială	artificial_intelligence,compliance
+chatbot	artificial_intelligence,transparency
+conținut generat	artificial_intelligence,transparency
+deepfake	artificial_intelligence,transparency
+actori de limbaj	artificial_intelligence,transparency
+partajare de date	data_sharing,contracts
+dispozitiv conectat	data_sharing,product_information
+date generate de produs	data_sharing,product_information
+furnizor cloud	online_services,data_sharing
+schimbare furnizor cloud	online_services,data_sharing
+taxă de ieșire	online_services,pricing
+taxă de comutare	online_services,pricing
+trecerea la alt furnizor	online_services,contracts
+legea aplicabilă	governing_law,contracts
+legea care se aplică	governing_law,contracts
+clauză de lege aplicabilă	governing_law,terms_and_conditions
+instanța competentă	jurisdiction_clauses,disputes
+clauză de jurisdicție	jurisdiction_clauses,disputes
+competență teritorială	jurisdiction_clauses,disputes
+where can I be sued	jurisdiction_clauses,disputes
+semnătură electronică	electronic_signature,trust_services
+semnătură calificată	electronic_signature,trust_services
+semnare online	electronic_signature,electronic_contracts
+marca temporală	trust_services,electronic_signature
+prestator de servicii de încredere	trust_services,compliance
+preț pe unitatea de măsură	pricing,transparency
+preț de vânzare	pricing,transparency
+afișarea prețului	pricing,transparency
+reducere de preț	pricing,advertising
+soluționarea litigiilor consumatorilor	disputes,complaints
+soluționarea alternativă a litigiilor	disputes,complaints
+entitate SAL	disputes,complaints
+platforma ODR	disputes,complaints
+ODR	disputes,complaints
+reclamație ANPC	complaints,enforcement
+plată online	payments,consumer
+operațiune de plată	payments,consumer
+autentificare strictă	authentication,payments
+tranzacție neautorizată	payments,consumer
+plată neautorizată	payments,consumer
+instrument de plată	payments,consumer
+inițiere de plată	payments,authentication
+coordonatorul serviciilor digitale	online_platforms,enforcement
+ANCOM	online_platforms,enforcement
+notificator de încredere	online_platforms,complaints
+ordin de eliminare a conținutului	online_platforms,content_moderation
+servicii de intermediere	intermediaries,online_platforms
+# --- variante ASCII + formulari de utilizator (fold() nu elimină ă/â/î) ---
+semna electronic	electronic_signature,electronic_contracts
+semnatura avansata	electronic_signature,trust_services
+jurisdictie	jurisdiction_clauses,disputes
+da in judecata	jurisdiction_clauses,disputes
+date in judecata	jurisdiction_clauses,disputes
+unde pot chema in judecata	jurisdiction_clauses,disputes
+servicii financiare la distanta	financial_services,distance_contracts
+asigurari	financial_services,distance_contracts
+imprumut	financial_services,consumer
+card de plată	payments,consumer
+plata cu cardul	payments,authentication
+sesizare	complaints,disputes
+sesizare alternativa	complaints,disputes
+reclamatie	complaints,enforcement
+soluționarea litigiilor	disputes,complaints
+moda de solutionare alternativa	disputes,complaints
+platforma de solutionare	disputes,complaints
+dispozitivul conectat	data_sharing,product_information
+datele generate	data_sharing,contracts
+produs conectat	data_sharing,product_information
+partajarea datelor	data_sharing,contracts
+alt furnizor	data_sharing,online_services
+muta datele	data_sharing,online_services
+migrare date	data_sharing,online_services
+furnizor de cloud	online_services,data_sharing
+servicii de procesare a datelor	online_services,data_sharing
+robot de conversații	artificial_intelligence,transparency
+raspundere pentru produs	product_liability,consumer
+daune produs	product_liability,consumer
+pretul pe unitatea de masura	pricing,transparency
+promotie de pret	pricing,advertising
+afirmatii de mediu	green_claims,advertising
+afirma de mediu	green_claims,advertising
+sustenabile	green_claims,advertising
+incident cibernetic	cybersecurity,complaints
+continut generat	artificial_intelligence,transparency
+generat cu inteligență artificială	artificial_intelligence,transparency
+marcare continut	artificial_intelligence,transparency
+solutionare a litigiilor	disputes,complaints
+solutionare litigii	disputes,complaints
+neautorizata	payments,consumer
+furnizor din strainatate	international_transfers,compliance
+procesare date persoana	personal_data,privacy
+stocheaza datele	personal_data,international_transfers
+# --- corectii dupa eval: distinctie GDPR (acces la date) / Data Act (date generate) / PLD (răspundere) ---
+acces la datele generate	data_sharing,product_information
+accesul la datele generate	data_sharing,product_information
+dreptul de acces la date	personal_data,privacy
+dreptul de acces	personal_data,privacy
+datele mele	personal_data,privacy
+raspunderea producatorului	product_liability,consumer
+raspundere pentru produs	product_liability,consumer
+produs care l-a ranit	product_liability,consumer
+daune cauzate de produs	product_liability,consumer
+anunt de reducere a pretului	pricing,advertising
+reducere de pret	pricing,advertising
+in primul an	sales,conformity
+in anul intai	sales,conformity
+s-a stricat in garantie	sales,conformity
+răspunderea producătorului pentru produs	product_liability,consumer
+# --- completari: fold() elimina diacriticele, deci variantele ASCII sunt suficiente ---
+vorbeste cu un bot	artificial_intelligence,transparency
+# --- GPSR: termeni din Reg. 2023/988 (produse sigure, punere la dispoziție pe piață) ---
+produs sigur	product_safety,product_information
+produsul e sigur	product_safety,product_information
+produsul este sigur	product_safety,product_information
+pun pe piata	product_safety,product_information
+punere pe piata	product_safety,product_information
+punerea la dispozitie pe piata	product_safety,product_information
+lege straina	governing_law,contracts
+legea altui stat	governing_law,contracts

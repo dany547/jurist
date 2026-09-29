@@ -1,0 +1,1429 @@
+GUVERNUL ROMÂNIEI
+
+MONITORUL OFICIAL nr. 1248 din 30 decembrie 2021
+
+Având în vedere faptul că transpunerea în legislația națională a prevederilor Directivei (UE) 2019/770 a Parlamentului European și a Consiliului din 20 mai 2019 privind anumite aspecte referitoare la contractele de furnizare de conținut digital și de servicii digitale, publicată în Jurnalul Oficial al Uniunii Europene, seria L, nr. 136 din 22 mai 2019, trebuia realizată până la 1 iulie 2021, Comisia Europeană a transmis autorităților române scrisoarea de punere în întârziere privind Cauza 2021/0491, stabilind drept termen de conformare din partea României data de 30 noiembrie.
+
+Întrucât autoritățile române au solicitat Comisiei Europene prelungirea termenului de răspuns cu încă două luni, termen aprobat de Comisia Europeană, respectiv data de 30 ianuarie 2022, dată până la care autoritățile române trebuie să trimită Comisiei Europene un răspuns detaliat, prin care să comunice finalizarea transpunerii prevederilor Directivei (UE) 2019/770 și notificarea măsurilor de transpunere,
+
+pentru a evita aplicarea de către Curtea de Justiție a Uniunii Europene, la propunerea Comisiei Europene, de sancțiuni pecuniare constituite dintr-o sumă forfetară și/sau penalități cu titlu cominatoriu pentru neimplementarea în dreptul intern a prevederilor Directivei (UE) 2019/770, într-o etapă ulterioară a procedurii de constatare a neîndeplinirii obligațiilor,
+
+ținând cont de faptul că reglementarea contribuie la creșterea mai rapidă a pieței unice digitale atât în beneficiul consumatorilor, cât și al întreprinderilor și elimină principalele obstacole legate de dreptul contractelor care stau în calea comerțului transfrontalier, normele vor reduce nesiguranța cu care se confruntă întreprinderile și consumatorii din cauza complexității cadrului juridic, astfel consumatorii beneficiind de o protecție mai mare atunci când vor face cumpărături transfrontaliere, în special în mediul online,
+
+armonizarea la nivelul Uniunii Europene a drepturilor contractuale specifice, esențiale și obligatorii ale consumatorilor din Uniunea Europeană, care sunt primordiale pentru tranzacțiile transfrontaliere online și au fost identificate ca obstacole în calea schimburilor comerciale de către părțile interesate și care sunt necesare pentru a dezvolta încrederea consumatorilor atunci când fac cumpărături online în străinătate,
+
+luând în considerare toate aceste aspecte și având în vedere beneficiul public generat de stabilirea unui cadru legal care să ofere certitudine juridică, de natură să crească încrederea consumatorilor și a comercianților, în considerarea faptului că aceste elemente vizează interesul public general și constituie o situație de urgență și extraordinară, a cărei reglementare nu poate fi amânată,
+
+în temeiul
+
+art. 115 alin. (4) din Constituția României, republicată
+
+,
+
+Guvernul României adoptă prezenta ordonanță de urgență.
+
+Articolul 1
+
+Obiectul de reglementare
+
+(1)
+
+Prezenta ordonanță de urgență reglementează anumite aspecte referitoare la contractele dintre comercianți și consumatori, ce au ca obiect furnizarea de conținut digital sau de servicii digitale, în scopul asigurării unui nivel ridicat de protecție a consumatorilor și o bună funcționare a pieței interne.
+
+(2)
+
+Prezenta ordonanță de urgență reglementează în special aspecte privind:
+
+a)
+
+conformitatea conținutului digital sau a serviciului digital cu contractul;
+
+...
+
+b)
+
+măsuri corective în caz de neconformitate sau în caz de nefurnizare și modalitățile de punere în aplicare a acestor măsuri;
+
+...
+
+c)
+
+modificarea conținutului digital sau a serviciului digital.
+
+...
+
+Articolul 2
+
+Definiții
+
+În sensul prezentei ordonanțe de urgență, termenii și expresiile de mai jos au următoarele semnificații:
+
+1.
+
+bunuri cu elemente digitale - orice obiect corporal mobil care încorporează un conținut digital sau un serviciu digital sau este interconectat cu acestea, astfel încât, în absența respectivului conținut digital sau serviciu digital, bunurile nu șiar putea îndeplini funcțiile;
+
+...
+
+2.
+
+comerciant - orice persoană fizică sau juridică, indiferent dacă este publică sau privată, care, în legătură cu contractele reglementate de prezenta ordonanță de urgență, acționează, inclusiv prin intermediul unei alte persoane care acționează în numele respectivei persoane fizice sau juridice sau în contul acesteia, în scopuri ce țin de activitatea comercială, industrială, artizanală sau profesională a persoanei respective;
+
+...
+
+3.
+
+compatibilitate - capacitatea conținutului digital sau a serviciului digital de a funcționa cu componente hardware sau software care sunt utilizate în mod normal pentru conținutul digital sau serviciile digitale de același tip, fără a fi necesară conversia conținutului digital sau a serviciului digital;
+
+...
+
+4.
+
+consumator - orice persoană fizică care, în legătură cu contractele reglementate de prezenta ordonanță de urgență, acționează în scopuri care se află în afara activității sale comerciale, industriale, artizanale sau profesionale;
+
+...
+
+5.
+
+conținut digital - date produse și furnizate în format digital;
+
+...
+
+6.
+
+date cu caracter personal - astfel cum sunt definite la
+
+art. 4 pct. 1 din Regulamentul (UE) 2016/679
+
+al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE;
+
+...
+
+7.
+
+funcționalitate - capacitatea conținutului digital sau a serviciului digital de a își îndeplini funcțiile, având în vedere scopul său;
+
+...
+
+8.
+
+garanție comercială - orice angajament voluntar al comerciantului față de consumator, fără solicitarea unor costuri suplimentare, prevăzut în certificatul de garanție sau în publicitatea relevantă disponibilă în momentul sau înaintea încheierii contractului, în plus față de obligația legală privind răspunderea comerciantului pentru conformitatea conținutului digital sau a serviciului digital;
+
+...
+
+9.
+
+integrare - crearea unei legături între conținutul digital sau un serviciu digital și componentele mediului digital al consumatorului și încorporarea conținutului digital sau a serviciului digital în acestea, în așa fel încât conținutul digital sau serviciul digital să poată fi utilizat în conformitate cu cerințele de conformitate prevăzute de prezenta ordonanță de urgență;
+
+...
+
+10.
+
+interoperabilitate - capacitatea conținutului digital sau serviciului digital de a funcționa cu componente hardware sau software diferite de cele care sunt utilizate în mod normal pentru conținutul digital sau serviciile digitale de același tip;
+
+...
+
+11.
+
+mediu digital - echipamente hardware, software și orice conexiune de rețea utilizate de consumator pentru a accesa sau a utiliza conținut digital sau un serviciu digital;
+
+...
+
+12.
+
+preț - bani sau o reprezentare digitală a valorii datorate în schimbul furnizării de conținut digital sau de servicii digitale;
+
+...
+
+13.
+
+serviciu digital - un serviciu ce prezintă una dintre următoarele caracteristici:
+
+a)
+
+permite consumatorului crearea, prelucrarea, stocarea sau accesarea datelor în format digital;
+
+...
+
+b)
+
+permite schimbul de date în format digital încărcate sau create de consumator sau de alți utilizatori ai serviciului respectiv sau orice altă interacțiune cu aceste date;
+
+...
+
+...
+
+14.
+
+suport durabil - orice instrument care permite consumatorului sau comerciantului să stocheze informații care îi sunt adresate personal, într-un mod accesibil pentru referințe ulterioare, pentru o perioadă adecvată scopului informațiilor și care permite reproducerea neschimbată a informațiilor stocate.
+
+...
+
+Articolul 3
+
+Domeniul de aplicare
+
+(1)
+
+Prezenta ordonanță de urgență se aplică:
+
+a)
+
+oricărui contract în care comerciantul furnizează sau se angajează să furnizeze consumatorului conținut digital sau un serviciu digital, iar consumatorul plătește sau se angajează să plătească un preț;
+
+...
+
+b)
+
+în cazul în care comerciantul furnizează sau se angajează să furnizeze consumatorului conținut digital sau un serviciu digital, iar consumatorul furnizează sau se angajează să furnizeze comerciantului date cu caracter personal, cu excepția cazului în care datele cu caracter personal furnizate de consumator sunt prelucrate exclusiv de către comerciant pentru furnizarea conținutului digital sau a serviciului digital în conformitate cu prezenta ordonanță de urgență, sau pentru a-i permite comerciantului să respecte cerințele legale la care este supus, iar acesta nu prelucrează aceste date în niciun alt scop;
+
+...
+
+c)
+
+în cazul în care conținutul digital sau serviciul digital este dezvoltat în conformitate cu specificațiile consumatorului;
+
+...
+
+d)
+
+oricărui suport material care servește exclusiv ca suport al conținutului digital, cu excepția prevederilor
+
+art. 4
+
+și
+
+12
+
+.
+
+...
+
+(2)
+
+Nu intră în domeniul de aplicare a prezentei ordonanțe de urgență:
+
+a)
+
+conținutul digital sau serviciile digitale încorporate în bunuri sau interconectate cu acestea în sensul
+
+art. 2 pct. 1
+
+și furnizate împreună cu bunurile în temeiul unui contract de vânzare referitor la bunurile respective, indiferent dacă conținutul digital sau serviciul digital respectiv este furnizat de către vânzător sau de către un terț;
+
+...
+
+b)
+
+furnizarea de alte servicii decât serviciile digitale, indiferent dacă comerciantul folosește formate sau mijloace digitale pentru a genera rezultatul serviciului sau pentru a-l livra sau transmite către consumator;
+
+...
+
+c)
+
+serviciile de comunicații electronice, astfel cum sunt definite la art. 2 pct. 4 din Directiva (UE) 2018/1.972 a Parlamentului European și a Consiliului din 11 decembrie 2018 de instituire a Codului european al comunicațiilor electronice, cu excepția serviciilor de comunicații interpersonale care nu se bazează pe numere, astfel cum sunt definite la
+
+art. 2
+
+pct. 7 din directivă;
+
+...
+
+d)
+
+asistența medicală, astfel cum este definită la
+
+art. 903 lit. a) din Legea nr. 95/2006
+
+privind reforma în domeniul sănătății, republicată, cu modificările și completările ulterioare;
+
+...
+
+e)
+
+serviciile de jocuri de noroc, și anume orice serviciu care presupune o miză cu valoare pecuniară în jocuri de noroc, inclusiv în cele cu un element de abilitate, cum ar fi loteriile, jocurile de cazinou, jocurile de poker și pariurile, care se desfășoară pe cale electronică sau cu ajutorul oricărui alt tip de tehnologie care facilitează comunicarea și la solicitarea individuală a destinatarului unor astfel de servicii;
+
+...
+
+f)
+
+serviciile financiare astfel cum sunt definite la
+
+art. 3 lit. b) din Ordonanța Guvernului nr. 85/2004
+
+privind protecția consumatorilor la încheierea și executarea contractelor la distanță privind serviciile financiare, republicată, cu modificările și completările ulterioare;
+
+...
+
+g)
+
+software-ul oferit de comerciant în baza unei licențe libere și cu sursă deschisă, atunci când consumatorul nu plătește un preț, iar datele cu caracter personal furnizate de consumator sunt prelucrate exclusiv de comerciant pentru a îmbunătăți securitatea, compatibilitatea sau interoperabilitatea respectivului software specific;
+
+...
+
+h)
+
+furnizarea de conținut digital atunci când acesta este pus la dispoziția publicului larg altfel decât prin transmisia semnalului ca parte a unui spectacol sau eveniment, cum ar fi proiecțiile cinematografice digitale;
+
+...
+
+i)
+
+conținutul digital furnizat în conformitate cu
+
+Legea nr. 109/2007
+
+privind reutilizarea informațiilor din instituțiile publice, cu modificările și completările ulterioare.
+
+...
+
+(3)
+
+În aplicarea
+
+alin. (2) lit. a)
+
+, în situația în care există îndoieli că furnizarea unui conținut digital sau a unui serviciu digital încorporat sau interconectat face sau nu parte din contractul de vânzare, conținutul digital sau serviciul digital se prezumă a fi acoperit de contractul de vânzare.
+
+(4)
+
+Fără a aduce atingere
+
+alin. (2)
+
+și
+
+(3)
+
+, atunci când un singur contract dintre același comerciant și același consumator include într-un pachet elemente de furnizare de conținut digital sau de furnizare a unui serviciu digital și elemente de furnizare a altor servicii sau bunuri, prezenta ordonanță de urgență se aplică numai elementelor contractului referitoare la conținutul digital sau serviciul digital.
+
+(5)
+
+Dispozițiile
+
+art. 18
+
+nu se aplică atunci când un pachet, astfel cum este definit la
+
+art. 2
+
+pct. 4 lit. a) din Directiva (UE) 2018/1.972, include elemente ale unui serviciu de acces la internet, astfel cum este definit la
+
+art. 2
+
+pct. 2 din Regulamentul (UE) 2015/2.120 al Parlamentului European și al Consiliului din 25 noiembrie 2015 de stabilire a unor măsuri privind accesul la internetul deschis și de modificare a Directivei 2002/22/CE privind serviciul universal și drepturile utilizatorilor cu privire la rețelele și serviciile electronice de comunicații și a Regulamentului (UE) nr. 531/2012 privind roamingul în rețelele publice de comunicații mobile în interiorul Uniunii sau ale serviciilor de comunicații interpersonale bazate pe numere, astfel cum sunt definite la
+
+art. 2
+
+pct. 6 din respectiva directivă;
+
+(6)
+
+Fără a se aduce atingere art. 107 alin. (2) din Directiva (UE) 2018/1.972, efectele pe care încetarea unui element dintrun pachet contractual le poate avea asupra celorlalte elemente din pachetul contractual sunt reglementate de prevederile
+
+Legii nr. 287/2009 privind Codul civil, republicată
+
+, cu modificările ulterioare.
+
+(7)
+
+În cazul în care o dispoziție a prezentei ordonanțe de urgență intră în contradicție cu o dispoziție a unui alt act din legislația națională ce transpune sau stabilește măsuri de punere în aplicare a unui act al Uniunii Europene care reglementează sectoare specifice sau un anumit domeniu de aplicare, dispozițiile acestuia din urmă prevalează.
+
+(8)
+
+Prevederile legale în vigoare privind protecția datelor cu caracter personal se aplică oricăror date cu caracter personal prelucrate în legătură cu contractele prevăzute la
+
+alin. (1) lit. a)
+
+și b).
+
+(9)
+
+Prezenta ordonanță de urgență nu aduce atingere
+
+Regulamentului (UE) 2016/679
+
+al Parlamentului European și al Consiliului din 27 aprilie 2016 și
+
+Legii nr. 506/2004
+
+privind prelucrarea datelor cu caracter personal și protecția vieții private în sectorul comunicațiilor electronice, cu modificările și completările ulterioare. În cazul în care o dispoziție a prezentei ordonanțe de urgență intră în contradicție cu o dispoziție a unui alt act din legislația națională ce transpune sau stabilește măsuri de punere în aplicare a unui act al Uniunii Europene privind protecția datelor cu caracter personal, dispozițiile acestuia din urmă prevalează.
+
+(10)
+
+Prezenta ordonanță de urgență nu aduce atingere prevederilor
+
+Legii nr. 8/1996
+
+privind dreptul de autor și drepturile conexe, republicată, cu modificările și completările ulterioare.
+
+Articolul 4
+
+Furnizarea de conținut digital sau de servicii digitale
+
+(1)
+
+Comerciantul furnizează conținutul digital sau serviciul digital fără întârzieri nejustificate după încheierea contractului, cu excepția cazului în care părțile au convenit altfel.
+
+(2)
+
+Comerciantul își îndeplinește obligația de furnizare atunci când:
+
+a)
+
+conținutul digital sau orice mijloc adecvat pentru accesarea sau descărcarea conținutului digital devine disponibil sau accesibil pentru consumator sau pentru un echipament fizic sau virtual ales de consumator în acest scop;
+
+...
+
+b)
+
+serviciul digital devine accesibil pentru consumator sau pentru un echipament fizic sau virtual, ales de consumator în acest scop.
+
+...
+
+Articolul 5
+
+Conformitatea conținutului digital sau a serviciului digital
+
+Comerciantul furnizează consumatorului conținut digital sau un serviciu digital care, după caz, îndeplinește cerințele prevăzute la
+
+art. 6-8
+
+, fără a aduce atingere
+
+art. 9
+
+.
+
+Articolul 6
+
+Cerințe subiective de conformitate
+
+Conținutul digital sau serviciul digital este în conformitate cu contractul dacă îndeplinește următoarele cerințe, după caz:
+
+a)
+
+respectă descrierea, cantitatea și calitatea și deține funcționalitatea, compatibilitatea, interoperabilitatea și alte caracteristici prevăzute în contract;
+
+...
+
+b)
+
+corespunde scopului special pentru care consumatorul îl solicită, pe care consumatorul l-a adus la cunoștința comerciantului cel târziu în momentul încheierii contractului și pe care comerciantul l-a acceptat;
+
+...
+
+c)
+
+este furnizat împreună cu toate accesoriile, toate instrucțiunile, inclusiv de instalare, și cu toate serviciile de asistență pentru clienți, conform contractului;
+
+...
+
+d)
+
+este furnizat cu actualizări conform dispozițiilor contractului.
+
+...
+
+Articolul 7
+
+(1)
+
+În plus față de respectarea cerințelor subiective de conformitate, conținutul digital sau serviciul digital îndeplinește cumulativ următoarele cerințe:
+
+a)
+
+corespunde scopurilor pentru care s-ar utiliza în mod normal conținut digital sau serviciile digitale de același tip, ținând seama, dacă este cazul, de prevederile legale în vigoare, de standarde tehnice sau, în absența unor astfel de standarde tehnice, de coduri de conduită aplicabile în domeniu și specifice sectorului;
+
+...
+
+b)
+
+respectă cantitatea și deține calitățile și caracteristicile de performanță, inclusiv în materie de funcționalitate, compatibilitate, accesibilitate, continuitate și securitate, care sunt normale pentru conținutul digital sau serviciile digitale de același tip și la care consumatorul se poate aștepta în mod rezonabil, având în vedere natura conținutului digital sau a serviciului digital și ținând seama de orice declarație publică făcută de comerciant sau în numele acestuia sau de alte persoane din etapele anterioare ale lanțului de tranzacții, mai ales în anunțuri publicitare sau pe etichetă;
+
+...
+
+c)
+
+dacă este cazul, este furnizat împreună cu orice accesorii și instrucțiuni pe care consumatorul se poate aștepta în mod rezonabil să le primească;
+
+...
+
+d)
+
+este în conformitate cu orice versiune de testare sau prezentare a conținutului digital sau a serviciului digital pusă la dispoziție de comerciant înainte de încheierea contractului.
+
+...
+
+(2)
+
+Comerciantul nu este ținut să respecte declarațiile publice, în conformitate cu dispozițiile
+
+alin. (1) lit. b)
+
+, în cazul în care acesta demonstrează cel puțin una dintre următoarele situații:
+
+a)
+
+comerciantul nu cunoștea și nu ar fi putut, în mod rezonabil, să cunoască declarația publică în cauză;
+
+...
+
+b)
+
+până la momentul încheierii contractului, declarația publică a fost rectificată în același mod sau într-un mod similar celui în care a fost făcută;
+
+...
+
+c)
+
+decizia de a achiziționa conținutul digital sau serviciul digital nu ar fi putut fi influențată de declarația publică.
+
+...
+
+(3)
+
+Comerciantul asigură informarea consumatorului cu privire la faptul că îi sunt furnizate actualizări și că acestea îi sunt furnizate efectiv, inclusiv actualizări de securitate, care sunt necesare pentru a menține conformitatea conținutului digital sau a serviciului digital pe parcursul perioadei în care:
+
+a)
+
+conținutul digital sau serviciul digital trebuie să fie furnizat conform contractului, atunci când contractul prevede furnizarea continuă pe parcursul unei anumite perioade;
+
+...
+
+b)
+
+consumatorul se poate aștepta în mod rezonabil la aceasta, având în vedere tipul și scopul conținutului digital sau al serviciului digital și ținând seama de circumstanțele și natura contractului, atunci când contractul prevede un singur act de furnizare sau o serie de acte de furnizare individuale.
+
+...
+
+(4)
+
+În cazul în care consumatorul nu instalează, într-un termen rezonabil, actualizările furnizate de comerciant în conformitate cu
+
+alin. (3)
+
+, comerciantul nu răspunde pentru nicio neconformitate cauzată exclusiv de lipsa actualizării relevante, dacă sunt îndeplinite cumulativ următoarele condiții:
+
+a)
+
+comerciantul a informat consumatorul cu privire la disponibilitatea actualizării și la consecințele neinstalării acesteia de către consumator;
+
+...
+
+b)
+
+neinstalarea sau instalarea incorectă a actualizării de către consumator nu a fost cauzată de existența unor deficiențe în instrucțiunile de instalare furnizate de comerciant.
+
+...
+
+(5)
+
+În cazul în care contractul prevede furnizarea continuă a conținutului digital sau a serviciului digital pe parcursul unei anumite perioade, conținutul digital sau serviciul digital trebuie să fie conform pe întreaga durată a perioadei respective.
+
+(6)
+
+Nu există o neconformitate potrivit prevederilor
+
+alin. (1)-(3)
+
+atunci când o anumită caracteristică a conținutului digital sau a serviciului digital nu corespunde cerințelor obiective de conformitate prevăzute la
+
+alin. (1)-(3)
+
+, dacă, la momentul încheierii contractului, consumatorul a fost informat în mod explicit și într-un limbaj clar care îi permite să înțeleagă consecințele respectivei neconformități, iar consumatorul a acceptat în mod expres și separat acest lucru la momentul încheierii contractului.
+
+(7)
+
+Conținutul digital sau un serviciu digital este furnizat în cea mai recentă versiune a sa disponibilă la momentul încheierii contractului, cu excepția cazului în care părțile au convenit altfel.
+
+Articolul 8
+
+Integrarea incorectă a conținutului digital sau a serviciului digital
+
+Se consideră ca fiind o neconformitate a conținutului digital sau a serviciului digital orice neconformitate cauzată de integrarea incorectă a conținutului digital sau a serviciului digital în mediul digital al consumatorului, dacă este îndeplinită una din următoarele condiții:
+
+a)
+
+conținutul digital sau serviciul digital a fost integrat de comerciant sau sub răspunderea acestuia;
+
+...
+
+b)
+
+conținutul digital sau serviciul digital a fost destinat să fie integrat de consumator, iar integrarea incorectă s-a datorat unor deficiențe în instrucțiunile de integrare furnizate de comerciant.
+
+...
+
+Articolul 9
+
+Drepturile terților
+
+În cazul în care o restricție care rezultă din încălcarea oricărui drept al unui terț, în special a drepturilor de proprietate intelectuală, împiedică sau limitează utilizarea conținutului digital sau a serviciului digital în conformitate cu
+
+art. 6
+
+și
+
+7
+
+, consumatorul are dreptul la măsurile corective în caz de neconformitate prevăzute la
+
+art. 13
+
+, cu excepția cazului în care dispozițiile
+
+Legii nr. 287/2009 privind Codul civil, republicată
+
+, cu modificările ulterioare, prevăd nulitatea sau încetarea contractului de furnizare a conținutului digital sau a serviciului digital în astfel de cazuri.
+
+Articolul 10
+
+Răspunderea comerciantului
+
+(1)
+
+Comerciantul răspunde pentru orice nefurnizare a conținutului digital sau a serviciului digital în conformitate cu
+
+art. 4
+
+.
+
+(2)
+
+În cazul în care un contract prevede un singur act de furnizare sau o serie de acte de furnizare individuale, comerciantul răspunde pentru orice neconformitate, în temeiul
+
+art. 6-8
+
+, care există la momentul furnizării și care este constatată în termen de cinci ani începând cu data furnizării, fără a aduce atingere
+
+art. 7 alin. (3) lit. b)
+
+.
+
+(3)
+
+Atunci când contractul prevede furnizarea continuă pe parcursul unei anumite perioade, comerciantul răspunde pentru orice neconformitate, în temeiul
+
+art. 6-8
+
+, care are loc sau este constatată în termenul în care conținutul digital sau serviciul digital trebuie să fie furnizat conform contractului.
+
+Articolul 11
+
+Sarcina probei
+
+(1)
+
+Sarcina probei cu privire la furnizarea conținutului digital sau a serviciului digital în conformitate cu
+
+art. 4
+
+revine comerciantului.
+
+(2)
+
+În cazurile menționate la
+
+art. 10 alin. (2)
+
+, sarcina probei cu privire la conformitate la momentul furnizării conținutului digital sau a serviciului digital furnizat îi revine comerciantului în cazul unei neconformități care este constatată în termen de un an de la momentul furnizării conținutului digital sau a serviciului digital.
+
+(3)
+
+În cazurile menționate la
+
+art. 10 alin. (3)
+
+, sarcina probei cu privire la conformitatea conținutului digital sau a serviciului digital pe parcursul perioadei în care conținutul digital sau serviciul digital trebuie să fie furnizat conform contractului îi revine comerciantului în cazul unei neconformități care apare pe parcursul perioadei respective.
+
+(4)
+
+Dispozițiile
+
+alin. (2)
+
+și
+
+(3)
+
+nu se aplică în cazul în care comerciantul demonstrează că mediul digital al consumatorului nu este compatibil cu cerințele tehnice ale conținutului digital sau ale serviciului digital, iar comerciantul a informat consumatorul cu privire la aceste cerințe, în mod clar și ușor de înțeles, înainte de încheierea contractului.
+
+(5)
+
+Consumatorul cooperează cu comerciantul în măsura în care acest lucru este, în mod rezonabil, posibil și necesar pentru a stabili dacă neconformitatea conținutului digital sau a serviciului digital, la momentul prevăzut la
+
+art. 10 alin. (2)
+
+sau
+
+(3)
+
+, după caz, a fost cauzată de mediul digital al consumatorului. Obligația de cooperare între consumator și comerciant se limitează la mijloacele disponibile din punct de vedere tehnic care sunt mai favorabile pentru consumator.
+
+(6)
+
+În cazul în care consumatorul nu cooperează, iar comerciantul a informat consumatorul cu privire la o astfel de cerință în mod clar și ușor de înțeles înainte de încheierea contractului, sarcina probei în ceea ce privește existența neconformității la momentul menționat la
+
+art. 10 alin. (2)
+
+sau
+
+(3)
+
+, după caz, revine consumatorului.
+
+Articolul 12
+
+Măsuri corective în caz de nefurnizare
+
+(1)
+
+În cazul în care comerciantul nu furnizează conținutul digital sau serviciul digital în conformitate cu
+
+art. 4
+
+consumatorul îi solicită comerciantului să furnizeze conținutul digital sau serviciul digital. Dacă, în aceste circumstanțe, comerciantul nu furnizează conținutul digital sau serviciul digital fără întârzieri nejustificate sau într-un termen suplimentar, astfel cum convin în mod expres părțile, consumatorul are dreptul să înceteze contractul.
+
+(2)
+
+Dispozițiile
+
+alin. (1)
+
+nu se aplică, iar consumatorul are dreptul să înceteze imediat contractul, în una dintre următoarele situații:
+
+a)
+
+comerciantul a declarat că nu va furniza conținutul digital sau serviciul digital sau acest lucru reiese clar din circumstanțe;
+
+...
+
+b)
+
+consumatorul și comerciantul au convenit că pentru consumator este esențială furnizarea la o anumită dată sau acest lucru reiese în mod clar din circumstanțele care însoțesc încheierea contractului, iar furnizorul nu furnizează conținutul digital sau serviciul digital până la sau la data respectivă.
+
+...
+
+(3)
+
+Atunci când consumatorul încetează contractul în temeiul
+
+alin. (1)
+
+sau
+
+(2)
+
+,
+
+art. 14-17
+
+se aplică în mod corespunzător.
+
+Articolul 13
+
+Măsuri corective în caz de neconformitate
+
+(1)
+
+În caz de neconformitate, consumatorul are dreptul la aducerea în conformitate a conținutului digital sau a serviciului digital, la o reducere proporțională a prețului sau la încetarea contractului în condițiile prevăzute în prezentul articol.
+
+(2)
+
+Consumatorul are dreptul la aducerea în conformitate a conținutului digital sau a serviciului digital, cu excepția cazului în care acest lucru ar fi imposibil sau ar impune comerciantului costuri care ar fi disproporționate, luând în considerare toate circumstanțele, inclusiv:
+
+a)
+
+valoarea conținutului digital sau a serviciului digital în cazul în care nu ar fi existat neconformitatea;
+
+...
+
+b)
+
+gravitatea neconformității.
+
+...
+
+(3)
+
+Comerciantul aduce conținutul digital sau serviciul digital în conformitate potrivit prevederilor
+
+alin. (2)
+
+, într-o perioadă de timp rezonabilă care nu poate depăși 15 zile calendaristice din momentul în care vânzătorul a fost informat de către consumator cu privire la neconformitate și care este stabilit de comun acord, în scris, între vânzător și consumator, fără costuri și fără vreun inconvenient semnificativ pentru consumator, ținând seama de natura conținutului digital sau a serviciului digital și de scopul pentru care consumatorul a solicitat conținutul digital sau serviciul digital.
+
+(4)
+
+Consumatorul are dreptul fie la reducerea proporțională a prețului în conformitate cu
+
+alin. (5)
+
+și
+
+(6)
+
+, în cazul în care conținutul digital sau serviciul digital este furnizat în schimbul plății unui preț, fie la încetarea contractului în conformitate cu
+
+alin. (7)
+
+și
+
+(8)
+
+, în oricare dintre următoarele cazuri:
+
+a)
+
+măsura corectivă pentru aducerea în conformitate a conținutului digital sau a serviciului digital este imposibilă sau disproporționată în conformitate cu
+
+alin. (2)
+
+;
+
+...
+
+b)
+
+comerciantul nu a adus în conformitate conținutul digital sau serviciul digital în conformitate cu
+
+alin. (3)
+
+;
+
+...
+
+c)
+
+se constată o neconformitate, în pofida încercării comerciantului de a aduce conținutul digital sau serviciul digital în conformitate;
+
+...
+
+d)
+
+neconformitatea este de o asemenea gravitate încât justifică o reducere imediată de preț sau încetarea imediată a contractului;
+
+...
+
+e)
+
+comerciantul a declarat că nu va aduce conținutul digital sau serviciul digital în conformitate, în termenul și condițiile prevăzute la
+
+alin. (3)
+
+, ori acest lucru reiese clar din circumstanțele cazului.
+
+...
+
+(5)
+
+Reducerea de preț este proporțională cu diminuarea valorii conținutului digital sau a serviciului digital furnizat consumatorului în comparație cu valoarea pe care conținutul digital sau serviciul digital ar avea-o dacă ar fi în conformitate.
+
+(6)
+
+Atunci când contractul prevede că furnizarea conținutului digital sau a serviciului digital se face pe parcursul unei anumite perioade în schimbul plății unui preț, reducerea de preț se aplică pentru perioada în care conținutul digital sau serviciul digital nu a fost în conformitate.
+
+(7)
+
+Atunci când conținutul digital sau serviciul digital este furnizat în schimbul plății unui preț, consumatorul are dreptul de a obține încetarea contractului numai dacă neconformitatea nu este minoră.
+
+(8)
+
+Sarcina probei cu privire la caracterul minor al neconformității revine comerciantului, în cazul prevăzut la
+
+alin. (7)
+
+.
+
+(9)
+
+În caz de neconformitate, consumatorul are dreptul de a suspenda plata unei părți restante din prețul conținutului sau serviciului digital sau a unei părți a acesteia până la aducerea în conformitate de către comerciant a conținutului digital sau a serviciului digital, cu condiția ca plata suspendată să nu fie aferentă unui conținut digital sau serviciu digital deja furnizat de către comerciant și care a fost conform.
+
+Articolul 14
+
+Exercitarea dreptului de a înceta contractul
+
+(1)
+
+Consumatorul își exercită dreptul de a înceta contractul printr-o declarație către comerciant prin care își exprimă decizia de a înceta contractul.
+
+(2)
+
+Contractul încetează la data la care consumatorul transmite declarația către comerciant.
+
+Articolul 15
+
+Obligațiile comerciantului în cazul încetării contractului
+
+(1)
+
+În cazul încetării contractului, comerciantul rambursează consumatorului toate sumele plătite în temeiul contractului.
+
+(2)
+
+Cu toate acestea, în cazurile în care contractul prevede furnizarea conținutului digital sau a serviciului digital în schimbul plății unui preț și pentru o anumită perioadă, iar conținutul digital sau serviciul digital a fost în conformitate pe parcursul unei perioade anterioare datei încetării contractului, comerciantul rambursează consumatorului numai cota-parte din prețul plătit care corespunde perioadei în care conținutul digital sau serviciul digital nu a fost în conformitate, precum și orice parte din prețul plătit de consumator în avans pentru perioada rămasă din durata contractului, care ar fi urmat să se deruleze dacă contractul nu ar fi încetat.
+
+(3)
+
+În ceea ce privește datele cu caracter personal ale consumatorului, comerciantul respectă obligațiile aplicabile în temeiul
+
+Regulamentului (UE) 2016/679
+
+și prevederile
+
+Legii nr. 190/2018
+
+privind măsuri de punere în aplicare a
+
+Regulamentului (UE) 2016/679
+
+al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE (Regulamentul general privind protecția datelor), cu modificările ulterioare.
+
+(4)
+
+Comerciantul se abține de la utilizarea oricărui alt conținut în afara datelor cu caracter personal care au fost furnizate sau create de consumator la utilizarea conținutului digital sau a serviciului digital furnizat de către comerciant, cu excepția uneia din următoarele situații în care acest conținut:
+
+a)
+
+nu are nicio utilitate în afara contextului conținutului digital sau al serviciului digital furnizat de comerciant;
+
+...
+
+b)
+
+are legătură doar cu activitatea consumatorului atunci când folosește conținutul digital sau serviciul digital furnizat de comerciant;
+
+...
+
+c)
+
+a fost agregat cu alte date de către comerciant și nu poate fi dezagregat sau poate fi dezagregat numai cu eforturi disproporționate;
+
+...
+
+d)
+
+a fost generat în comun de către consumator și alte persoane, iar alți consumatori pot continua să utilizeze conținutul.
+
+...
+
+(5)
+
+Comerciantul pune la dispoziția consumatorului, la cererea acestuia, orice conținut care nu reprezintă date cu caracter personal, care a fost furnizat sau creat de către consumator în momentul utilizării conținutului digital sau a serviciului digital furnizat de comerciant, cu excepția situațiilor menționate la
+
+alin. (4) lit. a)-c)
+
+, după caz.
+
+(6)
+
+Consumatorul are dreptul de a recupera respectivul conținut digital fără costuri și fără impedimente din partea comerciantului, într-un termen rezonabil care nu poate depăși 15 zile calendaristice de la data cererii, într-un format utilizat în mod curent și care poate fi citit automat.
+
+(7)
+
+Comerciantul poate împiedica orice utilizare ulterioară a conținutului digital sau a serviciului digital de către consumator, în special prin oprirea accesului consumatorului la conținutul digital sau la serviciul digital sau prin dezactivarea contului de utilizator al consumatorului, fără a aduce atingere
+
+alin. (5)
+
+și
+
+(6)
+
+.
+
+Articolul 16
+
+Obligațiile consumatorului în cazul încetării contractului
+
+(1)
+
+Consumatorul se abține de la a utiliza conținutul digital sau serviciul digital și de la a-l pune la dispoziție terților, după încetarea contractului.
+
+(2)
+
+Atunci când conținutul digital a fost furnizat pe un suport material, consumatorul, la cererea și pe cheltuiala comerciantului, îi returnează acestuia suportul material, fără întârzieri nejustificate.
+
+(3)
+
+Dacă comerciantul hotărăște să solicite restituirea suportului material, această solicitare se efectuează în termen de 14 zile de la data la care comerciantul este informat cu privire la decizia consumatorului de a înceta contractul.
+
+(4)
+
+Consumatorul nu este obligat să plătească pentru utilizarea conținutului digital sau a serviciului digital în perioada anterioară încetării contractului și în care conținutul digital sau serviciul digital nu a fost în conformitate.
+
+Articolul 17
+
+Termene și modalități de rambursare de către comerciant
+
+(1)
+
+Orice rambursare pe care comerciantul o datorează consumatorului în temeiul
+
+art. 13 alin. (4)-(6)
+
+sau al
+
+art. 15 alin. (1)
+
+și
+
+(2)
+
+ca urmare a unei reduceri de preț sau a încetării contractului este efectuată fără întârzieri nejustificate și, în orice caz, în termen de 14 zile de la data la care comerciantul este informat cu privire la decizia consumatorului de a invoca dreptul la reducerea prețului sau dreptul său de a înceta contractul.
+
+(2)
+
+Comerciantul efectuează rambursarea utilizând aceleași mijloace de plată pe care le-a utilizat consumatorul pentru plata conținutului digital sau a serviciului digital, cu excepția cazului în care consumatorul și-a dat acordul expres pentru utilizarea altor mijloace de plată și cu condiția ca rambursarea să nu implice plata unor comisioane de către consumator.
+
+(3)
+
+Comerciantul nu îi impune consumatorului niciun fel de comisioane legate de rambursare.
+
+Articolul 18
+
+Modificarea conținutului digital sau a serviciului digital
+
+(1)
+
+În cazul în care contractul prevede furnizarea sau punerea la dispoziția consumatorului a conținutului digital sau a serviciului digital pe parcursul unei anumite perioade de timp, comerciantul poate modifica conținutul digital sau serviciul digital dincolo de ceea ce este necesar pentru a menține în conformitate conținutul digital sau serviciul digital, în conformitate cu
+
+art. 6
+
+și
+
+7
+
+, dacă sunt îndeplinite cumulativ următoarele condiții:
+
+a)
+
+contractul permite o astfel de modificare și prevede o justificare valabilă pentru aceasta;
+
+...
+
+b)
+
+modificarea se realizează fără costuri suplimentare pentru consumator;
+
+...
+
+c)
+
+consumatorul este informat în mod clar și ușor de înțeles cu privire la modificare;
+
+...
+
+d)
+
+în cazurile menționate la
+
+alin. (2)
+
+, consumatorul este informat cu suficient timp în prealabil, pe un suport durabil, cu privire la caracteristicile și data modificării și la dreptul de a înceta contractul în conformitate cu
+
+alin. (2)
+
+sau cu privire la posibilitatea de a menține conținutul digital sau serviciul digital fără modificarea în cauză în conformitate cu
+
+alin. (5)
+
+.
+
+...
+
+(2)
+
+Consumatorul are dreptul de a înceta contractul dacă modificarea are un impact negativ asupra accesului consumatorului la conținutul digital sau la serviciul digital sau asupra utilizării acestuia de către consumator, cu excepția cazului în care un astfel de impact negativ este minor.
+
+(3)
+
+În cazul prevăzut la
+
+alin. (2)
+
+, consumatorul are dreptul să înceteze contractul fără costuri, în termen de 30 de zile de la primirea informațiilor sau din momentul în care conținutul digital sau serviciul digital a fost modificat de către comerciant, oricare dintre acestea intervine mai târziu.
+
+(4)
+
+Atunci când consumatorul obține încetarea contractului în conformitate cu
+
+alin. (2)
+
+și
+
+(3)
+
+,
+
+art. 14-17
+
+se aplică în mod corespunzător.
+
+(5)
+
+Dispozițiile
+
+alin. (2)-(4)
+
+nu se aplică dacă comerciantul i-a permis consumatorului să mențină, fără costuri suplimentare, conținutul digital sau serviciul digital fără modificări, iar conținutul digital sau serviciul digital rămâne în conformitate.
+
+Articolul 19
+
+Dreptul la acțiunea în regres
+
+(1)
+
+În cazul în care comerciantul răspunde față de consumator pentru un caz de nefurnizare a conținutului digital sau a serviciului digital sau pentru o neconformitate care rezultă dintr-un act sau o omisiune a unei persoane în etapele anterioare ale lanțului de tranzacții, comerciantul are dreptul de a se îndrepta împotriva persoanei sau a persoanelor cărora le revine răspunderea din lanțul de tranzacții comerciale, potrivit dispozițiilor
+
+Legii nr. 287/2009, republicată
+
+, cu modificările ulterioare.
+
+(2)
+
+În vederea aducerii la conformitate a conținutului digital sau a serviciului digital, consumatorul are dreptul să se îndrepte împotriva oricărei părți terțe, alta decât comerciantul care furnizează sau se angajează să furnizeze conținutul digital sau serviciul digital.
+
+Articolul 20
+
+Garanții comerciale
+
+(1)
+
+Orice garanție comercială dă naștere unei obligații juridice pentru garant în condițiile stabilite în certificatul de garanție comercială și în anunțurile publicitare asociate, disponibile în momentul sau anterior încheierii contractului.
+
+(2)
+
+În cazul în care condițiile prevăzute în certificatul de garanție comercială sunt mai puțin avantajoase pentru consumator decât cele prevăzute în anunțurile publicitare asociate, garanția comercială dă naștere unei obligații juridice în condițiile stabilite în publicitatea privind garanția comercială, cu excepția cazului în care, înainte de încheierea contractului, anunțurile publicitare asociate au fost corectate în același mod sau într-un mod comparabil celui în care au fost făcute.
+
+(3)
+
+Comerciantul oferă consumatorilor, pe suport durabil, un certificat de garanție comercială, cel mai târziu în momentul livrării bunurilor.
+
+(4)
+
+Certificatul de garanție comercială este formulat într-un limbaj simplu și inteligibil.
+
+(5)
+
+Certificatul de garanție comercială conține următoarele informații:
+
+a)
+
+o declarație clară prin care se specifică că obligația legală privind răspunderea comerciantului pentru conformitatea conținutului digital sau a serviciului digital nu este afectată de garanția comercială;
+
+...
+
+b)
+
+numele și adresa garantului;
+
+...
+
+c)
+
+procedura pe care trebuie să o urmeze consumatorul pentru a beneficia de garanția comercială;
+
+...
+
+d)
+
+indicarea conținutului digital și/sau a serviciilor digitale cărora li se aplică garanția comercială;
+
+...
+
+e)
+
+condițiile garanției comerciale.
+
+...
+
+(6)
+
+Neconformitatea cu
+
+alin. (3)-(5)
+
+nu afectează caracterul obligatoriu al garanției comerciale pentru garant.
+
+(7)
+
+Certificatul de garanție comercială trebuie redactat în limba romană, fără a exclude prezentarea acestuia și în alte limbi.
+
+Articolul 21
+
+Sancțiuni
+
+(1)
+
+Constituie contravenții următoarele fapte și se sancționează după cum urmează:
+
+a)
+
+nerespectarea prevederilor
+
+art. 4 alin. (1)
+
+,
+
+art. 12 alin. (1)
+
+,
+
+art. 15 alin. (1)
+
+și
+
+alin. (4)-(6
+
+) și
+
+art. 17
+
+, cu amendă de la 5.000 lei la 30.000 lei;
+
+...
+
+b)
+
+nerespectarea prevederilor
+
+art. 10 alin. (2)
+
+și
+
+(3)
+
+și
+
+art. 20 alin. (3)-(5)
+
+și
+
+(7)
+
+, cu amendă de la 10.000 lei la 40.000 lei;
+
+...
+
+c)
+
+nerespectarea prevederilor
+
+art. 5
+
+,
+
+art. 13 alin. (3)-(7)
+
+și (9) și
+
+art. 18 alin. (1)
+
+și
+
+(3)
+
+, cu amendă de la 10.000 lei la 50.000 lei.
+
+...
+
+(2)
+
+Faptele prevăzute la
+
+alin. (1)
+
+, dacă au avut ca urmare afectarea gravă și în mod repetat a intereselor economice ale unuia sau mai multor consumatori, se sancționează cu amendă de la 5.000 lei la 25.000 lei.
+
+(3)
+
+Constatarea contravențiilor și aplicarea sancțiunilor prevăzute la
+
+alin. (1)
+
+și
+
+(2)
+
+, precum și la
+
+art. 22 alin. (1)
+
+se fac de către reprezentanții împuterniciți ai Autorității Naționale pentru Protecția Consumatorilor.
+
+Articolul 22
+
+Sancțiuni contravenționale complementare
+
+(1)
+
+Odată cu aplicarea sancțiunii amenzii contravenționale prevăzute la
+
+art. 21
+
+agentul constatator poate dispune aducerea în conformitate a conținutului digital sau a serviciului digital ori restituirea contravalorii produsului, după caz.
+
+(2)
+
+Contravențiilor prevăzute la
+
+art. 21
+
+le sunt aplicabile dispozițiile
+
+Ordonanței Guvernului nr. 2/2001
+
+privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin
+
+Legea nr. 180/2002
+
+, cu modificările și completările ulterioare, cu excepția art. 28 alin. (1) și art. 29.
+
+Articolul 23
+
+Sesizări
+
+În vederea asigurării respectării prevederilor prezentei ordonanțe de urgență de către comercianți, persoanele fizice sau organizațiile care, potrivit legii, au un interes legitim, inclusiv organizațiile de consumatori sau organizațiile profesionale, organismele publice sau reprezentanții acestora, precum și organizațiile sau asociațiile fără scop lucrativ care ȋși desfășoară activitatea în domeniul protecției drepturilor și libertăților persoanelor vizate, așa cum sunt definite la
+
+articolul 80 din Regulamentul (UE) 2016/679
+
+, pot fie să sesizeze Autoritatea Națională pentru Protecția Consumatorilor în legătură cu încălcările prevederilor prezentei ordonanțe de urgență astfel încât aceasta să decidă asupra reclamațiilor, fie să inițieze acțiuni în justiție împotriva comercianților care au săvârșit sau sunt susceptibili să săvârșească încălcări ale prezentei ordonanțe de urgență.
+
+Articolul 24
+
+Caracterul imperativ
+
+(1)
+
+Cu excepția cazului în care se prevede altfel în prezenta ordonanță de urgență, consumatorul nu poate fi obligat la niciun acord de natură contractuală care, în defavoarea sa, exclude aplicarea dispozițiilor prezentei ordonanțe de urgență, derogă de la acestea sau le modifică efectele înainte ca modificarea conținutului digital sau a serviciului digital în conformitate cu
+
+art. 18
+
+să fie adusă la cunoștința consumatorului de către comerciant.
+
+(2)
+
+Comerciantul poate să ofere consumatorului condiții contractuale care depășesc nivelul de protecție asigurat prin prezenta ordonanță de urgență.
+
+Articolul 25
+
+Dispoziții tranzitorii și finale
+
+(1)
+
+Prezenta ordonanță de urgență intră în vigoare la 10 zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+(2)
+
+Sunt exceptate de la prevederile
+
+art. 18
+
+și
+
+art. 19 alin. (1)
+
+contractele ce au ca obiect furnizarea de conținut digital sau de servicii digitale aflate în derulare la data intrării în vigoare a prezentei ordonanțe de urgență.
+
+Articolul 26
+
+În termen de 60 de zile de la data publicării prezentei ordonanțe de urgență se modifică
+
+anexa la Hotărârea Guvernului nr. 444/2020
+
+privind stabilirea cadrului instituțional și a unor măsuri pentru punerea în aplicare a prevederilor art. 5 alin. (1) din Regulamentul (UE) 2017/2.394 al Parlamentului European și al Consiliului din 12 decembrie 2017 privind cooperarea dintre autoritățile naționale însărcinate să asigure respectarea legislației în materie de protecție a consumatorului și de abrogare a Regulamentului (CE) nr. 2.006/2004, publicată în Monitorul Oficial al României, Partea I, nr. 488 din 10 iunie 2020, precum și modificarea și completarea
+
+anexei la Hotărârea Guvernului nr. 1.553/2004
+
+privind unele modalități de încetare a practicilor ilicite în domeniul protecției intereselor colective ale consumatorilor, republicată în Monitorul Oficial al României, Partea I, nr. 695 din 30 septembrie 2011, cu modificările și completările ulterioare, în conformitate cu dispozițiile art. 23 din Directiva (UE) 2019/770 a Parlamentului European și a Consiliului din 20 mai 2019 privind anumite aspecte referitoare la contractele de furnizare de conținut digital și de servicii digitale, publicată în Jurnalul Oficial al Uniunii Europene, seria L, nr. 136 din 22 mai 2019.
+
+Prezenta ordonanță de urgență transpune prevederile Directivei (UE) 2019/770 a Parlamentului European și a Consiliului din 20 mai 2019 privind anumite aspecte referitoare la contractele de furnizare de conținut digital și de servicii digitale, publicată în Jurnalul Oficial al Uniunii Europene, seria L, nr. 136 din 22 mai 2019.
+
+PRIM-MINISTRU
+
+NICOLAE-IONEL CIUCĂ
+
+Contrasemnează:
+
+Ministrul economiei,
+
+Florin Marian Spătaru
+
+p. Președintele Autorității Naționale pentru Protecția Consumatorilor,
+
+Mihai Culeafă
+
+Ministrul afacerilor externe,
+
+Bogdan Lucian Aurescu
+
+Ministrul antreprenoriatului și turismului,
+
+Constantin-Daniel Cadariu
+
+București, 28 decembrie 2021.
+
+Nr. 141.
+
+Conținutul acestui material nu reprezintă în mod obligatoriu poziția oficială a Uniunii Europene sau a Guvernului României.
+
+Pentru informații detaliate despre celelalte programe cofinanțate de Uniunea Europeană, vă invităm să vizitați
+
+www.fonduri-ue.ro
+
+.
+
+Copyright &copy; 2026 - Ministerul Justiției. Toate drepturile rezervate. -
+
+Termeni și Condiții
+
+&#124; Acasă
+
+&#124; Despre Proiect
+
+&#124; Facilități Oferite
+
+&#124; Legături Utile
+
+&times;
+
+Inchide
+
+Versiune Beta
+
+A fost lansata versiunea Beta a Portalului Legislativ
+
+Fiind o versiune Beta, este posibil ca unele facilitati sa nu functioneze in mod corect.
+
+Inchide mesajul de atentionare
+
+&times;
+
+Inchide
+
+Datorita faptului ca folositi o versiune de Internet Explorer (Internet Explorer 8) foarte veche este posibil ca unele functionalitati sa fie dezactivate sau sa nu functioneze corect!
+
+Ce browser sa aleg?
+
+Google Chrome
+
+Descarca Browser
+
+Mozilla Firefox
+
+Descarca Browser
+
+Internet Explorer
+
+Descarca Browser
+
+Apple Safari
+
+Descarca Browser
+
+De ce sa actualizez browserul?
+
+Browserele invechite, cum ar fi Internet Explorer 8 (lansat în 2001) nu respecta standardele web, nu ofera unele facilitati noi browser-ului, cum ar fi de navigatie sau descarcare, managerul de tab-uri, si au probleme de securitate.
+
+Aceasta afecteaza, de asemenea, calitatea de redare site-uri web.
+
+Inchide mesajul de atentionare

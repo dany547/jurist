@@ -1,0 +1,1175 @@
+GUVERNUL ROMÂNIEI
+
+MONITORUL OFICIAL nr. 1245 din 30 decembrie 2021
+
+Având în vedere faptul că transpunerea în legislația națională a prevederilor Directivei (UE) 2019/771 a Parlamentului European și a Consiliului din 20 mai 2019 privind anumite aspecte referitoare la contractele de vânzare de bunuri, de modificare a Regulamentului (UE) 2017/2.394 și a Directivei 2009/22/CE și de abrogare a Directivei 1999/44/CE, publicată în Jurnalul Oficial al Uniunii Europene, seria L, nr. 136 din 22 mai 2019, trebuia realizată până la 1 iulie 2021, Comisia Europeană a transmis autorităților române scrisoarea de punere în întârziere privind cauza 2021/0492, stabilind drept termen de conformare din partea României data de 30 noiembrie 2021.
+
+Întrucât autoritățile române au solicitat Comisiei Europene prelungirea termenului de răspuns cu încă două luni, termen aprobat de Comisia Europeană, respectiv 30 ianuarie 2022, dată până la care autoritățile române trebuie să transmită Comisiei Europene un răspuns detaliat, prin care să comunice finalizarea transpunerii Directivei (UE) 2019/771 și notificarea măsurilor de transpunere,
+
+pentru a evita aplicarea de către Curtea de Justiție a Uniunii Europene, la propunerea Comisiei Europene, de sancțiuni pecuniare constituite din o sumă forfetară și/sau penalități cu titlu cominatoriu pentru neimplementarea în dreptul intern a prevederilor Directivei (UE) 2019/771, într-o etapă ulterioară a procedurii de constatare a neîndeplinirii obligațiilor,
+
+ținând cont de faptul că vânzările online de bunuri constituie marea majoritate a vânzărilor transfrontaliere în Uniunea Europeană, iar diferențele dintre dispozițiile de drept intern în materia contractelor îi afectează atât pe consumatori, cât și pe comercianții cu amănuntul care utilizează canale de vânzări la distanță și pe vânzătorii cu amănuntul care efectuează vânzări „față în față“, împiedicând să se extindă în afara frontierelor naționale,
+
+având în vedere evoluția tehnologică care a condus la o piață din ce în ce mai mare a bunurilor care încorporează conținut digital sau servicii digitale sau sunt interconectate cu acestea, la numărul tot mai mare de astfel de dispozitive și creșterea rapidă a ratei de adoptare a acestora de către consumatori, a fost necesară o acțiune la nivelul Uniunii Europene pentru a asigura existența unui nivel ridicat de protecție a consumatorilor și pentru a spori securitatea juridică în ceea ce privește normele aplicabile contractelor de vânzare a unor astfel de produse. Sporirea securității juridice contribuie la sporirea încrederii consumatorilor și a vânzătorilor.
+
+Ținând cont de toate aceste aspecte și luând în considerare beneficiul public generat de stabilirea unui cadru legal de natură să crească încrederea consumatorilor și a comercianților, în considerarea faptului că aceste elemente vizează interesul public general și constituie o situație de urgență și extraordinară, a cărei reglementare nu poate fi amânată,
+
+în temeiul
+
+art. 115 alin. (4) din Constituția României, republicată
+
+,
+
+Guvernul României adoptă prezenta ordonanță de urgență.
+
+Articolul 1
+
+Obiectul și scopul
+
+Prin prezenta ordonanță de urgență se stabilește cadrul legal cu privire la contractele de vânzare încheiate între vânzător și consumator, în special norme privind conformitatea bunurilor, măsurile corective în caz de neconformitate, modalitățile de punere în aplicare a respectivelor măsuri corective, precum și garanțiile comerciale în scopul asigurării unui nivel ridicat de protecție a consumatorilor și a bunei funcționări a pieței interne.
+
+Articolul 2
+
+Definiții
+
+În sensul prezentei ordonanțe de urgență, termenii și expresiile folosite au următoarea semnificație:
+
+1.
+
+bunuri:
+
+a)
+
+orice obiect corporal mobil;
+
+...
+
+b)
+
+apa, gazul și energia electrică atunci când sunt puse în vânzare în volum limitat sau în cantitate fixă;
+
+...
+
+c)
+
+bunuri cu elemente digitale;
+
+...
+
+...
+
+2.
+
+bunuri cu elemente digitale - orice obiect corporal mobil care încorporează un conținut digital sau un serviciu digital sau este interconectat cu acestea, astfel încât, în absența respectivului conținut digital sau serviciu digital, bunul nu și-ar putea îndeplini funcțiile;
+
+...
+
+3.
+
+compatibilitate - capacitatea bunurilor de a funcționa cu componente hardware sau software cu care sunt utilizate în mod normal bunurile de același tip, fără a fi necesară conversia bunurilor sau a componentelor hardware sau software;
+
+...
+
+4.
+
+consumator - orice persoană fizică care, în legătură cu contractele reglementate de prezenta ordonanță de urgență, acționează în scopuri care se află în afara activității comerciale, industriale, artizanale sau profesionale a persoanei respective;
+
+...
+
+5.
+
+contract de vânzare - orice contract în temeiul căruia vânzătorul transferă sau se angajează să transfere unui consumator proprietatea asupra unor bunuri, iar consumatorul plătește sau se angajează să plătească prețul acestora;
+
+...
+
+6.
+
+conținut digital - date produse și furnizate în format digital;
+
+...
+
+7.
+
+durabilitate - capacitatea bunurilor de a-și menține funcțiile și performanța necesare în cursul utilizării normale;
+
+...
+
+8.
+
+durata medie de utilizare - conform definiției de la
+
+art. 2 pct. 20 din Ordonanța Guvernului nr. 21/1992
+
+privind protecția consumatorilor, republicată, cu modificările și completările ulterioare;
+
+...
+
+9.
+
+fără costuri - fără costurile necesare suportate pentru a aduce bunurile în conformitate, în special costul expedierii prin poștă, al transportului, al forței de muncă sau al materialelor;
+
+...
+
+10.
+
+funcționalitate - capacitatea bunurilor de a-și îndeplini funcțiile, având în vedere scopul lor;
+
+...
+
+11.
+
+garant - vânzătorul sau producătorul bunurilor vândute consumatorilor;
+
+...
+
+12.
+
+garanție comercială - orice angajament din partea garantului față de consumator, prevăzut în certificatul de garanție sau în publicitatea disponibilă în momentul sau înaintea încheierii contractului, în plus față de obligațiile legale care îi revin vânzătorului referitoare la garanția de conformitate, de a rambursa prețul plătit sau de a înlocui, a repara sau a întreține bunurile în orice mod, în cazul în care acestea nu corespund specificațiilor sau oricărei alte cerințe care nu este legată de conformitate;
+
+...
+
+13.
+
+interoperabilitate - capacitatea bunurilor de a funcționa cu componente hardware sau software diferite de cele care sunt utilizate în mod normal pentru bunurile de același tip;
+
+...
+
+14.
+
+licitație publică - metoda de vânzare prin care vânzătorul oferă bunuri sau servicii consumatorilor care participă sau au posibilitatea de a participa în persoană la licitație, prin intermediul unei proceduri de licitare transparentă, concurențială, condusă de un adjudecător și în care ofertantul câștigător are obligația să achiziționeze bunurile sau serviciile;
+
+...
+
+15.
+
+producător - fabricantul bunurilor, importatorul bunurilor în Uniunea Europeană sau orice persoană care se prezintă ca fiind fabricantul sau importatorul, aplicându-și denumirea, marca sau alt semn distinctiv pe bunurile în cauză;
+
+...
+
+16.
+
+serviciu digital - cel puțin unul dintre următoarele servicii:
+
+a)
+
+un serviciu care permite consumatorului crearea, prelucrarea, stocarea sau accesarea datelor în format digital; sau
+
+...
+
+b)
+
+un serviciu care permite schimbul de date în format digital încărcate sau create de consumator sau de alți utilizatori ai serviciului respectiv sau orice altă interacțiune cu aceste date;
+
+...
+
+...
+
+17.
+
+suport durabil - orice instrument care permite consumatorului sau vânzătorului să stocheze informații care îi sunt adresate personal, într-un mod accesibil pentru referințe ulterioare, pentru o perioadă adecvată la scopul informațiilor și care permite reproducerea neschimbată a informațiilor stocate;
+
+...
+
+18.
+
+vânzător - orice persoană fizică sau juridică, indiferent dacă este publică sau privată, care, în legătură cu contractele reglementate de prezenta ordonanță de urgență, acționează, inclusiv prin intermediul unei alte persoane care acționează în numele respectivei persoane fizice sau juridice sau în contul acesteia, în scopuri ce țin de activitatea comercială, industrială, artizanală sau profesională a persoanei respective;
+
+...
+
+19.
+
+viciu ascuns - conform definiției de la
+
+art. 2 pct. 21 din Ordonanța Guvernului nr. 21/1992
+
+, republicată cu modificările și completările ulterioare.
+
+...
+
+Articolul 3
+
+Domeniul de aplicare
+
+(1)
+
+Prezenta ordonanța de urgență se aplică contractelor de vânzare încheiate între un consumator și un vânzător.
+
+(2)
+
+Contractele dintre un consumator și un vânzător pentru furnizarea de bunuri care urmează să fie fabricate sau produse sunt, de asemenea, considerate contracte de vânzare potrivit prevederilor prezentei ordonanțe de urgență.
+
+(3)
+
+Prezenta ordonanță de urgență nu se aplică contractelor privind furnizarea de conținut digital sau de servicii digitale.
+
+(4)
+
+Prin excepție de la prevederile
+
+alin. (3)
+
+, prezenta ordonanță de urgență se aplică conținutului digital sau serviciilor digitale care sunt încorporate în bunuri sau interconectate cu acestea în sensul
+
+art. 2 pct. 1 lit. c)
+
+și al
+
+art. 2 pct. 2
+
+și care sunt furnizate împreună cu bunurile care fac obiectul contractului de vânzare, indiferent dacă conținutul digital sau serviciul digital respectiv este furnizat de către vânzător sau de către un terț.
+
+(5)
+
+În situația în care există îndoieli că furnizarea unui conținut digital sau a unui serviciu digital încorporat sau interconectat face sau nu parte din contractul de vânzare, conținutul digital sau serviciul digital se prezumă a fi acoperit de contractul de vânzare.
+
+(6)
+
+Prezenta ordonanță de urgență nu se aplică:
+
+a)
+
+suportului material care servește exclusiv ca suport al conținutului digital;
+
+...
+
+b)
+
+bunului vândut prin executare silită sau în alt mod, ca efect al legii;
+
+...
+
+c)
+
+contractelor de vânzare de bunuri de ocazie vândute la licitații publice.
+
+...
+
+(7)
+
+În cazul menționat la
+
+alin. (6) lit. c)
+
+, consumatorii sunt informați clar și complet cu privire la faptul că prevederile prezentei ordonanțe de urgență nu se aplică.
+
+Articolul 4
+
+Conformitatea bunurilor
+
+După caz, vânzătorul are obligația să livreze consumatorului bunuri care îndeplinesc cerințele prevăzute la
+
+art. 5-7
+
+, fără a aduce atingere prevederilor
+
+art. 8
+
+.
+
+Articolul 5
+
+Cerințe subiective de conformitate
+
+Pentru a fi în conformitate cu contractul de vânzare, bunurile îndeplinesc în special următoarele condiții:
+
+a)
+
+respectă descrierea, tipul, cantitatea și calitatea și dețin funcționalitatea, compatibilitatea, interoperabilitatea și alte caracteristici prevăzute în contractul de vânzare;
+
+...
+
+b)
+
+corespund scopului special pentru care consumatorul le solicită, pe care consumatorul l-a adus la cunoștința vânzătorului cel târziu în momentul încheierii contractului de vânzare și pe care vânzătorul l-a acceptat;
+
+...
+
+c)
+
+sunt livrate împreună cu toate accesoriile și cu toate instrucțiunile, inclusiv de instalare, prevăzute în contractul de vânzare;
+
+...
+
+d)
+
+sunt furnizate cu actualizări conform dispozițiilor contractului de vânzare.
+
+...
+
+Articolul 6
+
+Cerințe obiective de conformitate
+
+(1)
+
+Pe lângă respectarea cerințelor subiective de conformitate prevăzute la
+
+art. 5
+
+, bunurile îndeplinesc următoarele condiții:
+
+a)
+
+corespund scopurilor pentru care s-ar utiliza în mod normal bunuri de același tip, ținând seama, dacă este cazul, de prevederile legale în vigoare, de standarde tehnice sau, în absența unor astfel de standarde tehnice, de coduri de conduită aplicabile în domeniu și specifice sectorului;
+
+...
+
+b)
+
+după caz, posedă calitatea și corespund descrierii unei mostre sau unui model pe care vânzătorul l-a pus la dispoziția consumatorului înainte de încheierea contractului;
+
+...
+
+c)
+
+dacă este cazul, sunt livrate împreună cu accesoriile, inclusiv ambalajul, instrucțiunile de instalare sau alte instrucțiuni pe care consumatorul se poate aștepta în mod rezonabil să le primească; și
+
+...
+
+d)
+
+respectă cantitatea și dețin calitățile și alte caracteristici, inclusiv în materie de durabilitate, funcționalitate, compatibilitate și securitate, care sunt normale pentru bunurile de același tip și la care consumatorul se poate aștepta în mod rezonabil, având în vedere natura bunurilor și ținând seama de orice declarație publică făcută de vânzător sau în numele acestuia sau de alte persoane situate în etapele anterioare ale lanțului de tranzacții, inclusiv de către producător mai ales în anunțuri publicitare sau pe etichetă.
+
+...
+
+(2)
+
+Vânzătorul nu este ținut să respecte declarațiile publice, în conformitate cu dispozițiile
+
+alin. (1) lit. d)
+
+, în cazul în care acesta demonstrează cel puțin una din următoarele situații:
+
+a)
+
+nu cunoștea și nu ar fi putut, în mod rezonabil, să cunoască declarația publică în cauză;
+
+...
+
+b)
+
+până la momentul încheierii contractului, declarația publică a fost rectificată în același mod sau într-un mod similar celui în care a fost făcută; sau
+
+...
+
+c)
+
+decizia de a achiziționa bunurile nu ar fi putut fi influențată de declarația publică.
+
+...
+
+(3)
+
+În cazul bunurilor cu elemente digitale, vânzătorul se asigură că consumatorul este informat cu privire la actualizări și că îi sunt furnizate actualizări, inclusiv actualizări de securitate, care sunt necesare pentru a menține conformitatea acelor bunuri pe parcursul uneia din următoarele perioade:
+
+a)
+
+în care consumatorul se poate aștepta în mod rezonabil la aceasta, având în vedere tipul și scopul bunurilor și al elementelor digitale și ținând seama de circumstanțele și natura contractului, atunci când contractul de vânzare prevede un singur act de furnizare a conținutului digital sau a serviciului digital;
+
+...
+
+b)
+
+prevăzute la
+
+art. 9 alin. (3)
+
+și
+
+(4)
+
+în situația în care contractul de vânzare prevede furnizarea continuă a conținutului digital sau a serviciului digital pe parcursul unei anumite perioade.
+
+...
+
+(4)
+
+În cazul în care consumatorul nu instalează, într-un termen rezonabil, actualizările furnizate în conformitate cu
+
+alin. (3)
+
+, vânzătorul nu răspunde pentru nicio neconformitate cauzată exclusiv de lipsa actualizării relevante, cu următoarele condiții:
+
+a)
+
+vânzătorul a informat consumatorul cu privire la disponibilitatea actualizării și la consecințele neinstalării acesteia de către consumator;
+
+...
+
+b)
+
+neinstalarea sau instalarea incorectă a actualizării de către consumator nu a fost cauzată de existența unor deficiențe în instrucțiunile de instalare furnizate consumatorului.
+
+...
+
+(5)
+
+Nu se consideră că există o neconformitate potrivit prevederilor
+
+alin. (1)
+
+sau
+
+(3)
+
+dacă, la momentul încheierii contractului de vânzare, consumatorul a fost informat în mod explicit că o anumită caracteristică a bunurilor nu corespunde cerințelor obiective de conformitate prevăzute la
+
+alin. (1)
+
+sau
+
+(3)
+
+, iar consumatorul a acceptat în mod expres și separat acest lucru la momentul încheierii contractului de vânzare.
+
+Articolul 7
+
+Instalarea incorectă a bunurilor
+
+Orice neconformitate cauzată de instalarea incorectă a bunurilor este considerată ca reprezentând o neconformitate a bunurilor în una din următoarele situații:
+
+a)
+
+instalarea face parte din contractul de vânzare și a fost realizată de vânzător sau sub răspunderea vânzătorului;
+
+...
+
+b)
+
+instalarea, destinată să fie realizată de consumator, a fost realizată de acesta și instalarea incorectă s-a datorat unor deficiențe în instrucțiunile de instalare furnizate de vânzător sau, în cazul bunurilor cu elemente digitale, de către vânzătorul sau furnizorul conținutului digital sau al serviciului digital.
+
+...
+
+Articolul 8
+
+Drepturile terților
+
+În cazul în care o restricție care rezultă din încălcarea oricărui drept al unui terț, în special a drepturilor de proprietate intelectuală, împiedică sau limitează utilizarea bunurilor în conformitate cu
+
+art. 5
+
+și
+
+6
+
+, consumatorul are dreptul la măsurile corective în caz de neconformitate prevăzute la
+
+art. 11
+
+, cu excepția cazului în care dispozițiile
+
+Legii nr. 287/2009 privind Codul civil, republicată
+
+, cu modificările ulterioare, prevăd nulitatea sau încetarea contractului de vânzare în astfel de cazuri.
+
+Articolul 9
+
+Răspunderea vânzătorului
+
+(1)
+
+Vânzătorul răspunde față de consumator pentru orice neconformitate care există în momentul livrării bunurilor și care este constatată în termen de doi ani de la data respectivă.
+
+(2)
+
+Fără a aduce atingere prevederilor
+
+art. 6 alin. (3)
+
+, prevederile
+
+alin. (1)
+
+se aplică, de asemenea, bunurilor cu elemente digitale.
+
+(3)
+
+În cazul bunurilor cu elemente digitale pentru care contractul de vânzare prevede furnizarea continuă de conținut digital sau de servicii digitale pentru o anumită perioadă, vânzătorul răspunde, de asemenea, pentru orice neconformitate a conținutului digital sau a serviciului digital care intervine sau este constatată în termen de doi ani de la momentul livrării bunurilor cu elemente digitale pentru produse cu durată medie de utilizare de până la cinci ani, respectiv în termen de cinci ani de la data respectivă pentru produse cu durată medie de utilizare de peste cinci ani.
+
+(4)
+
+În cazul în care contractul prevede furnizarea continuă pentru o perioadă de peste cinci ani, vânzătorul răspunde pentru orice neconformitate a conținutului digital sau a serviciului digital care intervine sau este constatată pe parcursul perioadei în care conținutul digital sau serviciul digital trebuie să fie furnizat conform contractului de vânzare.
+
+(5)
+
+În cazul produselor de ocazie, consumatorul și vânzătorul pot conveni asupra unor condiții contractuale sau acorduri având o perioadă de răspundere contractuală sau un termen de prescripție mai scurtă decât cele prevăzute la
+
+alin. (1)-(4)
+
+, cu condiția ca astfel de perioade ori termene mai scurte să aibă o durată de minimum un an de la data livrării bunului.
+
+Articolul 10
+
+Sarcina probei
+
+(1)
+
+Orice neconformitate care este constatată în termen de un an de la data la care bunurile au fost livrate este prezumată a fi existat deja în momentul livrării bunurilor, până la proba contrarie sau cu excepția cazului în care această prezumție este incompatibilă cu natura bunurilor sau cu natura neconformității.
+
+(2)
+
+Prevederile
+
+alin. (1)
+
+se aplică, de asemenea, bunurilor cu elemente digitale.
+
+(3)
+
+În cazul bunurilor cu elemente digitale pentru care contractul de vânzare prevede furnizarea continuă de conținut digital sau de servicii digitale pentru o anumită perioadă, sarcina probei cu privire la conformitatea conținutului digital sau a serviciului digital pe parcursul perioadelor indicate la
+
+art. 9 alin. (3)
+
+și
+
+(4)
+
+îi revine vânzătorului în cazul unei neconformități care este constatată pe parcursul acestei perioade.
+
+Articolul 11
+
+Măsurile corective în caz de neconformitate
+
+(1)
+
+În caz de neconformitate, consumatorul are dreptul de a beneficia de aducerea în conformitate a bunurilor, de a beneficia de o reducere proporțională a prețului sau de a obține încetarea contractului în condițiile prevăzute la prezentul articol.
+
+(2)
+
+Pentru ca bunurile să fie aduse în conformitate, consumatorul poate opta între reparație și înlocuire, cu excepția cazului în care măsura corectivă aleasă ar fi imposibilă sau, în comparație cu cealaltă măsură corectivă disponibilă, ar impune vânzătorului costuri care ar fi disproporționate, luând în considerare toate circumstanțele, inclusiv următoarele:
+
+a)
+
+valoarea bunurilor în cazul în care nu ar fi existat neconformitatea;
+
+...
+
+b)
+
+gravitatea neconformității; sau
+
+...
+
+c)
+
+dacă măsura corectivă alternativă ar putea fi executată fără vreun inconvenient semnificativ pentru consumator.
+
+...
+
+(3)
+
+Vânzătorul poate refuza să aducă în conformitate bunurile dacă reparația sau înlocuirea este imposibilă sau i-ar impune costuri care ar fi disproporționate, luând în considerare toate circumstanțele, inclusiv cele prevăzute la
+
+alin. (2) lit. a)
+
+și
+
+b)
+
+.
+
+(4)
+
+Consumatorul are dreptul fie să obțină o reducere proporțională a prețului în conformitate cu
+
+art. 13
+
+, fie să obțină încetarea contractului de vânzare în conformitate cu
+
+art. 14
+
+, în oricare dintre următoarele cazuri:
+
+a)
+
+vânzătorul nu a finalizat reparația sau înlocuirea sau, după caz, nu a finalizat reparația sau înlocuirea potrivit prevederilor
+
+art. 12 alin. (2)-(4)
+
+sau vânzătorul a refuzat să aducă în conformitate bunurile potrivit prevederilor
+
+alin. (3)
+
+;
+
+...
+
+b)
+
+se constată o neconformitate, în pofida eforturilor vânzătorului de a o remedia;
+
+...
+
+c)
+
+neconformitatea este de o asemenea gravitate încât justifică o reducere de preț sau dreptul la încetarea imediată a contractului de vânzare;
+
+...
+
+d)
+
+vânzătorul a declarat că nu va aduce bunurile în conformitate într-un termen rezonabil sau fără inconveniente semnificative pentru consumator ori acest lucru reiese clar din circumstanțele cazului.
+
+...
+
+(5)
+
+Consumatorul nu are dreptul de a obține încetarea contractului dacă neconformitatea este minoră. Sarcina probei cu privire la caracterul minor al neconformității îi revine vânzătorului.
+
+(6)
+
+Consumatorul are dreptul de a suspenda plata unei părți restante din prețul bunurilor sau a unei părți a acesteia până în momentul în care vânzătorul își va fi îndeplinit obligațiile care îi revin în temeiul prezentei ordonanțe de urgență.
+
+(7)
+
+Consumatorii beneficiază de înlocuirea bunurilor în cazul în care neconformitatea acestora este constatată la scurt timp după livrare, fără a depăși 30 de zile calendaristice.
+
+(la 09-07-2023,
+
+Alineatul (7), Articolul 11 a fost modificat de
+
+ARTICOLUL UNIC din LEGEA nr. 205 din 5 iulie 2023, publicată în MONITORUL OFICIAL nr. 616 din 6 iulie 2023
+
+)
+
+(8)
+
+După expirarea termenului prevăzut la
+
+art. 9 alin. (1)
+
+, consumatorii pot pretinde remedierea sau înlocuirea bunurilor care nu pot fi folosite în scopul pentru care au fost realizate ca urmare a unor vicii ascunse apărute în cadrul duratei medii de utilizare, în condițiile legii.
+
+Articolul 12
+
+Repararea sau înlocuirea bunurilor
+
+(1)
+
+Reparațiile sau înlocuirile se efectuează cu respectarea următoarelor condiții:
+
+a)
+
+fără costuri;
+
+...
+
+b)
+
+într-un termen rezonabil care nu poate depăși 15 zile calendaristice din momentul în care vânzătorul a fost informat de către consumator cu privire la neconformitate și care este stabilit de comun acord, în scris, între vânzător și consumator, luânduse în considerare natura și complexitatea bunurilor, natura și gravitatea neconformității și efortul necesar pentru finalizarea reparației sau înlocuirii;
+
+...
+
+c)
+
+fără vreun inconvenient semnificativ pentru consumator, ținând seama de natura bunurilor și de scopul pentru care consumatorul a solicitat bunurile în cauză.
+
+...
+
+(2)
+
+În cazul în care neconformitatea urmează să fie remediată prin repararea sau înlocuirea bunurilor, consumatorul pune bunurile la dispoziția vânzătorului.
+
+(3)
+
+Vânzătorul preia bunurile înlocuite pe propria cheltuială.
+
+(4)
+
+În cazul în care o reparație necesită demontarea bunurilor care au fost instalate într-un mod compatibil cu natura și cu destinația lor, înainte ca neconformitatea să fie constatată, sau în cazul în care bunurile respective urmează să fie înlocuite, obligația de a repara sau înlocui bunurile include demontarea bunurilor neconforme și instalarea bunurilor de înlocuire sau a bunurilor reparate sau suportarea costurilor aferente demontării și instalării.
+
+(5)
+
+Consumatorul nu este obligat să plătească pentru utilizarea normală a bunurilor înlocuite în perioada care a precedat înlocuirea acestora.
+
+(6)
+
+În cazul în care neconformitatea este remediată prin reparație, termenele prevăzute la
+
+art. 9
+
+se prelungesc cu timpul de nefuncționare a bunului, din momentul la care a fost adusă la cunoștința vânzătorului lipsa de conformitate până la predarea efectivă a bunului în stare de utilizare normală către consumator.
+
+(7)
+
+În cazul în care neconformitatea este remediată prin înlocuire, pentru bunurile care înlocuiesc bunurile neconforme, termenele prevăzute la
+
+art. 9
+
+încep să curgă de la data înlocuirii.
+
+Articolul 13
+
+Reducerea de preț
+
+Reducerea de preț este proporțională cu diminuarea valorii bunurilor primite de consumator în comparație cu valoarea pe care bunurile ar avea-o dacă ar fi în conformitate.
+
+Articolul 14
+
+Încetarea contractului
+
+(1)
+
+Consumatorul își exercită dreptul de a obține încetarea contractului de vânzare printr-o declarație către vânzător, prin care își exprimă decizia de a obține încetarea contractului de vânzare.
+
+(2)
+
+În cazul în care neconformitatea se referă doar la unele dintre bunurile livrate în temeiul contractului de vânzare și există un motiv de încetare a contractului de vânzare în temeiul
+
+art. 11
+
+, consumatorul poate obține încetarea contractului de vânzare în raport cu bunurile respective, precum și cu orice alte bunuri pe care consumatorul le-a achiziționat împreună cu bunurile neconforme, în cazul în care consumatorului nu i se poate pretinde în mod rezonabil să accepte să păstreze numai bunurile conforme.
+
+(3)
+
+În cazul în care consumatorul obține încetarea contractului de vânzare în ansamblul său sau, în conformitate cu
+
+alin. (2)
+
+, în raport cu unele dintre bunurile livrate în temeiul contractului de vânzare:
+
+a)
+
+consumatorul returnează vânzătorului bunurile, pe cheltuiala acestuia din urmă;
+
+...
+
+b)
+
+vânzătorul îi rambursează consumatorului prețul plătit pentru bunuri la primirea bunurilor sau a unei dovezi prezentate de consumator că bunurile au fost returnate;
+
+...
+
+c)
+
+vânzătorul rambursează consumatorului suma de bani în conformitate cu
+
+lit. b)
+
+, folosind aceleași modalități de plată ca și cele folosite de consumator pentru tranzacția inițială, cu excepția cazului în care consumatorul a fost de acord cu o altă modalitate de plată și cu condiția de a nu cădea în sarcina consumatorului plata de comisioane în urma rambursării.
+
+...
+
+Articolul 15
+
+Garanții comerciale
+
+(1)
+
+Orice garanție comercială dă naștere unei obligații juridice pentru garant în condițiile stabilite în certificatul de garanție comercială și în anunțurile publicitare asociate, disponibile în momentul sau anterior încheierii contractului.
+
+(2)
+
+În condițiile prevăzute la prezentul articol și fără a aduce atingere oricăror alte dispoziții legale, în cazul în care un producător oferă consumatorului o garanție de durabilitate pentru anumite bunuri pentru o perioadă de timp anume, producătorul răspunde direct față de consumator, pe întreaga perioadă acoperită de garanția de durabilitate, pentru repararea sau înlocuirea bunurilor în conformitate cu
+
+art. 12
+
+.
+
+(3)
+
+Producătorul îi poate oferi consumatorului condiții mai favorabile în certificatul de garanție comercială de durabilitate.
+
+(4)
+
+În cazul în care condițiile prevăzute în certificatul de garanție comercială sunt mai puțin avantajoase pentru consumator decât cele prevăzute în anunțurile publicitare asociate, garanția comercială dă naștere unei obligații juridice în condițiile stabilite în publicitatea privind garanția comercială, cu excepția cazului în care, înainte de încheierea contractului, anunțurile publicitare asociate au fost corectate în același mod sau într-un mod comparabil celui în care au fost făcute.
+
+(5)
+
+Certificatul de garanție comercială este oferit consumatorului, pe un suport durabil, cel mai târziu în momentul livrării bunurilor.
+
+(6)
+
+Certificatul de garanție comercială este formulat într-un limbaj simplu și inteligibil.
+
+(7)
+
+Certificatul de garanție comercială conține următoarele elemente:
+
+a)
+
+o declarație clară prin care se indică faptul că consumatorul are dreptul la măsuri corective din partea vânzătorului, fără costuri, în caz de neconformitate a bunurilor și că măsurile corective respective nu sunt afectate de garanția comercială;
+
+...
+
+b)
+
+numele și adresa garantului;
+
+...
+
+c)
+
+procedura pe care trebuie să o urmeze consumatorul pentru a obține aducerea în aplicare a garanției comerciale;
+
+...
+
+d)
+
+indicarea bunurilor cărora li se aplică garanția comercială;
+
+...
+
+e)
+
+condițiile garanției comerciale.
+
+...
+
+(8)
+
+Nerespectarea prevederilor
+
+alin. (5)-(7)
+
+nu afectează caracterul obligatoriu al garanției comerciale pentru garant.
+
+(9)
+
+Certificatul de garanție comercială trebuie redactat în limba română, fără a exclude prezentarea acestuia și în alte limbi.
+
+(10)
+
+În cazul în care neconformitatea este remediată prin reparație, perioada de timp prevăzută în garanția comercială de durabilitate se prelungește cu timpul de nefuncționare a bunului, din momentul la care a fost adusă la cunoștința garantului lipsa de conformitate până la predarea efectivă a bunului în stare de utilizare normală către consumator.
+
+(11)
+
+În cazul în care neconformitatea este remediată prin înlocuire, pentru bunurile care înlocuiesc bunurile neconforme, perioada de timp prevăzută în garanția comercială de durabilitate începe să curgă de la data înlocuirii.
+
+(12)
+
+Reparațiile sau înlocuirile în perioada garanției comerciale se efectuează într-un termen rezonabil care nu poate depăși 15 zile calendaristice din momentul în care vânzătorul a fost informat de către consumator cu privire la neconformitate și care este stabilit de comun acord, în scris, între vânzător și consumator, luându-se în considerare natura și complexitatea bunurilor, natura și gravitatea neconformității și efortul necesar pentru finalizarea reparației sau înlocuirii.
+
+Articolul 16
+
+Dreptul la o acțiune în regres
+
+În cazul în care vânzătorul răspunde față de consumator pentru o neconformitate care rezultă dintr-un act sau o omisiune, inclusiv omisiunea de a oferi actualizări ale bunurilor care conțin elemente digitale în conformitate cu
+
+art. 6 alin. (3)
+
+, a unei persoane în etapele anterioare ale lanțului de tranzacții, vânzătorul are dreptul să solicite măsuri corective din partea persoanei sau a persoanelor cărora le revine răspunderea din lanțul de tranzacții.
+
+Articolul 17
+
+Informarea consumatorilor
+
+Autoritatea Națională pentru Protecția Consumatorilor întreprinde măsurile necesare astfel încât consumatorilor să le fie puse la dispoziție informațiile privind drepturile pe care le au în temeiul prezentei ordonanțe de urgență, precum și informațiile privind mijloacele de exercitare a acestora.
+
+Articolul 18
+
+Sancțiuni
+
+(1)
+
+Constituie contravenții următoarele fapte și se sancționează după cum urmează:
+
+a)
+
+nerespectarea prevederilor
+
+art. 3 alin. (7)
+
+și
+
+art. 15 alin. (2)
+
+,
+
+(5)-(7)
+
+și
+
+(9
+
+), cu amendă de la 2.000 lei la 10.000 lei;
+
+...
+
+b)
+
+nerespectarea prevederilor
+
+art. 4
+
+, cu referire la cerințele prevăzute la
+
+art. 5
+
+,
+
+art. 6 alin. (1)
+
+și
+
+(3)
+
+,
+
+art. 7
+
+,
+
+art. 9
+
+,
+
+art. 11 alin. (1)
+
+,
+
+(4)
+
+,
+
+(7)
+
+și
+
+(8)
+
+,
+
+art. 12 alin. (1)
+
+,
+
+(3)
+
+,
+
+(4)
+
+,
+
+(6)
+
+și
+
+(7)
+
+și
+
+art. 13
+
+,
+
+art. 14 alin. (3) lit. b)
+
+și
+
+c)
+
+și
+
+art. 15 alin. (10)-(12)
+
+, cu amendă de la 5.000 lei la 25.000 lei.
+
+(la 23-11-2025,
+
+Litera b) , Alineatul (1) , Articolul 18 a fost modificată de
+
+ARTICOLUL UNIC din LEGEA nr. 190 din 20 noiembrie 2025, publicată în MONITORUL OFICIAL nr. 1069 din 20 noiembrie 2025
+
+)
+
+...
+
+(2)
+
+Odată cu aplicarea sancțiunii amenzii contravenționale agentul constatator poate dispune ca măsură remedierea, înlocuirea ori restituirea contravalorii produsului, după caz.
+
+(3)
+
+Săvârșirea repetată de către vânzător a uneia dintre contravențiile prevăzute la
+
+alin. (1)
+
+se sancționează cu amendă contravențională de la 5.000 lei la 25.000 lei.
+
+(4)
+
+Nerespectarea dispozițiilor legale privind protecția consumatorilor care, potrivit
+
+alin. (1)
+
+, constituie contravenție, dacă fapta a avut ca urmare afectarea gravă și în mod repetat a drepturilor pe care le au în temeiul prezentei ordonanțe de urgență, ale unuia sau mai multor consumatori, se sancționează cu amendă contravențională de la 5.000 lei la 25.000 lei.
+
+(5)
+
+Constatarea contravențiilor și aplicarea sancțiunilor se fac de către reprezentanții împuterniciți ai Autorității Naționale pentru Protecția Consumatorilor.
+
+(6)
+
+Contravențiilor prevăzute la
+
+alin. (1)
+
+le sunt aplicabile dispozițiile
+
+Ordonanței Guvernului nr. 2/2001
+
+privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin
+
+Legea nr. 180/2002
+
+, cu modificările și completările ulterioare.
+
+(7)
+
+Contravențiilor prevăzute la
+
+alin. (3)
+
+și
+
+(4)
+
+le sunt aplicabile dispozițiile
+
+Ordonanței Guvernului nr. 2/2001
+
+, aprobată cu modificări și completări prin
+
+Legea nr. 180/2002
+
+, cu modificările și completările ulterioare, cu excepția
+
+art. 28 alin. (1)
+
+.
+
+Articolul 19
+
+Caracterul imperativ
+
+(1)
+
+Cu excepția cazului în care se prevede altfel în prezenta ordonanță de urgență, consumatorul nu poate fi obligat la niciun acord de natură contractuală care, în defavoarea sa, exclude aplicarea dispozițiilor prezentei ordonanțe de urgență, derogă de la acestea sau le modifică efectele înainte ca neconformitatea bunurilor să fie adusă la cunoștința vânzătorului de către consumator.
+
+(2)
+
+Vânzătorul poate să ofere consumatorului condiții contractuale mai favorabile nivelului de protecție asigurat prin prezenta ordonanță de urgență.
+
+Articolul 20
+
+Dispoziții tranzitorii și finale
+
+(1)
+
+Prezenta ordonanță de urgență intră în vigoare la data de 1 ianuarie 2022, cu excepția
+
+art. 18
+
+, care intră în vigoare în termen de 10 zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+(2)
+
+Legea nr. 449/2003
+
+privind vânzarea produselor și garanțiile asociate acestora, republicată în Monitorul Oficial al României, Partea I, nr. 347 din 6 mai 2008, cu modificările și completările ulterioare, se abrogă de la 1 ianuarie 2022.
+
+(3)
+
+Trimiterile din actele normative în vigoare la
+
+Legea nr. 449/2003, republicată
+
+, cu modificările și completările ulterioare, se consideră a fi făcute la dispozițiile corespunzătoare din prezenta ordonanță de urgență.
+
+(4)
+
+Dispozițiile prezentei ordonanțe de urgență se aplică contractelor încheiate după 1 ianuarie 2022.
+
+Prezenta ordonanță de urgență transpune prevederile Directivei (UE) 2019/771 a Parlamentului European și a Consiliului din 20 mai 2019 privind anumite aspecte referitoare la contractele de vânzare de bunuri, de modificare a Regulamentului (UE) 2017/2.394 și a Directivei 2009/22/CE și de abrogare a Directivei 1999/44/CE, publicată în Jurnalul Oficial al Uniunii Europene, seria L, nr. 136 din 22 mai 2019.
+
+PRIM-MINISTRU
+
+NICOLAE-IONEL CIUCĂ
+
+Contrasemnează:
+
+Ministrul economiei,
+
+Florin Marian Spătaru
+
+p. Președintele Autorității Naționale pentru Protecția Consumatorilor,
+
+Mihai Culeafă
+
+Ministrul antreprenoriatului și turismului,
+
+Constantin-Daniel Cadariu
+
+Ministrul afacerilor externe,
+
+Bogdan Lucian Aurescu
+
+București, 28 decembrie 2021.
+
+Nr. 140.
+
+Conținutul acestui material nu reprezintă în mod obligatoriu poziția oficială a Uniunii Europene sau a Guvernului României.
+
+Pentru informații detaliate despre celelalte programe cofinanțate de Uniunea Europeană, vă invităm să vizitați
+
+www.fonduri-ue.ro
+
+.
+
+Copyright &copy; 2026 - Ministerul Justiției. Toate drepturile rezervate. -
+
+Termeni și Condiții
+
+&#124; Acasă
+
+&#124; Despre Proiect
+
+&#124; Facilități Oferite
+
+&#124; Legături Utile
+
+&times;
+
+Inchide
+
+Versiune Beta
+
+A fost lansata versiunea Beta a Portalului Legislativ
+
+Fiind o versiune Beta, este posibil ca unele facilitati sa nu functioneze in mod corect.
+
+Inchide mesajul de atentionare
+
+&times;
+
+Inchide
+
+Datorita faptului ca folositi o versiune de Internet Explorer (Internet Explorer 8) foarte veche este posibil ca unele functionalitati sa fie dezactivate sau sa nu functioneze corect!
+
+Ce browser sa aleg?
+
+Google Chrome
+
+Descarca Browser
+
+Mozilla Firefox
+
+Descarca Browser
+
+Internet Explorer
+
+Descarca Browser
+
+Apple Safari
+
+Descarca Browser
+
+De ce sa actualizez browserul?
+
+Browserele invechite, cum ar fi Internet Explorer 8 (lansat în 2001) nu respecta standardele web, nu ofera unele facilitati noi browser-ului, cum ar fi de navigatie sau descarcare, managerul de tab-uri, si au probleme de securitate.
+
+Aceasta afecteaza, de asemenea, calitatea de redare site-uri web.
+
+Inchide mesajul de atentionare

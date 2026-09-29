@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "registry_id": "jurist-official-source-registry",
+  "purpose": "Surse canonice și metode de retrieval pentru sources/corpus.yaml.",
+  "canonical_only": true,
+  "download_corpus": false,
+  "sources": [
+    {
+      "id": "eurlex_eli",
+      "name": "EUR-Lex ELI",
+      "authority": "Publications Office of the European Union",
+      "authority_class": "eu_official",
+      "enabled": true,
+      "canonical": true,
+      "base_urls": [
+        "https://eur-lex.europa.eu/eli/",
+        "https://publications.europa.eu/resource/celex/"
+      ],
+      "retrieval": {
+        "methods": ["https_get", "eli_resolve", "cellar_identifier"],
+        "document_url_template": "https://eur-lex.europa.eu/eli/{kind}/{year}/{number}/oj?locale=ro",
+        "cellar_url_template": "https://publications.europa.eu/resource/celex/{celex}",
+        "accepted_formats": ["html", "xml", "pdf"],
+        "locale": "ro",
+        "cache": "optional_local_metadata_only"
+      },
+      "identifier_fields": ["celex", "eli_path"]
+    },
+    {
+      "id": "portal_legislativ",
+      "name": "Portal Legislativ",
+      "authority": "Ministerul Justiției al României",
+      "authority_class": "ro_official",
+      "enabled": true,
+      "canonical": true,
+      "base_urls": [
+        "https://legislatie.just.ro/apiws/FreeWebService.svc?wsdl",
+        "http://legislatie.just.ro/apiws",
+        "https://legislatie.just.ro/Public/"
+      ],
+      "retrieval": {
+        "methods": ["soap_get_token", "soap_search"],
+        "soap_operations": ["GetToken", "Search"],
+        "document_url_field": "LinkHtml",
+        "accepted_formats": ["soap_xml", "text"],
+        "locale": "ro",
+        "cache": "immutable_raw_snapshots",
+        "html_scraping": false
+      },
+      "identifier_fields": ["SearchAn", "SearchNumar", "LinkHtml"]
+    },
+    {
+      "id": "monitorul_oficial",
+      "name": "Monitorul Oficial al României",
+      "authority": "Regia Autonomă Monitorul Oficial",
+      "authority_class": "ro_official",
+      "enabled": false,
+      "canonical": true,
+      "reason_disabled": "Păstrat ca sursă oficială de rezervă; nu este necesar pentru identificatorii Portalului Legislativ din v1 și nu se presupune un URL de număr fără verificare.",
+      "base_urls": ["https://monitoruloficial.ro/"],
+      "retrieval": {
+        "methods": ["manual_issue_lookup"],
+        "accepted_formats": ["pdf", "html"]
+      },
+      "identifier_fields": ["monitor_issue", "publication_date"]
+    },
+    {
+      "id": "anspdcp",
+      "name": "Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal",
+      "authority": "ANSPDCP",
+      "authority_class": "ro_relevant_authority",
+      "enabled": false,
+      "canonical": true,
+      "reason_disabled": "Relevantă pentru ghiduri și decizii administrative, nu pentru textul actelor normative din v1; jurisprudența și ghidurile sunt în afara scope-ului.",
+      "base_urls": ["https://www.dataprotection.ro/"],
+      "retrieval": {
+        "methods": ["manual_page_lookup"],
+        "accepted_formats": ["html", "pdf"]
+      },
+      "identifier_fields": ["publication_url", "document_title"]
+    },
+    {
+      "id": "anpc",
+      "name": "Autoritatea Națională pentru Protecția Consumatorilor",
+      "authority": "ANPC",
+      "authority_class": "ro_relevant_authority",
+      "enabled": false,
+      "canonical": true,
+      "reason_disabled": "Relevantă pentru îndrumări și practică administrativă; v1 indexează acte normative, nu ghiduri sau jurisprudență.",
+      "base_urls": ["https://anpc.ro/"],
+      "retrieval": {
+        "methods": ["manual_page_lookup"],
+        "accepted_formats": ["html", "pdf"]
+      },
+      "identifier_fields": ["publication_url", "document_title"]
+    }
+  ],
+  "disabled_noncanonical_sources": [
+    {
+      "id": "aggregators",
+      "enabled": false,
+      "reason": "Agregatoarele comerciale și motoarele de căutare nu sunt surse canonice; pot fi folosite cel mult pentru discovery, niciodată pentru fetch/source."
+    },
+    {
+      "id": "case_law_and_embeddings",
+      "enabled": false,
+      "reason": "Jurisprudența și embeddings sunt explicit excluse din v1."
+    }
+  ],
+  "retrieval_rules": {
+    "source_of_truth": "corpus.yaml",
+    "resolve_by": ["exact_official_url", "celex", "national_act_number", "portal_document_id"],
+    "do_not_infer_content": true,
+    "record_metadata": ["retrieved_at", "http_status", "content_hash", "source_url", "identifier"],
+    "on_unresolved_identifier": "keep_not_fetched_and_flag_for_human_review",
+    "robots_and_rate_limits": "respect_source_policy"
+  }
+}

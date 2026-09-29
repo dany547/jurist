@@ -1,0 +1,312 @@
+[
+ {
+  "celex_base": "32016R0679",
+  "celex_downloaded": "02016R0679-20160504",
+  "is_consolidated": true,
+  "url": "https://publications.europa.eu/resource/celex/02016R0679-20160504",
+  "sha256": "23bce96438df1e40f6fc7f8bbecbbed124b89b7926cf16bf633198f9742c4eb9",
+  "bytes": 501118,
+  "articole_gasite": 99,
+  "status": "ok"
+ },
+ {
+  "celex_base": "32002L0058",
+  "celex_downloaded": "02002L0058-20091219",
+  "is_consolidated": true,
+  "url": "https://publications.europa.eu/resource/celex/02002L0058-20091219",
+  "sha256": "967a00a4f7a717130c0c1ba951b7725f83aee7ad24d82b77c58ba22bd6e05394",
+  "bytes": 108516,
+  "articole_gasite": 24,
+  "status": "ok"
+ },
+ {
+  "celex_base": "32000L0031",
+  "celex_downloaded": "02000L0031-20240217",
+  "is_consolidated": true,
+  "url": "https://publications.europa.eu/resource/celex/02000L0031-20240217",
+  "sha256": "7d0d5753e8db9034e0276bbba9f5009065c014fb0cfa674807d4dd7b7e3fe764",
+  "bytes": 82745,
+  "articole_gasite": 20,
+  "status": "ok"
+ },
+ {
+  "status": "ok",
+  "celex_base": "32011L0083",
+  "celex_downloaded": "02011L0083-20260927",
+  "is_consolidated": true,
+  "url": "https://publications.europa.eu/resource/celex/02011L0083-20260927",
+  "sha256": "bfdcc6ffff6ab99e7d7c30469f0abd3befcc275f5568e0b7a9dc274bc7b08926",
+  "bytes": 319739,
+  "articole_gasite": 311
+ },
+ {
+  "status": "ok",
+  "celex_base": "32005L0029",
+  "celex_downloaded": "02005L0029-20260927",
+  "is_consolidated": true,
+  "url": "https://publications.europa.eu/resource/celex/02005L0029-20260927",
+  "sha256": "47c0ca73db64d0eb882b9cca9e256646221d020aa3d503a484171c6e86d5ecd5",
+  "bytes": 154174,
+  "articole_gasite": 53
+ },
+ {
+  "celex_base": "31998L0006",
+  "celex_downloaded": "01998L0006-20220528",
+  "is_consolidated": true,
+  "url": "https://publications.europa.eu/resource/celex/01998L0006-20220528",
+  "sha256": "84c551a11f680c22186a073a3c58e202b86bcf89911367bf777d6e51152c8e2c",
+  "bytes": 22922,
+  "articole_gasite": 15,
+  "status": "ok"
+ },
+ {
+  "celex_base": "32019L0770",
+  "celex_downloaded": "02019L0770-20190522",
+  "is_consolidated": true,
+  "url": "https://publications.europa.eu/resource/celex/02019L0770-20190522",
+  "sha256": "f2155d36b1adfbc16d75b7ac0641e633a4f841fe3462e2e83383e7eaba2fc293",
+  "bytes": 66086,
+  "articole_gasite": 28,
+  "status": "ok"
+ },
+ {
+  "celex_base": "32019L0771",
+  "celex_downloaded": "02019L0771-20260731",
+  "is_consolidated": true,
+  "url": "https://publications.europa.eu/resource/celex/02019L0771-20260731",
+  "sha256": "b76d409234c524774072c460c4c6b3ea83e754079e0ce97355e7bedb92a27375",
+  "bytes": 96229,
+  "articole_gasite": 119,
+  "status": "ok"
+ },
+ {
+  "celex_base": "32019L2161",
+  "celex_downloaded": "32019L2161",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32019L2161",
+  "sha256": "05541b93cf2da37a93971ecd148b152dd5f8a2b1ad9cea9a2186f204bb6f4490",
+  "bytes": 277321,
+  "articole_gasite": 39,
+  "status": "ok"
+ },
+ {
+  "celex_base": "32014R0910",
+  "celex_downloaded": "02014R0910-20241018",
+  "is_consolidated": true,
+  "url": "https://publications.europa.eu/resource/celex/02014R0910-20241018",
+  "sha256": "c88d1506a91ed3cc92034524c5bd9132e082070346ac79a865ea28bec07f8ff9",
+  "bytes": 483776,
+  "articole_gasite": 88,
+  "status": "ok"
+ },
+ {
+  "celex_base": "32015L2366",
+  "celex_downloaded": "02015L2366-20250117",
+  "is_consolidated": true,
+  "url": "https://publications.europa.eu/resource/celex/02015L2366-20250117",
+  "sha256": "ed7b164beca9c55066c7bf82ae9ff4257ffcd74cc7525df98137afeb0f7207b9",
+  "bytes": 630480,
+  "articole_gasite": 690,
+  "status": "ok"
+ },
+ {
+  "status": "ok",
+  "celex_base": "32013L0011",
+  "celex_downloaded": "32013L0011",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32013L0011",
+  "sha256": "9f99fa510bcb50d5c3c0fdd7cc247d68822ddcc200106888c329f60fef4430a1",
+  "bytes": 227812,
+  "articole_gasite": 30,
+  "old_files_rdf_invalid": [
+   "ingest/eu/32013L0011.xhtml",
+   "raw/eu/32013L0011.bin"
+  ],
+  "note": "Cellar base CELEX; EUR-Lex nu expune o consolidare distincta (404 pe forma 0...), deci forma publicata este cea in vigoare"
+ },
+ {
+  "status": "ok",
+  "celex_base": "32018R0302",
+  "celex_downloaded": "32018R0302",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32018R0302",
+  "sha256": "1a8b5eb29157312567292de49ee0e556dc30129efb245e262bc280ad3d438c75",
+  "bytes": 130083,
+  "articole_gasite": 12,
+  "old_files_rdf_invalid": [
+   "ingest/eu/32018R0302.xhtml",
+   "raw/eu/32018R0302.bin"
+  ],
+  "note": "Cellar base CELEX; EUR-Lex nu expune o consolidare distincta (404 pe forma 0...), deci forma publicata este cea in vigoare"
+ },
+ {
+  "status": "ok",
+  "celex_base": "32022R2065",
+  "celex_downloaded": "32022R2065",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32022R2065",
+  "sha256": "29ee062d39e8faac0a2dacb2ac2352fbeffe96151dfbdcbbb650148e754537cb",
+  "bytes": 878256,
+  "articole_gasite": 93,
+  "old_files_rdf_invalid": [
+   "ingest/eu/32022R2065.xhtml",
+   "raw/eu/32022R2065.bin"
+  ],
+  "note": "Cellar base CELEX; EUR-Lex nu expune o consolidare distincta (404 pe forma 0...), deci forma publicata este cea in vigoare"
+ },
+ {
+  "status": "ok",
+  "celex_base": "32019L0882",
+  "celex_downloaded": "32019L0882",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32019L0882",
+  "sha256": "b70c91da1fe96ad701941469de77c0f10bd3d2fcb0315a4f6b953c05b43d827e",
+  "bytes": 499984,
+  "articole_gasite": 37,
+  "old_files_rdf_invalid": [
+   "ingest/eu/32019L0882.xhtml",
+   "raw/eu/32019L0882.bin"
+  ],
+  "note": "Cellar base CELEX; EUR-Lex nu expune o consolidare distincta (404 pe forma 0...), deci forma publicata este cea in vigoare"
+ },
+ {
+  "status": "ok",
+  "celex_base": "32019R1150",
+  "celex_downloaded": "32019R1150",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32019R1150",
+  "sha256": "08427d9f225c70a012d77dfbddb17e8ca303c30477a5fc38e9224a0073703c9e",
+  "bytes": 216285,
+  "articole_gasite": 19
+ },
+ {
+  "status": "ok",
+  "celex_base": "32023R0988",
+  "celex_downloaded": "02023R0988-20260529",
+  "is_consolidated": true,
+  "url": "https://publications.europa.eu/resource/celex/02023R0988-20260529",
+  "sha256": "13d525b2453d5f16dd858ea077aa882f5a1eca036244cef2b9f3599524f61309",
+  "bytes": 286196,
+  "articole_gasite": 292
+ },
+ {
+  "status": "ok",
+  "celex_base": "32023R2854",
+  "celex_downloaded": "32023R2854",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32023R2854",
+  "sha256": "f47b70efe9c14d25cdf190ccf97445c60dffb77ba81b8fa1edcbb5124f271e9c",
+  "bytes": 648886,
+  "articole_gasite": 161
+ },
+ {
+  "status": "ok",
+  "celex_base": "32024L0825",
+  "celex_downloaded": "32024L0825",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32024L0825",
+  "sha256": "8dd3870bf74499cb5591cbdae811bd731b5e144e3b597fe324ad5d296e05db47",
+  "bytes": 172181,
+  "articole_gasite": 41
+ },
+ {
+  "status": "ok",
+  "celex_base": "32023L2673",
+  "celex_downloaded": "32023L2673",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32023L2673",
+  "sha256": "18da43d6f81adfa660d1427d6b5a22f81c56bec6c1c44627b6f05337ed38db79",
+  "bytes": 210126,
+  "articole_gasite": 191
+ },
+ {
+  "status": "ok",
+  "celex_base": "32024L2853",
+  "celex_downloaded": "32024L2853",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32024L2853",
+  "sha256": "9be24174f440752b85efcdb69f99a501fe6bd719a12d6851f33846d7a572517a",
+  "bytes": 236609,
+  "articole_gasite": 116
+ },
+ {
+  "status": "ok",
+  "celex_base": "32021D0914",
+  "celex_downloaded": "32021D0914",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32021D0914",
+  "sha256": "bb703811f2aaa0ee7e823d51f750e52fd697e66b8659f6841759191d21206b10",
+  "bytes": 279077,
+  "articole_gasite": 30
+ },
+ {
+  "status": "ok",
+  "celex_base": "32021D0915",
+  "celex_downloaded": "32021D0915",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32021D0915",
+  "sha256": "38af347ed0f869d389784c80d437feb5a7508fb013c16553e4482701f30d4327",
+  "bytes": 102111,
+  "articole_gasite": 34
+ },
+ {
+  "status": "ok",
+  "celex_base": "32023D1795",
+  "celex_downloaded": "32023D1795",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32023D1795",
+  "sha256": "bd0b6b52d01db5870d812e2617f32657bc11583e808c6932fdcdb66c69e76351",
+  "bytes": 1348614,
+  "articole_gasite": 221
+ },
+ {
+  "status": "ok",
+  "celex_base": "32022L2555",
+  "celex_downloaded": "32022L2555",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32022L2555",
+  "sha256": "a0e17bc5a1a31f9b9956768ad99a0705b9dfc9a583fb036a9e9b867d47cd6b55",
+  "bytes": 758414,
+  "articole_gasite": 330
+ },
+ {
+  "status": "ok",
+  "celex_base": "32024R1689",
+  "celex_downloaded": "02024R1689-20260727",
+  "is_consolidated": true,
+  "url": "https://publications.europa.eu/resource/celex/02024R1689-20260727",
+  "sha256": "434d83f6aaaa0ef8a58559acb9c8132380a7d26c0e830e325fc8873a46ea35d2",
+  "bytes": 910394,
+  "articole_gasite": 500
+ },
+ {
+  "status": "ok",
+  "celex_base": "32024R3228",
+  "celex_downloaded": "32024R3228",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32024R3228",
+  "sha256": "ec8c798207e64b8705da87c5f7760314abbfd8aa026c01dfa2d65891b021e52f",
+  "bytes": 25335,
+  "articole_gasite": 6
+ },
+ {
+  "status": "ok",
+  "celex_base": "32008R0593",
+  "celex_downloaded": "32008R0593",
+  "is_consolidated": false,
+  "url": "https://publications.europa.eu/resource/celex/32008R0593",
+  "sha256": "23419348fbaa0ff44274e859fc0f8afe46b5cad53961e9ae3217057f0da9cd76",
+  "bytes": 143884,
+  "articole_gasite": 64
+ },
+ {
+  "status": "ok",
+  "celex_base": "32012R1215",
+  "celex_downloaded": "02012R1215-20150226",
+  "is_consolidated": true,
+  "url": "https://publications.europa.eu/resource/celex/02012R1215-20150226",
+  "sha256": "cf440bcf116f00e730b79ccb371f8c881f18d137420dbec8cccbe0b95dac51fb",
+  "bytes": 187138,
+  "articole_gasite": 336
+ }
+]

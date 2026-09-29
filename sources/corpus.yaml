@@ -1,0 +1,1126 @@
+schema_version: "1.0"
+corpus_id: "jurist-ro-eu-privacy-ecommerce-v1"
+version: "v1"
+language: "ro"
+status: "draft-registry"
+description: "Registru de acte normative UE și România pentru privacy, comerț electronic și protecția consumatorului."
+provenance:
+  canonical_policy: "Numai EUR-Lex/Cellar și Portalul Legislativ pentru acte; nu se descarcă corpusul la generarea registrului."
+  retrieval_status: "not_fetched"
+  summaries_status: "draft_neconfirmat"
+  checked_at: null
+  jurisprudence: "excluded_v1"
+  embeddings: "excluded_v1"
+
+candidate_decisions:
+  - candidate: "Legea nr. 363/2007"
+    decision: "include"
+    justification: "Act român central pentru practicile comerciale incorecte; corespunde Directivei 2005/29/CE."
+    official_links:
+      - "https://legislatie.just.ro/Public/DetaliiDocument/88290"
+      - "https://eur-lex.europa.eu/eli/dir/2005/29/oj"
+  - candidate: "Directiva (UE) 2019/770"
+    decision: "include"
+    justification: "Regula UE de bază pentru contractele de furnizare de conținut și servicii digitale; are transpunere română în OUG 141/2021."
+    official_links:
+      - "https://eur-lex.europa.eu/eli/dir/2019/770/oj"
+      - "https://legislatie.just.ro/Public/DetaliiDocument/250054"
+  - candidate: "Directiva (UE) 2019/771"
+    decision: "include"
+    justification: "Regula UE de bază pentru vânzarea de bunuri; are transpunere română în OUG 140/2021."
+    official_links:
+      - "https://eur-lex.europa.eu/eli/dir/2019/771/oj"
+      - "https://legislatie.just.ro/Public/DetaliiDocument/250044"
+  - candidate: "Regulamentul (UE) 2018/302"
+    decision: "include"
+    justification: "Regulamentul direct aplicabil privind geoblocarea nejustificată în piața internă, relevant pentru magazine online."
+    official_links:
+      - "https://eur-lex.europa.eu/eli/reg/2018/302/oj"
+  - candidate: "Regulamentul (UE) nr. 910/2014 (eIDAS)"
+    decision: "include"
+    justification: "Regulament direct aplicabil pentru identificare electronică, semnături și servicii de încredere folosite la contractarea online; amendamentul 2024/1183 rămâne roadmap."
+    official_links:
+      - "https://eur-lex.europa.eu/eli/reg/2014/910/oj"
+  - candidate: "Directiva 2002/58/CE (ePrivacy)"
+    decision: "include"
+    justification: "Este încă reperul UE pentru confidențialitatea comunicațiilor și cookie-uri, dar aplicarea practică în România este prin Legea 506/2004; se cere decizie dacă v1 răspunde la nivel UE sau doar la transpunerea națională."
+    official_links:
+      - "https://eur-lex.europa.eu/eli/dir/2002/58/oj"
+      - "https://legislatie.just.ro/Public/DetaliiDocument/56973"
+  - candidate: "Regulamentul (UE) 2024/1183 (amendament eIDAS)"
+    decision: "roadmap"
+    justification: "Extinde cadrul eIDAS; se păstrează pentru o revizie v1.1 după stabilirea regulilor de versiuni și a datei de aplicare."
+    official_links:
+      - "https://eur-lex.europa.eu/eli/reg/2024/1183/oj"
+
+acts:
+  - id: "EU:REG:2016:679"
+    version_coverage: "point_in_time"
+    title: "Regulamentul (UE) 2016/679 (GDPR)"
+    jurisdiction: "EU"
+    authority_class: "eu_regulation"
+    status: "include"
+    aliases: ["GDPR", "RGPD", "Regulamentul general privind protecția datelor", "regulamentul general privind protectia datelor", "CELEX 32016R0679"]
+    domains: ["privacy", "personal_data", "online_services", "compliance", "international_transfers"]
+    summary_ro:
+      draft: "Regulamentul-cadru pentru prelucrarea datelor cu caracter personal, drepturile persoanelor vizate și obligațiile operatorilor și împuterniciților."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 5-11", "art. 12-23", "art. 24-32", "art. 44-49", "art. 77-84"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/reg/2016/679/oj"]
+      identifiers: [{type: "celex", value: "32016R0679"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32016R0679"
+      consolidated: "02016R0679-20160504"
+      url: "https://publications.europa.eu/resource/celex/32016R0679.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+      checked_at: null
+  - id: "EU:DIR:2002:58"
+    version_coverage: "point_in_time"
+    title: "Directiva 2002/58/CE privind viața privată și comunicațiile electronice"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["ePrivacy", "ePrivacy Directive", "directiva ePrivacy", "directiva cookies", "Directiva cookie-uri", "CELEX 32002L0058"]
+    domains: ["privacy", "cookies", "electronic_communications", "direct_marketing"]
+    summary_ro:
+      draft: "Reguli sectoriale pentru confidențialitatea comunicațiilor electronice, stocarea și accesarea informațiilor în terminal și comunicările comerciale."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 5", "art. 6", "art. 9", "art. 13"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2002/58/oj"]
+      identifiers: [{type: "celex", value: "32002L0058"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32002L0058"
+      consolidated: "02002L0058-20091219"
+      url: "https://publications.europa.eu/resource/celex/32002L0058.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+      checked_at: null
+  - id: "EU:DIR:2000:31"
+    version_coverage: "point_in_time"
+    title: "Directiva 2000/31/CE privind comerțul electronic"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["E-Commerce Directive", "Directiva comerț electronic", "CELEX 32000L0031"]
+    domains: ["ecommerce", "online_services", "intermediaries", "commercial_information"]
+    summary_ro:
+      draft: "Cadrul pentru serviciile societății informaționale: informații comerciale, comunicări nesolicitate, contractare electronică și răspunderea intermediarilor."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 5-7", "art. 9-11", "art. 12-15"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2000/31/oj"]
+      identifiers: [{type: "celex", value: "32000L0031"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32000L0031"
+      consolidated: "02000L0031-20240217"
+      url: "https://publications.europa.eu/resource/celex/32000L0031.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+      checked_at: null
+  - id: "EU:DIR:2011:83"
+    version_coverage: "point_in_time"
+    title: "Directiva 2011/83/UE privind drepturile consumatorilor"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["Consumer Rights Directive", "CRD", "CELEX 32011L0083"]
+    domains: ["consumer", "ecommerce", "distance_contracts", "withdrawal"]
+    summary_ro:
+      draft: "Reguli armonizate pentru informarea precontractuală, contractele la distanță și în afara spațiilor comerciale și dreptul de retragere."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 5-8", "art. 9-16", "art. 18-22", "art. 24-29"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2011/83/oj"]
+      identifiers: [{type: "celex", value: "32011L0083"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32011L0083"
+      consolidated: "02011L0083-20260927"
+      url: "https://publications.europa.eu/resource/celex/32011L0083.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+      checked_at: null
+  - id: "EU:DIR:2005:29"
+    version_coverage: "point_in_time"
+    title: "Directiva 2005/29/CE privind practicile comerciale neloiale"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["UCPD", "Unfair Commercial Practices Directive", "CELEX 32005L0029"]
+    domains: ["consumer", "marketing", "advertising", "ecommerce"]
+    summary_ro:
+      draft: "Interzice practicile comerciale neloiale față de consumatori și stabilește testul general, acțiunile înșelătoare/agresive și lista neagră."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 5-9", "art. 11-13", "anexa I"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2005/29/oj"]
+      identifiers: [{type: "celex", value: "32005L0029"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32005L0029"
+      consolidated: "02005L0029-20260927"
+      url: "https://publications.europa.eu/resource/celex/32005L0029.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+      checked_at: null
+  - id: "EU:DIR:1998:6"
+    version_coverage: "point_in_time"
+    title: "Directiva 98/6/CE privind indicarea prețurilor"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["Price Indication Directive", "Directiva prețurilor", "CELEX 31998L0006"]
+    domains: ["consumer", "pricing", "ecommerce", "transparency"]
+    summary_ro:
+      draft: "Cerințe pentru indicarea prețului de vânzare și a prețului pe unitatea de măsură, inclusiv în ofertele comerciale."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 3-6", "art. 8"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/1998/6/oj"]
+      identifiers: [{type: "celex", value: "31998L0006"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "31998L0006"
+      consolidated: "01998L0006-20220528"
+      url: "https://publications.europa.eu/resource/celex/31998L0006.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+      checked_at: null
+  - id: "EU:DIR:2013:11"
+    version_coverage: "point_in_time"
+    title: "Directiva 2013/11/UE privind soluționarea alternativă a litigiilor în materie de consum"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["Consumer ADR Directive", "ADR consumatori", "CELEX 32013L0011"]
+    domains: ["consumer", "disputes", "complaints", "ecommerce"]
+    summary_ro:
+      draft: "Cadrul pentru entități ADR, informarea consumatorilor și soluționarea extrajudiciară a litigiilor dintre consumatori și comercianți."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 5-11", "art. 13-14", "art. 19-21"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2013/11/oj"]
+      identifiers: [{type: "celex", value: "32013L0011"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32013L0011"
+      url: "https://publications.europa.eu/resource/celex/32013L0011.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+      checked_at: null
+  - id: "EU:REG:2018:302"
+    version_coverage: "point_in_time"
+    title: "Regulamentul (UE) 2018/302 privind geoblocarea nejustificată"
+    jurisdiction: "EU"
+    authority_class: "eu_regulation"
+    status: "include"
+    aliases: ["Geo-blocking Regulation", "Regulamentul geoblocare", "CELEX 32018R0302"]
+    domains: ["ecommerce", "geoblocking", "internal_market", "consumer"]
+    summary_ro:
+      draft: "Interzice anumite forme de discriminare nejustificată pe criteriul cetățeniei, reședinței sau sediului în accesul la bunuri și servicii online."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 3-6", "art. 8-11"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/reg/2018/302/oj"]
+      identifiers: [{type: "celex", value: "32018R0302"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32018R0302"
+      url: "https://publications.europa.eu/resource/celex/32018R0302.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+      checked_at: null
+  - id: "EU:DIR:2019:770"
+    version_coverage: "point_in_time"
+    title: "Directiva (UE) 2019/770 privind conținutul și serviciile digitale"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["Digital Content Directive", "DCD", "CELEX 32019L0770"]
+    domains: ["consumer", "digital_content", "digital_services", "ecommerce"]
+    summary_ro:
+      draft: "Reguli privind conformitatea, remedii și modificarea contractelor de furnizare de conținut și servicii digitale, inclusiv când contraprestația este reprezentată de date."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 5-10", "art. 11-18", "art. 19-21"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2019/770/oj"]
+      identifiers: [{type: "celex", value: "32019L0770"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32019L0770"
+      consolidated: "02019L0770-20190522"
+      url: "https://publications.europa.eu/resource/celex/32019L0770.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+      checked_at: null
+  - id: "EU:DIR:2019:771"
+    version_coverage: "point_in_time"
+    title: "Directiva (UE) 2019/771 privind vânzarea de bunuri"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["Sale of Goods Directive", "SGD", "CELEX 32019L0771"]
+    domains: ["consumer", "sales", "conformity", "ecommerce"]
+    summary_ro:
+      draft: "Reguli armonizate pentru conformitatea bunurilor, răspunderea vânzătorului și remediile consumatorului în contractele de vânzare."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 4-8", "art. 10-18", "art. 20"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2019/771/oj"]
+      identifiers: [{type: "celex", value: "32019L0771"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32019L0771"
+      consolidated: "02019L0771-20260731"
+      url: "https://publications.europa.eu/resource/celex/32019L0771.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+      checked_at: null
+  - id: "EU:DIR:2019:2161"
+    version_coverage: "point_in_time"
+    title: "Directiva (UE) 2019/2161 de modernizare a protecției consumatorilor"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["Omnibus Directive", "Modernisation Directive", "CELEX 32019L2161"]
+    domains: ["consumer", "ecommerce", "reviews", "pricing", "marketplaces"]
+    summary_ro:
+      draft: "Actualizează normele de protecție a consumatorilor pentru piețe online, recenzii, personalizare, reduceri și sancțiuni."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 1-4", "dispozițiile de modificare a directivelor anexate"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2019/2161/oj"]
+      identifiers: [{type: "celex", value: "32019L2161"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32019L2161"
+      url: "https://publications.europa.eu/resource/celex/32019L2161.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+  - id: "EU:REG:2022:2065"
+    version_coverage: "point_in_time"
+    title: "Regulamentul (UE) 2022/2065 privind serviciile digitale (DSA)"
+    jurisdiction: "EU"
+    authority_class: "eu_regulation"
+    status: "include"
+    aliases: ["Digital Services Act", "DSA", "regulamentul serviciilor digitale", "CELEX 32022R2065"]
+    domains: ["online_platforms", "intermediaries", "content_moderation", "consumer", "privacy"]
+    summary_ro:
+      draft: "Obligații pentru intermediari și platforme online privind transparența, notificările, publicitatea, protecția utilizatorilor și evaluarea riscurilor."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 4-17", "art. 20-28", "art. 30-32", "art. 44-45"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/reg/2022/2065/oj"]
+      identifiers: [{type: "celex", value: "32022R2065"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32022R2065"
+      url: "https://publications.europa.eu/resource/celex/32022R2065.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+  - id: "EU:REG:2014:910"
+    version_coverage: "point_in_time"
+    title: "Regulamentul (UE) nr. 910/2014 privind identificarea electronică și serviciile de încredere"
+    jurisdiction: "EU"
+    authority_class: "eu_regulation"
+    status: "include"
+    aliases: ["eIDAS", "eIDAS 2", "eIDAS2", "Electronic Identification and Trust Services", "CELEX 32014R0910"]
+    domains: ["ecommerce", "electronic_signature", "identity", "trust_services"]
+    summary_ro:
+      draft: "Cadrul UE pentru identificarea electronică și serviciile de încredere, inclusiv efectele juridice ale semnăturilor electronice."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 13-14", "art. 24-25", "art. 35-39"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/reg/2014/910/oj"]
+      identifiers: [{type: "celex", value: "32014R0910"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32014R0910"
+      consolidated: "02014R0910-20241018"
+      url: "https://publications.europa.eu/resource/celex/32014R0910.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+  - id: "EU:DIR:2015:2366"
+    version_coverage: "point_in_time"
+    title: "Directiva (UE) 2015/2366 privind serviciile de plată (PSD2)"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["PSD2", "Payment Services Directive 2", "CELEX 32015L2366"]
+    domains: ["payments", "ecommerce", "authentication", "consumer"]
+    summary_ro:
+      draft: "Reguli pentru servicii de plată, autorizarea plăților, autentificarea strictă a clientului și drepturile utilizatorilor."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 5-6", "art. 64-68", "art. 73-74", "art. 97-98"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2015/2366/oj"]
+      identifiers: [{type: "celex", value: "32015L2366"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32015L2366"
+      consolidated: "02015L2366-20250117"
+      url: "https://publications.europa.eu/resource/celex/32015L2366.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+  - id: "EU:DIR:2019:882"
+    version_coverage: "point_in_time"
+    title: "Directiva (UE) 2019/882 privind cerințele de accesibilitate pentru produse și servicii"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["European Accessibility Act", "EAA", "CELEX 32019L0882"]
+    domains: ["accessibility", "ecommerce", "consumer", "digital_services"]
+    summary_ro:
+      draft: "Cerințe de accesibilitate pentru anumite produse și servicii, inclusiv servicii de comerț electronic."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 4-5", "art. 9-13", "art. 24-25", "anexa I"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2019/882/oj"]
+      identifiers: [{type: "celex", value: "32019L0882"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32019L0882"
+      url: "https://publications.europa.eu/resource/celex/32019L0882.RO.XHTML"
+      format: "xhtml"
+      retrieval_status: "not_fetched"
+  - id: "RO:LEGE:190:2018"
+    version_coverage: "current_only"
+    title: "Legea nr. 190/2018 privind măsuri de punere în aplicare a Regulamentului (UE) 2016/679"
+    jurisdiction: "RO"
+    authority_class: "ro_law"
+    status: "include"
+    aliases: ["Legea 190/2018", "legea română de aplicare GDPR"]
+    domains: ["privacy", "personal_data", "employment", "children"]
+    summary_ro:
+      draft: "Stabilește măsuri naționale de aplicare a GDPR, inclusiv reguli pentru anumite prelucrări și competențe/sancțiuni."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 1-10", "art. 12-15"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/203151"]
+      identifiers: [{type: "national", value: "Legea nr. 190/2018"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "LEGE"
+      numar: 190
+      an: 2018
+      url: "http://legislatie.just.ro/apiws"
+      format: "soap_xml"
+      retrieval_status: "not_fetched"
+  - id: "RO:LEGE:506:2004"
+    version_coverage: "current_only"
+    title: "Legea nr. 506/2004 privind prelucrarea datelor cu caracter personal și protecția vieții private în sectorul comunicațiilor electronice"
+    jurisdiction: "RO"
+    authority_class: "ro_law"
+    status: "include"
+    aliases: ["legea cookie-urilor", "legea cookies", "Legea 506", "Legea 506/2004", "transpunerea ePrivacy în România", "cookie-uri"]
+    domains: ["privacy", "cookies", "electronic_communications", "direct_marketing"]
+    summary_ro:
+      draft: "Transpune cadrul sectorial privind confidențialitatea comunicațiilor electronice, inclusiv stocarea/accesarea informațiilor și comunicările comerciale."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 4-12", "art. 15"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/56973"]
+      identifiers: [{type: "national", value: "Legea nr. 506/2004"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "LEGE"
+      numar: 506
+      an: 2004
+      url: "http://legislatie.just.ro/apiws"
+      format: "soap_xml"
+      retrieval_status: "not_fetched"
+  - id: "RO:LEGE:365:2002"
+    version_coverage: "current_only"
+    title: "Legea nr. 365/2002 privind comerțul electronic"
+    jurisdiction: "RO"
+    authority_class: "ro_law"
+    status: "include"
+    aliases: ["Legea 365", "Legea 365/2002", "legea comertului electronic", "comerț electronic", "e-commerce România"]
+    domains: ["ecommerce", "online_services", "commercial_information", "electronic_contracts"]
+    summary_ro:
+      draft: "Reguli naționale pentru furnizorii de servicii ai societății informaționale, comunicări comerciale și contracte în mediul electronic."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 4-8", "art. 12-18", "art. 19-21"]
+    source:
+      links: ["https://legislatie.just.ro/Public/Rezultate?search=Legea%20365%2F2002"]
+      identifiers: [{type: "national", value: "Legea nr. 365/2002"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "LEGE"
+      numar: 365
+      an: 2002
+      url: "http://legislatie.just.ro/apiws"
+      format: "soap_xml"
+      retrieval_status: "not_fetched"
+      resolution_required: true
+  - id: "RO:OUG:34:2014"
+    version_coverage: "current_only"
+    title: "OUG nr. 34/2014 privind drepturile consumatorilor în cadrul contractelor încheiate cu profesioniștii"
+    jurisdiction: "RO"
+    authority_class: "ro_government_ordinance"
+    status: "include"
+    aliases: ["OUG 34", "OUG 34/2014", "ordonanta drepturilor consumatorilor", "legea returului", "dreptul de retragere", "contract la distanță"]
+    domains: ["consumer", "ecommerce", "distance_contracts", "withdrawal"]
+    summary_ro:
+      draft: "Transpune în România principalele reguli pentru informare, contracte la distanță și dreptul consumatorului de retragere."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 6-16", "art. 18-20", "art. 28-29", "art. 50"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/158913"]
+      identifiers: [{type: "national", value: "OUG nr. 34/2014"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "OUG"
+      numar: 34
+      an: 2014
+      url: "http://legislatie.just.ro/apiws"
+      format: "soap_xml"
+      retrieval_status: "not_fetched"
+  - id: "RO:LEGE:363:2007"
+    version_coverage: "current_only"
+    title: "Legea nr. 363/2007 privind combaterea practicilor incorecte ale comercianților"
+    jurisdiction: "RO"
+    authority_class: "ro_law"
+    status: "include"
+    aliases: ["Legea 363/2007", "practici comerciale incorecte", "transpunerea UCPD"]
+    domains: ["consumer", "marketing", "advertising", "ecommerce"]
+    summary_ro:
+      draft: "Reglementează practicile comerciale incorecte în relația comerciant-consumator și transpune Directiva 2005/29/CE."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 4-15", "anexa 1"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/88290"]
+      identifiers: [{type: "national", value: "Legea nr. 363/2007"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "LEGE"
+      numar: 363
+      an: 2007
+      url: "http://legislatie.just.ro/apiws"
+      format: "soap_xml"
+      retrieval_status: "not_fetched"
+  - id: "RO:OG:21:1992"
+    version_coverage: "current_only"
+    title: "OG nr. 21/1992 privind protecția consumatorilor"
+    jurisdiction: "RO"
+    authority_class: "ro_government_ordinance"
+    status: "include"
+    aliases: ["OG 21/1992", "protecția consumatorilor", "act-cadru ANPC"]
+    domains: ["consumer", "product_information", "complaints", "enforcement"]
+    summary_ro:
+      draft: "Act-cadru român privind drepturile și protecția consumatorilor, obligațiile operatorilor și controlul în domeniu."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["dispozițiile privind drepturile consumatorilor, informarea, conformitatea și sancțiunile; verificare la fetch"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/2175"]
+      identifiers: [{type: "national", value: "OG nr. 21/1992"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "OG"
+      numar: 21
+      an: 1992
+      url: "http://legislatie.just.ro/apiws"
+      format: "soap_xml"
+      retrieval_status: "not_fetched"
+  - id: "RO:LEGE:193:2000"
+    version_coverage: "current_only"
+    title: "Legea nr. 193/2000 privind clauzele abuzive din contractele încheiate între profesioniști și consumatori"
+    jurisdiction: "RO"
+    authority_class: "ro_law"
+    status: "include"
+    aliases: ["Legea 193", "Legea 193/2000", "legea clauzelor abuzive", "clauze abuzive", "unfair terms"]
+    domains: ["consumer", "contracts", "terms_and_conditions", "ecommerce"]
+    summary_ro:
+      draft: "Reguli pentru identificarea și înlăturarea clauzelor abuzive din contractele dintre profesioniști și consumatori."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 1-4", "anexa"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/140214"]
+      identifiers: [{type: "national", value: "Legea nr. 193/2000"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "LEGE"
+      numar: 193
+      an: 2000
+      url: "http://legislatie.just.ro/apiws"
+      format: "soap_xml"
+      retrieval_status: "not_fetched"
+  - id: "RO:OUG:140:2021"
+    version_coverage: "current_only"
+    title: "OUG nr. 140/2021 privind anumite aspecte referitoare la contractele de vânzare de bunuri"
+    jurisdiction: "RO"
+    authority_class: "ro_government_ordinance"
+    status: "include"
+    aliases: ["OUG 140/2021", "conformitatea bunurilor", "transpunerea Directivei 2019/771"]
+    domains: ["consumer", "sales", "conformity", "ecommerce"]
+    summary_ro:
+      draft: "Transpune cadrul pentru conformitatea bunurilor, răspunderea vânzătorului și remediile consumatorului."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 4-15", "art. 17-20"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/250044"]
+      identifiers: [{type: "national", value: "OUG nr. 140/2021"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "OUG"
+      numar: 140
+      an: 2021
+      url: "http://legislatie.just.ro/apiws"
+      format: "soap_xml"
+      retrieval_status: "not_fetched"
+  - id: "RO:OUG:141:2021"
+    version_coverage: "current_only"
+    title: "OUG nr. 141/2021 privind anumite aspecte referitoare la contractele de furnizare de conținut digital și de servicii digitale"
+    jurisdiction: "RO"
+    authority_class: "ro_government_ordinance"
+    status: "include"
+    aliases: ["OUG 141/2021", "conținut digital", "transpunerea Directivei 2019/770"]
+    domains: ["consumer", "digital_content", "digital_services", "ecommerce"]
+    summary_ro:
+      draft: "Transpune regulile privind conformitatea, remediile și modificarea contractelor pentru conținut și servicii digitale."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 4-12", "art. 14-20"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/250054"]
+      identifiers: [{type: "national", value: "OUG nr. 141/2021"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "OUG"
+      numar: 141
+      an: 2021
+      url: "http://legislatie.just.ro/apiws"
+      format: "soap_xml"
+      retrieval_status: "not_fetched"
+  - id: "RO:OUG:58:2022"
+    version_coverage: "current_only"
+    title: "OUG nr. 58/2022 pentru modificarea și completarea unor acte normative în domeniul protecției consumatorilor"
+    jurisdiction: "RO"
+    authority_class: "ro_government_ordinance"
+    status: "include"
+    aliases: ["OUG 58/2022", "transpunerea Omnibus", "modernizarea protecției consumatorilor"]
+    domains: ["consumer", "ecommerce", "reviews", "pricing", "marketplaces"]
+    summary_ro:
+      draft: "Act român de modificare a legislației consumatorilor, inclus pentru legătura cu modernizarea UE și obligațiile platformelor/comercianților."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["dispozițiile de modificare a actelor enumerate; verificare la fetch"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/254946"]
+      identifiers: [{type: "national", value: "OUG nr. 58/2022"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "OUG"
+      numar: 58
+      an: 2022
+      url: "http://legislatie.just.ro/apiws"
+      format: "soap_xml"
+      retrieval_status: "not_fetched"
+  - id: "EU:REG:2019:1150"
+    version_coverage: "point_in_time"
+    title: "Regulamentul (UE) 2019/1150 privind promovarea echității și a transparenței pentru utilizatorii comerciali ai serviciilor de intermediere online"
+    jurisdiction: "EU"
+    authority_class: "eu_regulation"
+    status: "include"
+    aliases: ["P2B", "Platform to Business", "Regulamentul P2B", "CELEX 32019R1150"]
+    domains: ["ecommerce", "marketplaces", "online_platforms"]
+    summary_ro:
+      draft: "Reguli direct aplicabile pentru termenele, clasamentul și transparența platformelor de intermediere față de utilizatorii comerciali."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 1-2"]
+    source:
+      links: ["https://eur-lex.europa.eu/eli/reg/2019/1150/oj"]
+      identifiers: [{type: "celex", value: "32019R1150"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32019R1150"
+      url: "https://publications.europa.eu/resource/celex/32019R1150"
+      format: "xhtml"
+      retrieval_status: "fetched"
+  - id: "RO:LEGE:232:2022"
+    version_coverage: "current_only"
+    title: "Legea nr. 232/2022 privind cerințele de accesibilitate aplicabile produselor și serviciilor"
+    jurisdiction: "RO"
+    authority_class: "ro_law"
+    status: "include"
+    aliases: ["Legea 232/2022", "legea accesibilității", "EAA România", "transpunerea Directivei 2019/882"]
+    domains: ["accessibility", "ecommerce", "consumer"]
+    summary_ro:
+      draft: "Transpune Directiva (UE) 2019/882: cerințe de accesibilitate pentru produse și servicii, inclusiv servicii electronice destinate publicului."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 1-3"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/257778"]
+      identifiers: [{type: "national", value: "Legea nr. 232/2022"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "LEGE"
+      numar: 232
+      an: 2022
+      url: "http://legislatie.just.ro/apiws"
+      format: "html_linkhtml"
+      retrieval_status: "fetched"
+  - id: "RO:OUG:155:2024"
+    version_coverage: "current_only"
+    title: "OUG nr. 155/2024 privind instituirea unui cadru pentru securitatea cibernetică a rețelelor și sistemelor de informații"
+    jurisdiction: "RO"
+    authority_class: "ro_government_ordinance"
+    status: "include"
+    aliases: ["OUG 155/2024", "NIS2 România", "legea NIS2", "securitate cibernetică"]
+    domains: ["cybersecurity", "online_services", "ecommerce"]
+    summary_ro:
+      draft: "Transpune Directiva (UE) 2022/2555 (NIS2): obligații de securitate cibernetică pentru entități esențiale și importante, inclusiv servicii digitale."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 1-3"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/293121"]
+      identifiers: [{type: "national", value: "OUG nr. 155/2024"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "OUG"
+      numar: 155
+      an: 2024
+      url: "http://legislatie.just.ro/apiws"
+      format: "html_linkhtml"
+      retrieval_status: "fetched"
+  - id: "RO:LEGE:214:2024"
+    version_coverage: "current_only"
+    title: "Legea nr. 214/2024 privind utilizarea semnăturii electronice, a mărcii temporale şi prestarea serviciilor de încredere bazate pe acestea"
+    jurisdiction: "RO"
+    authority_class: "ro_law"
+    status: "include"
+    aliases: ["Legea 214/2024", "Legea 214", "semnătura electronică în România", "semnatura electronica", "marca temporală", "servicii de încredere România"]
+    domains: ["electronic_signature", "identity", "trust_services", "ecommerce", "contracts"]
+    summary_ro:
+      draft: "Regimul național pentru utilizarea semnăturii electronice și a mărcii temporale și pentru prestarea serviciilor de încredere în România; completează Regulamentul (UE) nr. 910/2014 și abrogă Legea nr. 455/2001."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 1-5", "art. 24-36"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/285178"]
+      identifiers: [{type: "national", value: "Legea nr. 214/2024"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "LEGE"
+      numar: 214
+      an: 2024
+      url: "http://legislatie.just.ro/apiws"
+      format: "html_linkhtml"
+      retrieval_status: "fetched"
+  - id: "RO:HG:947:2000"
+    version_coverage: "current_only"
+    title: "Hotărârea nr. 947/2000 privind modalitatea de indicare a prețurilor produselor oferite consumatorilor spre vânzare (republicată)"
+    jurisdiction: "RO"
+    authority_class: "ro_hotarare"
+    status: "include"
+    aliases: ["HG 947/2000", "HG 947", "indicarea prețurilor", "afișarea prețurilor", "prețul pe unitatea de măsură"]
+    domains: ["pricing", "transparency", "consumer", "ecommerce"]
+    summary_ro:
+      draft: "Stabilește cum se indică prețul de vânzare și prețul pe unitatea de măsură pentru produsele oferite consumatorilor, inclusiv la raft și în ofertele promotionale; transpune Directiva 98/6/CE."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 1-5", "art. 8-15"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/97219", "https://legislatie.just.ro/Public/DetaliiDocument/24730"]
+      identifiers: [{type: "national", value: "HG nr. 947/2000"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "HG"
+      numar: 947
+      an: 2000
+      url: "http://legislatie.just.ro/apiws"
+      format: "html_linkhtml"
+      retrieval_status: "fetched"
+  - id: "RO:OG:38:2015"
+    version_coverage: "current_only"
+    title: "Ordonanța nr. 38/2015 privind soluționarea alternativă a litigiilor dintre consumatori și comercianți"
+    jurisdiction: "RO"
+    authority_class: "ro_government_ordinance"
+    status: "include"
+    aliases: ["OG 38/2015", "OG 38", "SAL consumatori", "soluționarea alternativă a litigiilor", "mediere consumatori România"]
+    domains: ["disputes", "complaints", "consumer", "ecommerce", "transparency"]
+    summary_ro:
+      draft: "Cadrul național pentru soluționarea alternativă a litigiilor de consum dintre consumatori și comercianți: entități SAL, proceduri, obligații de informare ale comerciantului și SAL-FIN; transpune Directiva 2013/11/UE."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 1-9", "art. 10-24"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/170960"]
+      identifiers: [{type: "national", value: "OG nr. 38/2015"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "OG"
+      numar: 38
+      an: 2015
+      url: "http://legislatie.just.ro/apiws"
+      format: "html_linkhtml"
+      retrieval_status: "fetched"
+  - id: "RO:LEGE:50:2024"
+    version_coverage: "current_only"
+    title: "Legea nr. 50/2024 privind stabilirea unor măsuri pentru aplicarea Regulamentului (UE) 2022/2.065 privind o piață unică pentru serviciile digitale"
+    jurisdiction: "RO"
+    authority_class: "ro_law"
+    status: "include"
+    aliases: ["Legea 50/2024", "Legea 50", "DSA România", "ANCOM serviciile digitale", "coordonatorul serviciilor digitale"]
+    domains: ["online_platforms", "intermediaries", "ecommerce", "disputes", "enforcement", "consumer"]
+    summary_ro:
+      draft: "Măsuri naționale de aplicare a DSA: ANCOM ca autoritate națională competentă și coordonator al serviciilor digitale, punct unic de contact, notificatori de încredere, accesarea informațiilor de la prestatori, sancțiuni și modificări aduse Legii nr. 365/2002."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 1-6", "art. 7-30", "art. 44-52"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/280106"]
+      identifiers: [{type: "national", value: "Legea nr. 50/2024"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "LEGE"
+      numar: 50
+      an: 2024
+      url: "http://legislatie.just.ro/apiws"
+      format: "html_linkhtml"
+      retrieval_status: "fetched"
+  - id: "RO:LEGE:209:2019"
+    version_coverage: "current_only"
+    title: "Legea nr. 209/2019 privind serviciile de plată și pentru modificarea unor acte normative"
+    jurisdiction: "RO"
+    authority_class: "ro_law"
+    status: "include"
+    aliases: ["Legea 209/2019", "Legea 209", "servicii de plată România", "legea platilor", "autentificare strictă"]
+    domains: ["payments", "authentication", "consumer", "ecommerce", "financial_services", "transparency"]
+    summary_ro:
+      draft: "Regimul național al serviciilor de plată: furnizori și tipe de servicii, tranzacții și executarea lor, autentificare strictă, drepturi și obligații ale plătitorului și ale furnizorului, răspunderea pentru tranzacțiile neautorizate și sancțiuni; transpune Directiva (UE) 2015/2366 (PSD2)."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 1-4", "Titlul II", "Titlul III", "Titlul IV"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/219736"]
+      identifiers: [{type: "national", value: "Legea nr. 209/2019"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "LEGE"
+      numar: 209
+      an: 2019
+      url: "http://legislatie.just.ro/apiws"
+      format: "html_linkhtml"
+      retrieval_status: "fetched"
+  - id: "EU:REG:2023:988"
+    version_coverage: "point_in_time"
+    title: "Regulamentul (UE) 2023/988 privind siguranța generală a produselor"
+    jurisdiction: "EU"
+    authority_class: "eu_regulation"
+    status: "include"
+    aliases: ["GPSR", "General Product Safety Regulation", "Regulamentul privind siguranța produselor", "siguranța generală a produselor", "CELEX 32023R0988"]
+    domains: ["consumer", "product_safety", "product_information", "ecommerce", "marketplaces", "online_platforms", "enforcement"]
+    scope_provisions: ["art. 1-3", "art. 5-9", "art. 19-22"]
+    summary_ro:
+      draft: "Cerinte de siguranță pentru produsele puse pe piața UE, obligațiile operatorilor economici și ale platformelor online, trasabilitatea, sistemul de alertă Safety Gate, retragerea și rechemarea produselor."
+      confidence: "draft_neconfirmat"
+    source:
+      links: ["https://eur-lex.europa.eu/eli/reg/2023/988/oj"]
+      identifiers: [{type: "celex", value: "32023R0988"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32023R0988"
+      consolidated: "02023R0988-20260529"
+      url: "https://publications.europa.eu/resource/celex/32023R0988"
+      format: "xhtml"
+      retrieval_status: "fetched"
+  - id: "EU:REG:2023:2854"
+    version_coverage: "point_in_time"
+    title: "Regulamentul (UE) 2023/2854 privind normele armonizate pentru accesul echitabil la date și utilizarea datelor (Data Act)"
+    jurisdiction: "EU"
+    authority_class: "eu_regulation"
+    status: "include"
+    aliases: ["Data Act", "Regulamentul privind datele", "partajare de date", "CELEX 32023R2854"]
+    domains: ["data_sharing", "digital_services", "online_services", "contracts", "terms_and_conditions", "consumer"]
+    scope_provisions: ["art. 1-4", "cap. II (art. 5-14)", "cap. III (art. 15-22)", "cap. IV (art. 25-29)", "cap. VI (art. 23-31)"]
+    summary_ro:
+      draft: "Accesul la datele generate de produsele conectate și serviciile de prestare legate de acestea, clauzele contractuale neloiale din acordurile de partajare a datelor între întreprinderi și schimbarea furnizorului de servicii de procesare a datelor."
+      confidence: "draft_neconfirmat"
+    source:
+      links: ["https://eur-lex.europa.eu/eli/reg/2023/2854/oj"]
+      identifiers: [{type: "celex", value: "32023R2854"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32023R2854"
+      url: "https://publications.europa.eu/resource/celex/32023R2854"
+      format: "xhtml"
+      retrieval_status: "fetched"
+  - id: "EU:DIR:2024:825"
+    version_coverage: "point_in_time"
+    title: "Directiva (UE) 2024/825 de modificare a Directivelor 2005/29/CE și 2011/83/UE privind consolidarea rolului consumatorilor în tranziția verde"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["EmpCo", "Empowering Consumers Directive", "directiva anti-greenwashing", "afirmații de mediu", "tranziția verde", "CELEX 32024L0825"]
+    domains: ["consumer", "marketing", "advertising", "green_claims", "transparency", "ecommerce"]
+    scope_provisions: ["art. 1", "art. 2-5"]
+    summary_ro:
+      draft: "Directivă de modificare (nu conține reguli de sine stătătoare): interzice afirmațiile generale de mediu fără dovadă, etichetele de durabilitate neaprobate și afirmațiile bazate doar pe compensații de emisii; extinde obligațiile de informare privind durabilitatea, garanțiile și reparațiile."
+      confidence: "draft_neconfirmat"
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2024/825/oj"]
+      identifiers: [{type: "celex", value: "32024L0825"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32024L0825"
+      url: "https://publications.europa.eu/resource/celex/32024L0825"
+      format: "xhtml"
+      retrieval_status: "fetched"
+  - id: "EU:DIR:2023:2673"
+    version_coverage: "point_in_time"
+    title: "Directiva (UE) 2023/2673 de modificare a Directivei 2011/83/UE privind contractele de servicii financiare la distanță"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["distanta servicii financiare", "Distance Marketing Financial Services", "DSF", "CELEX 32023L2673"]
+    domains: ["consumer", "distance_contracts", "withdrawal", "financial_services", "transparency", "ecommerce"]
+    scope_provisions: ["art. 1", "art. 2-6"]
+    summary_ro:
+      draft: "Directivă de modificare: extinde regulile de informare precontractuală, retragere și buton de respingere la contractele de servicii financiare încheiate la distanță; abrogă Directiva 2002/65/CE."
+      confidence: "draft_neconfirmat"
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2023/2673/oj"]
+      identifiers: [{type: "celex", value: "32023L2673"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32023L2673"
+      url: "https://publications.europa.eu/resource/celex/32023L2673"
+      format: "xhtml"
+      retrieval_status: "fetched"
+  - id: "EU:DIR:2024:2853"
+    version_coverage: "point_in_time"
+    title: "Directiva (UE) 2024/2853 privind răspunderea pentru produsele cu defecte"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["PLD", "Product Liability Directive", "răspunderea pentru produse", "produs cu defecte", "CELEX 32024L2853"]
+    domains: ["consumer", "product_liability", "contracts", "ecommerce", "digital_services"]
+    scope_provisions: ["art. 1-4", "art. 7-13", "art. 15-19"]
+    summary_ro:
+      draft: "Răspunderea obiectivă pentru produsele cu defecte, inclusiv software și servicii de IA; definește produsul, termenul de prescripție, sarcina probei și răspunderea în lanț pentru vânzarea online."
+      confidence: "draft_neconfirmat"
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2024/2853/oj"]
+      identifiers: [{type: "celex", value: "32024L2853"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32024L2853"
+      url: "https://publications.europa.eu/resource/celex/32024L2853"
+      format: "xhtml"
+      retrieval_status: "fetched"
+  - id: "EU:DEC:2021:914"
+    version_coverage: "point_in_time"
+    title: "Decizia de punere în aplicare (UE) 2021/914 privind clauzele contractuale standard pentru transferul de date cu caracter personal către țări terțe"
+    jurisdiction: "EU"
+    authority_class: "eu_implementing_act"
+    status: "include"
+    aliases: ["SCC", "clauze contractuale standard", "standard contractual clauses", "CELEX 32021D0914"]
+    domains: ["privacy", "personal_data", "international_transfers", "terms_and_conditions", "compliance"]
+    scope_provisions: ["art. 1-4", "anexa"]
+    summary_ro:
+      draft: "Clauzele contractuale standard pentru transferuri de date între operatori în țări terțe în temeiul art. 46 GDPR, inclusiv obligațiile de verificare a țării de destinație și măsurile complementare."
+      confidence: "draft_neconfirmat"
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj"]
+      identifiers: [{type: "celex", value: "32021D0914"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32021D0914"
+      url: "https://publications.europa.eu/resource/celex/32021D0914"
+      format: "xhtml"
+      retrieval_status: "fetched"
+  - id: "EU:DEC:2021:915"
+    version_coverage: "point_in_time"
+    title: "Decizia de punere în aplicare (UE) 2021/915 privind clauzele contractuale standard dintre operatori și persoanele împuternicite de operatori prevăzute la articolul 28 alineatul (7) din Regulamentul (UE) 2016/679"
+    jurisdiction: "EU"
+    authority_class: "eu_implementing_act"
+    status: "include"
+    aliases: ["SCC art. 28", "clauze standard împuternicit", "CELEX 32021D0915"]
+    domains: ["privacy", "personal_data", "international_transfers", "terms_and_conditions", "compliance"]
+    scope_provisions: ["art. 1-3", "anexa"]
+    summary_ro:
+      draft: "Clauzele contractuale standard pentru acordul de prelucrare a datelor între operator și împuternicit (art. 28 alin. (7) GDPR), inclusiv varianta pentru relații intra-SEE și transferuri."
+      confidence: "draft_neconfirmat"
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dec_impl/2021/915/oj"]
+      identifiers: [{type: "celex", value: "32021D0915"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32021D0915"
+      url: "https://publications.europa.eu/resource/celex/32021D0915"
+      format: "xhtml"
+      retrieval_status: "fetched"
+  - id: "EU:DEC:2023:1795"
+    version_coverage: "point_in_time"
+    title: "Decizia de punere în aplicare (UE) 2023/1795 de constatare a nivelului adecvat de protecție a datelor cu caracter personal transferate în Statele Unite ale Americii"
+    jurisdiction: "EU"
+    authority_class: "eu_implementing_act"
+    status: "include"
+    aliases: ["DPF", "EU-US Data Privacy Framework", "adecvare Statele Unite", "adecvare SUA", "CELEX 32023D1795"]
+    domains: ["privacy", "personal_data", "international_transfers", "compliance"]
+    scope_provisions: ["art. 1-5"]
+    summary_ro:
+      draft: "Constată nivelul adecvat de protecție pentru transferurile către entități certificate în Data Privacy Framework în SUA; temei pentru transferuri în SUA fără clauze suplimentare."
+      confidence: "draft_neconfirmat"
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dec_impl/2023/1795/oj"]
+      identifiers: [{type: "celex", value: "32023D1795"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32023D1795"
+      url: "https://publications.europa.eu/resource/celex/32023D1795"
+      format: "xhtml"
+      retrieval_status: "fetched"
+  - id: "EU:DIR:2022:2555"
+    version_coverage: "point_in_time"
+    title: "Directiva (UE) 2022/2555 privind măsurile pentru un nivel comun ridicat de securitate cibernetică în Uniune (NIS2)"
+    jurisdiction: "EU"
+    authority_class: "eu_directive"
+    status: "include"
+    aliases: ["NIS2", "Directivele NIS2", "securitate cibernetică UE", "CELEX 32022L2555"]
+    domains: ["cybersecurity", "online_services", "ecommerce", "digital_services", "compliance"]
+    scope_provisions: ["art. 1-3", "cap. II (art. 6-13)", "cap. III (art. 20-25)"]
+    summary_ro:
+      draft: "Cadrul UE pentru securitatea rețelelor și sistemelor de informații: entități esențiale și importante, măsuri de management al riscului, notificarea incidentelor și sancțiuni; modifică Regulamentul (UE) nr. 910/2014."
+      confidence: "draft_neconfirmat"
+    source:
+      links: ["https://eur-lex.europa.eu/eli/dir/2022/2555/oj"]
+      identifiers: [{type: "celex", value: "32022L2555"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32022L2555"
+      url: "https://publications.europa.eu/resource/celex/32022L2555"
+      format: "xhtml"
+      retrieval_status: "fetched"
+  - id: "EU:REG:2024:1689"
+    version_coverage: "point_in_time"
+    title: "Regulamentul (UE) 2024/1689 de stabilire a unor norme armonizate privind inteligența artificială (Actul privind inteligența artificială)"
+    jurisdiction: "EU"
+    authority_class: "eu_regulation"
+    status: "include"
+    aliases: ["AI Act", "Regulamentul privind IA", "inteligență artificială", "CELEX 32024R1689"]
+    domains: ["artificial_intelligence", "online_services", "digital_services", "transparency", "compliance", "consumer"]
+    scope_provisions: ["art. 1-3", "art. 5", "art. 50", "art. 113"]
+    summary_ro:
+      draft: "Norme armonizate pentru sistemele de inteligență artificială: practici interzise, cerințe pentru riscuri ridicate, obligații de transparență pentru sistemele care interacționează cu persoanele și pentru conținutul generat, calendare de aplicare în etape."
+      confidence: "draft_neconfirmat"
+    source:
+      links: ["https://eur-lex.europa.eu/eli/reg/2024/1689/oj"]
+      identifiers: [{type: "celex", value: "32024R1689"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32024R1689"
+      consolidated: "02024R1689-20260727"
+      url: "https://publications.europa.eu/resource/celex/32024R1689"
+      format: "xhtml"
+      retrieval_status: "fetched"
+  - id: "EU:REG:2024:3228"
+    version_coverage: "point_in_time"
+    title: "Regulamentul (UE) 2024/3228 de abrogare a Regulamentului (UE) nr. 524/2013 privind soluționarea online a litigiilor"
+    jurisdiction: "EU"
+    authority_class: "eu_regulation"
+    status: "include"
+    aliases: ["ODR repeal", "abrogarea ODR", "platforma ODR", "Online Dispute Resolution", "CELEX 32024R3228"]
+    domains: ["disputes", "complaints", "consumer", "ecommerce"]
+    scope_provisions: ["art. 1-5"]
+    summary_ro:
+      draft: "Abrogă Regulamentul (UE) nr. 524/2013 și închide platforma ODR; obligă Comisia să notifice utilizatorii până la 20 martie 2025 și modifică Regulamentele (UE) 2017/2394 și 2018/1724."
+      confidence: "draft_neconfirmat"
+    source:
+      links: ["https://eur-lex.europa.eu/eli/reg/2024/3228/oj"]
+      identifiers: [{type: "celex", value: "32024R3228"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32024R3228"
+      url: "https://publications.europa.eu/resource/celex/32024R3228"
+      format: "xhtml"
+      retrieval_status: "fetched"
+  - id: "EU:REG:2008:593"
+    version_coverage: "point_in_time"
+    title: "Regulamentul (CE) nr. 593/2008 privind legea aplicabilă obligațiilor contractuale (Roma I)"
+    jurisdiction: "EU"
+    authority_class: "eu_regulation"
+    status: "include"
+    aliases: ["Rome I", "Roma I", "legea aplicabilă contractului", "alegerea legii", "CELEX 32008R0593"]
+    domains: ["contracts", "terms_and_conditions", "consumer", "governing_law"]
+    scope_provisions: ["art. 1-3", "art. 6", "art. 9"]
+    summary_ro:
+      draft: "Legea aplicabilă obligațiilor contractuale: libertatea de alegere, clauzele de alegere a legii în contractele cu consumatorul (art. 6) și normele de aplicare imediată."
+      confidence: "draft_neconfirmat"
+    source:
+      links: ["https://eur-lex.europa.eu/eli/reg/2008/593/oj"]
+      identifiers: [{type: "celex", value: "32008R0593"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32008R0593"
+      url: "https://publications.europa.eu/resource/celex/32008R0593"
+      format: "xhtml"
+      retrieval_status: "fetched"
+  - id: "EU:REG:2012:1215"
+    version_coverage: "point_in_time"
+    title: "Regulamentul (UE) nr. 1215/2012 privind competența judiciară, recunoașterea și executarea hotărârilor în materie civilă și comercială (reformare)"
+    jurisdiction: "EU"
+    authority_class: "eu_regulation"
+    status: "include"
+    aliases: ["Brussels Ia", "Bruxelles Ia", "competență judiciară UE", "clauză de jurisdicție", "CELEX 32012R1215"]
+    domains: ["contracts", "disputes", "consumer", "jurisdiction_clauses"]
+    scope_provisions: ["art. 4-6", "art. 17-19", "art. 25"]
+    summary_ro:
+      draft: "Competența judiciară în materie civilă și comercială: regulile de competență pentru contractele cu consumatorul (arts. 17-19), clauzele de alegere a forumului și recunoașterea hotărârilor."
+      confidence: "draft_neconfirmat"
+    source:
+      links: ["https://eur-lex.europa.eu/eli/reg/2012/1215/oj"]
+      identifiers: [{type: "celex", value: "32012R1215"}]
+    fetch:
+      source_id: "eurlex_eli"
+      method: "cellar"
+      celex: "32012R1215"
+      consolidated: "02012R1215-20150226"
+      url: "https://publications.europa.eu/resource/celex/32012R1215"
+      format: "xhtml"
+      retrieval_status: "fetched"

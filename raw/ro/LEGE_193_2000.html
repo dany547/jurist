@@ -1,0 +1,1250 @@
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>LEGE           (R)   193 06/11/2000 - Portal Legislativ</title>
+    <link href="/Content/css?v=iKXncnEnzeZrcZDXQ4gyEFYtrgIhK9GqKaiZ1xjeUOQ1" rel="stylesheet"/>
+
+    <link href="/Content/themes/base/css?v=7T_tuS9RP8sQe2HxerJdL6STYU-qCHtjrExyjsSiYcQ1" rel="stylesheet"/>
+
+    <meta name="keywords" content="LEGE           (R)   193 06/11/2000 - Portal Legislativ">
+    <meta name="description" content="LEGE           (R)   193 06/11/2000 - Portal Legislativ">
+    <meta name="title" content="LEGE           (R)   193 06/11/2000 - Portal Legislativ">
+    <link href="/Content/bootstrap-datepicker.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/Content/Images/Site/temanoua/favicon.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="/Content/public.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="/bundles/modernizr?v=qVODBytEBVVePTNtSFXgRX0NCEjh9U_Oj8ePaSiRcGg1"></script>
+
+    <script src="/bundles/jquery?v=UgyEMAYOuSB9Bb6HcOEVHpd6fIIp54yF086SRNVcdIY1"></script>
+
+    <script src="/bundles/jqueryui?v=O4Awnx3xYnFLmC1TAsxXigS8kLERW18heIHqD0bRSTE1"></script>
+
+    <script src="/bundles/bootstrap?v=WyYa2dIFje-38fhrXc_sQiaOB-lu9j8r45bVIBgtqrw1"></script>
+
+    <script type="text/javascript" language="JavaScript">
+        var backColor = '#f0ffff';
+        var actColor = 'white';
+        var brdColor = 'black';
+        function marcheaza(id_ttl, id) {
+            /*id.style.backgroundColor=backColor;
+            id_ttl.style.cursor='pointer';
+            id.style.borderColor=brdColor;
+            id.style.borderStyle='dashed';*/
+        }
+        function demarcheaza(id_ttl, id) {
+            /*id.style.backgroundColor='transparent';
+            id_ttl.style.cursor='default';
+            id.style.borderColor=actColor;
+            id.style.borderStyle='dotted';*/
+        }
+        function plusMinus(id1, id2) {
+            if (id1.style.display == 'none') {
+                id1.style.display = 'inline';
+                id2.style.display = 'none';
+            }
+            else {
+                id1.style.display = 'none';
+                id2.style.display = 'inline';
+            }
+        }
+        function setCursor(id, tipCursor) {
+            id.style.cursor = tipCursor;
+        }
+    </script>
+    <script>
+        function pozitioneaza(id) {
+            var id_nou = id.substring(0, id.length - 4);
+           //document.getElementById('toTop').click();
+            $("#toTop").trigger("click");
+ 
+        }
+ 
+
+    </script>
+
+
+
+</head>
+
+<body data-spy="scroll" data-target="#affix-nav" data-twttr-rendered="true">
+    <a name="top"></a>
+
+
+    <div id="toTop" class="toggle-menu menu-left"><a class="toggle-menu menu-left"><img src="/Content/Images/Site/temanoua/butonmeniu.png" alt="logo" /></a> </div>
+    <div id="masterwrapper page-content">
+        <div id="header_wrapper" class="navbar navbar-default">
+            <!--navbar-fixed-top-->
+            <header>
+                <div id="header">
+                    <div class="header_top">
+                        <div class="banner">
+                            <div class="row">
+                                <img class="img-responsive center-block pozawidth" id="logoportal" src="/Content/Images/Site/header_logo.png" style="width:85%;" alt="logo" />
+                            </div>
+                        </div>
+                        <div class="row margin0" id="textlogo">
+                            <center>
+                                <h4 class="reducerespatiu logo">Portal Legislativ</h4>
+
+                            </center>
+                            <!-- <div style="float:right; position:relative; right:0; margin-top:-23px;">
+                                <a data-toggle="modal" data-target="#mesajBetaModal" style="cursor:pointer;">
+                                    <img width="50" src="/Content/Images/Site/versiunebeta.png" alt="Versiune Beta 2.0" />
+                                </a>
+                            </div>-->
+                            <hr />
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="menu_wrapper navbar navbar-inverse" role="navigation" id="slide-nav">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <a id="btnNavbar" class="navbar-toggle">
+                                    <span class="sr-only">Meniu</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </a>
+
+                            </div>
+                            <div id="slidemenu" style="cursor:pointer;">
+                                <div id="menu" onclick="pozitioneaza('')">
+                                    <a style=" cursor:pointer;" onclick="pozitioneaza('')">
+                                        <h3>Meniu</h3>
+                                    </a>
+                                    <ul></ul>
+                                    <ul class="mainmenu">
+ 
+        <li>
+            <a href="/Public/Acasa" class="main_link">
+
+                Acasă
+
+            </a>
+        </li>
+        <li>
+            <a href="/Public/NLEX" class="main_link">
+
+                Despre Proiect
+
+            </a>
+        </li>
+        <li>
+            <a href="/Public/Functionalitati" class="main_link">
+
+                Facilități Oferite 
+
+            </a>
+        </li>
+        <li>
+            <a href="/Public/LegaturiUtile" class="main_link">
+
+                Legături Utile
+
+            </a>
+        </li>
+<li>
+	<a href="https://www.just.ro/informatii-de-interes-public/protectia-datelor-cu-caracter-personal/" class="main_link" target="_blank" title="Protecţia datelor cu caracter personal">GDPR</a>
+</li>
+
+             
+                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </header>
+            <div class="meniunu">
+                <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
+                    <h3 style="padding-left:65px; margin-top:-5px;">Meniu</h3>
+                    <div id="meniutitlu"></div>
+                    <div id="meniupaginastart">
+ 
+        <li>
+            <a href="/Public/Acasa" class="main_link">
+
+                Acasă
+
+            </a>
+        </li>
+        <li>
+            <a href="/Public/NLEX" class="main_link">
+
+                Despre Proiect
+
+            </a>
+        </li>
+        <li>
+            <a href="/Public/Functionalitati" class="main_link">
+
+                Facilități Oferite 
+
+            </a>
+        </li>
+        <li>
+            <a href="/Public/LegaturiUtile" class="main_link">
+
+                Legături Utile
+
+            </a>
+        </li>
+<li>
+	<a href="https://www.just.ro/informatii-de-interes-public/protectia-datelor-cu-caracter-personal/" class="main_link" target="_blank" title="Protecţia datelor cu caracter personal">GDPR</a>
+</li>
+
+              <br />
+                        Prin portalul N-Lex se acorda acces gratuit la legislatiile nationale ale statelor membre, portalul fiind
+                        conceput pe baza unei tehnologii de comunicare interne, ce permite accesarea directa a bazelor de date legislative nationale,
+                        rezultatele cautarilor venind direct de la sursa.
+                    </div>
+                    <script>
+                        if (window.location.href.indexOf('DetaliiDocument') != -1) {
+                            $('#meniupaginastart').hide();
+                        }
+                        else {
+                            $('#meniupaginastart').show();
+                        }
+                    </script>
+                </nav>
+            </div>
+        </div>
+ 
+        <div id="page_content" style="margin-top:-15px;">
+            <div id="page_wrapper">
+                <div class="articole_wrapper">
+                    
+
+
+<style>
+    #masterwrapper, #page_content, #page_wrapper {
+        background-color: white;
+        background: white;
+    }
+
+    #document_info {
+        font-size: 15px;
+    }
+
+    #fisaact {
+        font-size: 14px;
+    }
+
+    .seincarca {
+        position: fixed;
+        z-index: 1100;
+        left: 45%;
+        /*	margin-top: -500px;*/
+        top: 45%;
+        height: 100px;
+        background-color: #ffffff;
+        -moz-box-shadow: 5px 5px 5px #400;
+        -webkit-box-shadow: 5px 5px 5px #400;
+        box-shadow: 5px 5px 5px #400;
+        border: 1px solid #dadada;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -khtml-border-radius: 15px;
+        border-radius: 15px;
+    }
+
+    .cbsloader {
+        background-image: url(~/../../../Content/Images/Site/bar-circle.gif);
+        background-repeat: no-repeat;
+    }
+
+    #modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('~/../../../Content/Images/Site/tint20.png') 0 0 repeat;
+        background: rgba(0,0,0,0.2);
+    }
+    #sidebar  {
+        &.affix;
+
+    {
+        top: 10px;
+        bottom: auto;
+    }
+
+    &.affix-top {
+        position: absolute;
+        top: 20px;
+    }
+
+    &.affix-bottom {
+        position: relative;
+        top: auto;
+        bottom: auto;
+    }
+
+    }
+
+</style>
+ <script>
+
+     function imgSIZE() {
+         $("#infoactinfoact img").one("load", function() {
+             try {
+                 var theImage = new Image();
+                 theImage.src = $(this).attr("src");
+                 var imgW = theImage.width;
+                 var imgH = theImage.height;
+                 // console.log($(this).attr("src") + "   - " + imgW + ", " + imgH);
+
+                 
+                 $(this).css("max-width", "100%");
+                 $(this).css("width", imgW+"px");
+                 
+             }
+             catch(e) {
+                 // console.log("horror> "+e);
+             }
+         });
+     }
+
+ </script>
+
+<div class="container bs-docs-container"  data-target="#sidebar">
+
+    <div class="row" id="textdocumentleg">
+        <div class="col-md-3" id="meniu">
+            <div class="bs-docs-sidebar affix-top meniuaffix" id="sidebar">
+                <div class="articole_wrapper">
+                    <div class="h1_articole">
+                        <h1>Cuprins</h1>
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+                <div id="loaderDiv" class="seincarca" style="display: none; text-align: center; width: auto !important; height: auto !important; padding: 40px;">
+                    <div id="modal"></div>
+                    <progress max="100">
+                        <div class="cbsloader">
+                            <div style="color:#333; margin-top:-40px; margin-left:130px;">
+                            </div>
+                            <br>
+                            <div style="color:#333; margin-left:49px; margin-top:-5px;">
+                                <b>Se încarcă, vă rugăm asteptati.</b><br><br>
+                            </div>
+                        </div>
+                    </progress>
+                </div>
+                <div class="details_navigation">
+
+                    <input type="hidden" id="id_act" name="id_act" value="254145" />
+                    <div class="nav_header expanded" data-target="FormeAct" style="margin-left:-10px; font-weight: bold !important;">
+                            <span class="trigger plus">+</span>
+                             <b><span>Forme act</span></b>
+                    </div>
+                    <div class="nav_content expanded" data-target="FormeAct" style="margin-left: -10px;">
+                            <div class="forme_act">
+<input checked="checked" id="Formaconsolidata" name="FormeAct" onchange="SchimbareFormaAct();" type="radio" value="1" /><label for="Formaconsolidata">Forma consolidata</label>                                        <div class="forme_act_chk">
+                                            
+                                            
+                                        </div>
+                                            <div>
+                                                <div id="label_forme_actz" onclick="toggle_istoric_forme_actz()" style="cursor: pointer; margin-left: -5px; margin-top: 5px;">&nbsp;&nbsp;&nbsp;+&nbsp;istoric consolidări</div>
+                                                <div id="istoric_fa" class="nav_content expanded" style="display: none; margin-left: -8px;">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title='Consolidarea din 28.05.2022' style='color:red;text-decoration:none;cursor:default'>28.05.2022</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title='Consolidarea din 13.06.2014' style='color:#428BCA' href='~/../../../Public/DetaliiDocument/158981'>13.06.2014</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title='Consolidarea din 01.07.2013' style='color:#428BCA' href='~/../../../Public/DetaliiDocument/145121'>01.07.2013</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title='Consolidarea din 01.07.2013' style='color:#428BCA' href='~/../../../Public/DetaliiDocument/149436'>01.07.2013</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title='Consolidarea din 15.02.2013' style='color:#428BCA' href='~/../../../Public/DetaliiDocument/145120'>15.02.2013</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title='Consolidarea din 31.01.2013' style='color:#428BCA' href='~/../../../Public/DetaliiDocument/145119'>31.01.2013</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title='Republicarea din 03.08.2012' style='color:#428BCA' href='~/../../../Public/DetaliiDocument/140214?isFormaDeBaza=True'>Republicarea 3</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title='Consolidarea din 22.07.2010' style='color:#428BCA' href='~/../../../Public/DetaliiDocument/120849'>22.07.2010</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title='Republicarea din 18.04.2008' style='color:#428BCA' href='~/../../../Public/DetaliiDocument/91502?isFormaDeBaza=True'>Republicarea 2</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title='Consolidarea din 31.12.2007' style='color:#428BCA' href='~/../../../Public/DetaliiDocument/88485'>31.12.2007</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title='Republicarea din 20.12.2006' style='color:#428BCA' href='~/../../../Public/DetaliiDocument/77879?isFormaDeBaza=True'>Republicarea 1</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a title='Consolidarea din 15.12.2003' style='color:#428BCA' href='~/../../../Public/DetaliiDocument/48642'>15.12.2003</a><br/>
+                                                </div>
+                                            </div>
+                                <!--
+                                -->
+                            </div>
+                            <div class="forme_act">
+                                <!--
+<input id="Formerepublicate" name="FormeAct" onchange="SchimbareFormaAct();" type="radio" value="2" /><label for="Formerepublicate">Forme republicate</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style='color:#428BCA' href='~/../../../Public/DetaliiDocument/140214'>Republicarea 3</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style='color:#428BCA' href='~/../../../Public/DetaliiDocument/91502'>Republicarea 2</a><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style='color:#428BCA' href='~/../../../Public/DetaliiDocument/77879'>Republicarea 1</a><br/>                                -->
+                            </div>
+                            <div class="forme_act">
+                                <!--
+                                -->
+<input id="Formadebaza" name="FormeAct" onchange="incarcaFormaDeBaza(24922);" type="radio" value="3" /><label for="Formadebaza">Forma de baza</label>                            </div>
+                    </div>
+
+                    <div id="label_fisaact" class="nav_header" onclick="toggle_fisaact()" style="margin-left:-10px !important; margin-top:10px;">
+                        <span id="label_fisaact_plus_minus" style="cursor:pointer">+</span>
+                        <span style="cursor: pointer; font-weight: bold; color: #3c3636; ">Fișă act</span>
+                    </div>
+
+                    <div id="content_fisaact" class="nav_content" style="display: none;">
+                            <div class="fisa_Act">
+                                <input class="fisa_act_chk" datavalue="1" id="Actiunisuferite" name="Actiunisuferite" onchange="ArataFisaAct(this);" type="checkbox" value="true" /><input name="Actiunisuferite" type="hidden" value="false" />
+                                <label for="Actiunisuferite">Actiuni suferite</label>
+                            </div>
+                            <div class="fisa_Act">
+                                <input class="fisa_act_chk" datavalue="2" id="ActiuniInduse" name="ActiuniInduse" onchange="ArataFisaAct(this);" type="checkbox" value="true" /><input name="ActiuniInduse" type="hidden" value="false" />
+                                <label for="ActiuniInduse">Actiuni Induse</label>
+                            </div>
+                            <div class="fisa_Act">
+                                <input class="fisa_act_chk" datavalue="3" id="Referape" name="Referape" onchange="ArataFisaAct(this);" type="checkbox" value="true" /><input name="Referape" type="hidden" value="false" />
+                                <label for="Referape">Refera pe</label>
+                            </div>
+                            <div class="fisa_Act">
+                                <input class="fisa_act_chk" datavalue="4" id="Referitde" name="Referitde" onchange="ArataFisaAct(this);" type="checkbox" value="true" /><input name="Referitde" type="hidden" value="false" />
+                                <label for="Referitde">Referit de</label>
+                            </div>
+                    </div>
+
+                </div>
+                <p style="padding-top: 10px; font-variant: small-caps; border-bottom: 3px solid #BB3A3A; color: #112F5D; font-size: 18px; font-family: EB Garamond !important; ">Cuprinsul Actului</p>
+                <ul class="nav bs-docs-sidenav" style=" margin-top:5px;">
+
+                    privind clauzele abuzive din contractele încheiate între profesioniști și consumatori<li><a href="#id_capA24_ttl" onclick="&#xA;        pozitioneaza('id_capA24_ttl')&#xA;      ">Capitolul I</a><ul class="nav submeniu"><li><a href="#id_artA27_ttl" onclick="&#xA;        pozitioneaza('id_artA27_ttl')&#xA;      ">Articolul 1</a></li><li><a href="#id_artA32_ttl" onclick="&#xA;        pozitioneaza('id_artA32_ttl')&#xA;      ">Articolul 2</a></li><li><a href="#id_artA36_ttl" onclick="&#xA;        pozitioneaza('id_artA36_ttl')&#xA;      ">Articolul 3</a></li></ul></li><li><a href="#id_capA40_ttl" onclick="&#xA;        pozitioneaza('id_capA40_ttl')&#xA;      ">Capitolul II</a><ul class="nav submeniu"><li><a href="#id_artA43_ttl" onclick="&#xA;        pozitioneaza('id_artA43_ttl')&#xA;      ">Articolul 4</a></li><li><a href="#id_artA62_ttl" onclick="&#xA;        pozitioneaza('id_artA62_ttl')&#xA;      ">Articolul 5</a></li><li><a href="#id_artA65_ttl" onclick="&#xA;        pozitioneaza('id_artA65_ttl')&#xA;      ">Articolul 6</a></li><li><a href="#id_artA68_ttl" onclick="&#xA;        pozitioneaza('id_artA68_ttl')&#xA;      ">Articolul 7</a></li></ul></li><li><a href="#id_capA71_ttl" onclick="&#xA;        pozitioneaza('id_capA71_ttl')&#xA;      ">Capitolul III</a><ul class="nav submeniu"><li><a href="#id_artA74_ttl" onclick="&#xA;        pozitioneaza('id_artA74_ttl')&#xA;      ">Articolul 8</a></li><li><a href="#id_artA77_ttl" onclick="&#xA;        pozitioneaza('id_artA77_ttl')&#xA;      ">Articolul 9</a></li><li><a href="#id_artA80_ttl" onclick="&#xA;        pozitioneaza('id_artA80_ttl')&#xA;      ">Articolul 10</a></li><li><a href="#id_artA83_ttl" onclick="&#xA;        pozitioneaza('id_artA83_ttl')&#xA;      ">Articolul 11</a></li><li><a href="#id_artA86_ttl" onclick="&#xA;        pozitioneaza('id_artA86_ttl')&#xA;      ">Articolul 12</a></li><li><a href="#id_artA114_ttl" onclick="&#xA;        pozitioneaza('id_artA114_ttl')&#xA;      ">Articolul 13</a></li><li><a href="#id_artA35442410_ttl" onclick="&#xA;        pozitioneaza('id_artA35442410_ttl')&#xA;      ">Articolul 13^1</a></li><li><a href="#id_artA148_ttl" onclick="&#xA;        pozitioneaza('id_artA148_ttl')&#xA;      ">Articolul 14</a></li><li><a href="#id_artA151_ttl" onclick="&#xA;        pozitioneaza('id_artA151_ttl')&#xA;      ">Articolul 15</a></li></ul></li><li><a href="#id_capA154_ttl" onclick="&#xA;        pozitioneaza('id_capA154_ttl')&#xA;      ">Capitolul IV</a><ul class="nav submeniu"><li><a href="#id_artA99030381_ttl" onclick="&#xA;        pozitioneaza('id_artA99030381_ttl')&#xA;      ">Articolul 16</a></li></ul></li><li><a href="#id_capA161_ttl" onclick="&#xA;        pozitioneaza('id_capA161_ttl')&#xA;      ">Capitolul V</a><ul class="nav submeniu"><li><a href="#id_artA164_ttl" onclick="&#xA;        pozitioneaza('id_artA164_ttl')&#xA;      ">Articolul 17</a></li><li><a href="#id_artA167_ttl" onclick="&#xA;        pozitioneaza('id_artA167_ttl')&#xA;      ">Articolul 17^1</a></li></ul></li><li><a href="#id_anxA173_ttl" onclick="&#xA;        pozitioneaza('id_anxA173_ttl')&#xA;      ">Anexă</a></li>
+
+                </ul>
+                <a class="back-to-top" onclick="pozitioneaza('')" href="#top">
+                    Reveniti in topul paginii
+                </a>
+                <div style="text-align:center;">
+                    
+
+                    <a target="_blank" class="btn btn-primary btn-xs" href=/Public/FormaPrintabila/00000G2P18NA0ONSFCA0B7N02RW5UP6E>
+                        <span class="glyphicon glyphicon-print"></span> Forma printabilă
+                    </a>
+                </div>
+                <div class="articole_wrapper">
+                    <div class="h1_articole">
+
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+
+
+
+        <div class="col-md-8" role="main" id="infoactinfoact">
+            <div class="bs-docs-section">
+                <div class="main_details">
+                    
+                    <div class="document_info" id="document_info">
+                        <div id="forme_act_container" data-id="FormeAct" data-state="loaded">
+                                    <div id="div_Formaconsolidata" class="content_forma_act" data-state="loaded">
+                                        
+                                        <span class="S_DEN">LEGE nr. 193 din 6 noiembrie 2000 (**republicată**)</span><span class="S_HDR">privind clauzele abuzive din contractele încheiate între profesioniști și consumatori</span><table cellspacing="0px" cellpadding="0px" class="S_EMT"><tr valign="baseline"><td width="75px"><span class="S_EMT_TTL">EMITENT</span></td><td><span class="S_EMT_BDY"><li>PARLAMENTUL</li></span></td></tr></table><span class="S_PUB"><span class="S_PUB_TTL">Publicat în 
+			</span><span class="S_PUB_BDY">MONITORUL OFICIAL nr. 543 din 3 august 2012</span></span><span id="fisaact"><span style='display:none;height:180px;overflow:auto;border:1px solid;' id='actiuni_suferite'></span><br/><span style='display:none;border:1px solid;height:180px;overflow:auto' id='actiuni_induse'></span><br/><span style='display:none;height:180px;overflow:auto;border:1px solid;' id='refera_pe'></span><br/><span style='display:none;height:180px;overflow:auto;border:1px solid;' id='referit_de'></span><br/><!----></span><span class="S_PAR" style="display: block; color:black;" id="id_parA16">**) Republicată în temeiul prevederilor <A href="~/../../../Public/DetaliiDocumentAfis/138484#A2184">art. 80 din Legea nr. 76/2012</A> pentru punerea în aplicare a <A href="~/../../../Public/DetaliiDocumentAfis/120650">Legii nr. 134/2010</A> privind Codul de procedură civilă, publicată în Monitorul Oficial al Românei, Partea I, nr. 365 din 30 mai 2012, dându-se textelor o nouă numerotare.<!----></span><span class="S_PAR" style="display: block; color:black;" id="id_parA17"><A href="~/../../../Public/DetaliiDocumentAfis/140214">Legea nr. 193/2000</A> privind clauzele abuzive din contractele încheiate între profesioniști și consumatori a fost republicată în Monitorul Oficial al Românei, Partea I, nr. 305 din 18 aprilie 2008, iar ulterior a fost modificată prin <A href="~/../../../Public/DetaliiDocumentAfis/120707">Legea nr. 161/2010</A> pentru modificarea <A href="~/../../../Public/DetaliiDocumentAfis/90596#A279">art. 84 din Legea nr. 296/2004</A> privind Codul consumului și a <A href="~/../../../Public/DetaliiDocumentAfis/24922">Legii nr. 193/2000</A> privind clauzele abuzive din contractele încheiate între comercianți și consumatori, publicată în Monitorul Oficial al Românei, Partea I, nr. 497 din 19 iulie 2010.<!----></span><span class="S_CAP" style="display: block; color:black;" id="id_capA24" name="id_capA24"><span class="TAG_COLLAPSED" id="id_cllpsdA24" onMouseOver="marcheaza(id_cllpsdA24,id_capA24)" onMouseOut="demarcheaza(id_cllpsdA24,id_capA24)" onMouseDown="plusMinus(id_capA24_bdy,id_cllpsdA24)">
+				 + 
+			</span><span class="S_CAP_TTL" id="id_capA24_ttl" onMouseOver="marcheaza(id_capA24_ttl,id_capA24)" onMouseOut="demarcheaza(id_capA24_ttl,id_capA24)" onMouseDown="plusMinus(id_capA24_bdy,id_cllpsdA24)">Capitolul I</span><span class="S_CAP_DEN"> Dispoziții generale<!----></span><span class="S_CAP_BDY" id="id_capA24_bdy"><span class="S_ART" style="display: block; color:black;" id="id_artA27" name="id_artA27"><span class="TAG_COLLAPSED" id="id_cllpsdA27" onMouseOver="marcheaza(id_cllpsdA27,id_artA27)" onMouseOut="demarcheaza(id_cllpsdA27,id_artA27)" onMouseDown="plusMinus(id_artA27_bdy,id_cllpsdA27)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA27_ttl" onMouseOver="marcheaza(id_artA27_ttl,id_artA27)" onMouseOut="demarcheaza(id_artA27_ttl,id_artA27)" onMouseDown="plusMinus(id_artA27_bdy,id_cllpsdA27)">Articolul 1</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA27_bdy"><span class="S_ALN" style="display: block; color:black;" id="id_litA29"><span class="S_ALN_TTL" id="id_litA29_ttl" onMouseOver="marcheaza(id_litA29_ttl,id_litA29)" onMouseOut="demarcheaza(id_litA29_ttl,id_litA29)" onMouseDown="plusMinus(id_litA29_short,id_litA29_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA29_bdy">Orice contract încheiat între profesioniști și consumatori pentru vânzarea de bunuri sau prestarea de servicii va cuprinde clauze contractuale clare, fără echivoc, pentru înțelegerea cărora nu sunt necesare cunoștințe de specialitate.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA30"><span class="S_ALN_TTL" id="id_litA30_ttl" onMouseOver="marcheaza(id_litA30_ttl,id_litA30)" onMouseOut="demarcheaza(id_litA30_ttl,id_litA30)" onMouseDown="plusMinus(id_litA30_short,id_litA30_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA30_bdy">În caz de dubiu asupra interpretării unor clauze contractuale, acestea vor fi interpretate în favoarea consumatorului.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA31"><span class="S_ALN_TTL" id="id_litA31_ttl" onMouseOver="marcheaza(id_litA31_ttl,id_litA31)" onMouseOut="demarcheaza(id_litA31_ttl,id_litA31)" onMouseDown="plusMinus(id_litA31_short,id_litA31_bdy)">(3)<!----></span> <span class="S_ALN_BDY" id="id_litA31_bdy">Se interzice profesioniștilor stipularea de clauze abuzive în contractele încheiate cu consumatorii.</span></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA32" name="id_artA32"><span class="TAG_COLLAPSED" id="id_cllpsdA32" onMouseOver="marcheaza(id_cllpsdA32,id_artA32)" onMouseOut="demarcheaza(id_cllpsdA32,id_artA32)" onMouseDown="plusMinus(id_artA32_bdy,id_cllpsdA32)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA32_ttl" onMouseOver="marcheaza(id_artA32_ttl,id_artA32)" onMouseOut="demarcheaza(id_artA32_ttl,id_artA32)" onMouseDown="plusMinus(id_artA32_bdy,id_cllpsdA32)">Articolul 2</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA32_bdy"><span class="S_ALN" style="display: block; color:black;" id="id_litA34"><span class="S_ALN_TTL" id="id_litA34_ttl" onMouseOver="marcheaza(id_litA34_ttl,id_litA34)" onMouseOut="demarcheaza(id_litA34_ttl,id_litA34)" onMouseDown="plusMinus(id_litA34_short,id_litA34_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA34_bdy">Prin consumator se înțelege orice persoană fizică sau grup de persoane fizice constituite în asociații, care, în temeiul unui contract care intră sub incidența prezentei legi, acționează în scopuri din afara activității sale comerciale, industriale sau de producție, artizanale ori liberale.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA35"><span class="S_ALN_TTL" id="id_litA35_ttl" onMouseOver="marcheaza(id_litA35_ttl,id_litA35)" onMouseOut="demarcheaza(id_litA35_ttl,id_litA35)" onMouseDown="plusMinus(id_litA35_short,id_litA35_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA35_bdy">Prin profesionist se înțelege orice persoană fizică sau juridică autorizată, care, în temeiul unui contract care intră sub incidența prezentei legi, acționează în cadrul activității sale comerciale, industriale sau de producție, artizanale ori liberale, precum și orice persoană care acționează în același scop în numele sau pe seama acesteia.</span></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA36" name="id_artA36"><span class="TAG_COLLAPSED" id="id_cllpsdA36" onMouseOver="marcheaza(id_cllpsdA36,id_artA36)" onMouseOut="demarcheaza(id_cllpsdA36,id_artA36)" onMouseDown="plusMinus(id_artA36_bdy,id_cllpsdA36)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA36_ttl" onMouseOver="marcheaza(id_artA36_ttl,id_artA36)" onMouseOut="demarcheaza(id_artA36_ttl,id_artA36)" onMouseDown="plusMinus(id_artA36_bdy,id_cllpsdA36)">Articolul 3</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA36_bdy"><span class="S_ALN" style="display: block; color:black;" id="id_litA38"><span class="S_ALN_TTL" id="id_litA38_ttl" onMouseOver="marcheaza(id_litA38_ttl,id_litA38)" onMouseOut="demarcheaza(id_litA38_ttl,id_litA38)" onMouseDown="plusMinus(id_litA38_short,id_litA38_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA38_bdy">Prevederile prezentei legi se aplică și bonurilor de comandă sau bonurilor de livrare, biletelor, tichetelor și altora asemenea care conțin stipulări sau referiri la condiții generale prestabilite.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA39"><span class="S_ALN_TTL" id="id_litA39_ttl" onMouseOver="marcheaza(id_litA39_ttl,id_litA39)" onMouseOut="demarcheaza(id_litA39_ttl,id_litA39)" onMouseDown="plusMinus(id_litA39_short,id_litA39_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA39_bdy">Clauzele contractuale prevăzute în temeiul altor acte normative în vigoare nu sunt supuse dispozițiilor prezentei legi.</span></span></span></span></span></span><span class="S_CAP" style="display: block; color:black;" id="id_capA40" name="id_capA40"><span class="TAG_COLLAPSED" id="id_cllpsdA40" onMouseOver="marcheaza(id_cllpsdA40,id_capA40)" onMouseOut="demarcheaza(id_cllpsdA40,id_capA40)" onMouseDown="plusMinus(id_capA40_bdy,id_cllpsdA40)">
+				 + 
+			</span><span class="S_CAP_TTL" id="id_capA40_ttl" onMouseOver="marcheaza(id_capA40_ttl,id_capA40)" onMouseOut="demarcheaza(id_capA40_ttl,id_capA40)" onMouseDown="plusMinus(id_capA40_bdy,id_cllpsdA40)">Capitolul II</span><span class="S_CAP_DEN"> Drepturile și obligațiile părților contractante<!----></span><span class="S_CAP_BDY" id="id_capA40_bdy"><span class="S_ART" style="display: block; color:black;" id="id_artA43" name="id_artA43"><span class="TAG_COLLAPSED" id="id_cllpsdA43" onMouseOver="marcheaza(id_cllpsdA43,id_artA43)" onMouseOut="demarcheaza(id_cllpsdA43,id_artA43)" onMouseDown="plusMinus(id_artA43_bdy,id_cllpsdA43)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA43_ttl" onMouseOver="marcheaza(id_artA43_ttl,id_artA43)" onMouseOut="demarcheaza(id_artA43_ttl,id_artA43)" onMouseDown="plusMinus(id_artA43_bdy,id_cllpsdA43)">Articolul 4</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA43_bdy"><span class="S_ALN" style="display: block; color:black;" id="id_litA45"><span class="S_ALN_TTL" id="id_litA45_ttl" onMouseOver="marcheaza(id_litA45_ttl,id_litA45)" onMouseOut="demarcheaza(id_litA45_ttl,id_litA45)" onMouseDown="plusMinus(id_litA45_short,id_litA45_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA45_bdy">O clauză contractuală care nu a fost negociată direct cu consumatorul va fi considerată abuzivă dacă, prin ea însăși sau împreună cu alte prevederi din contract, creează, în detrimentul consumatorului și contrar cerințelor bunei-credințe, un dezechilibru semnificativ între drepturile și obligațiile părților.</span></span><span class="S_ALN" style="display: block; color:blue;" id="id_litA47"><span class="S_ALN_TTL" id="id_litA47_ttl" onMouseOver="marcheaza(id_litA47_ttl,id_litA47)" onMouseOut="demarcheaza(id_litA47_ttl,id_litA47)" onMouseDown="plusMinus(id_litA47_short,id_litA47_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA47_bdy">O clauză contractuală va fi considerată ca nefiind negociată direct cu consumatorul dacă aceasta a fost stabilită fără a da posibilitate consumatorului să influențeze natura ei, cum ar fi contractele standard preformulate sau condițiile generale de vânzare practicate de profesioniști*) pe piața produsului sau serviciului respectiv.<span class="S_PAR" style="display: block; color:blue;white-space:normal;line-height:100%;" id="id_parA215">
+			(la 02-06-2012, 
+			Alin. (2) al art. 4 a fost modificat de <A href="~/../../../Public/DetaliiDocumentAfis/138484">pct. 3 al art. 38 din LEGEA nr. 76 din 24 mai 2012, publicată în MONITORUL OFICIAL nr. 365 din 30 mai 2012, prin înlocuirea termenului "comerciant" cu termenul "profesionist".</A>
+			)
+	</span></span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA55"><span class="S_ALN_TTL" id="id_litA55_ttl" onMouseOver="marcheaza(id_litA55_ttl,id_litA55)" onMouseOut="demarcheaza(id_litA55_ttl,id_litA55)" onMouseDown="plusMinus(id_litA55_short,id_litA55_bdy)">(3)<!----></span> <span class="S_ALN_BDY" id="id_litA55_bdy">Faptul că anumite aspecte ale clauzelor contractuale sau numai una dintre clauze a fost negociată direct cu consumatorul nu exclude aplicarea prevederilor prezentei legi pentru restul contractului, în cazul în care o evaluare globală a contractului evidențiază că acesta a fost prestabilit unilateral de profesionist. Dacă un profesionist pretinde că o clauză standard preformulată a fost negociată direct cu consumatorul, este de datoria lui să prezinte probe în acest sens.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA56"><span class="S_ALN_TTL" id="id_litA56_ttl" onMouseOver="marcheaza(id_litA56_ttl,id_litA56)" onMouseOut="demarcheaza(id_litA56_ttl,id_litA56)" onMouseDown="plusMinus(id_litA56_short,id_litA56_bdy)">(4)<!----></span> <span class="S_ALN_BDY" id="id_litA56_bdy">Lista cuprinsă în anexa care face parte integrantă din prezenta lege redă, cu titlu de exemplu, clauzele considerate ca fiind abuzive.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA57"><span class="S_ALN_TTL" id="id_litA57_ttl" onMouseOver="marcheaza(id_litA57_ttl,id_litA57)" onMouseOut="demarcheaza(id_litA57_ttl,id_litA57)" onMouseDown="plusMinus(id_litA57_short,id_litA57_bdy)">(5)<!----></span> <span class="S_ALN_BDY" id="id_litA57_bdy">Fără a încălca prevederile prezentei legi, natura abuzivă a unei clauze contractuale se evaluează în funcție de:<span class="S_LIT" style="display: block; color:black;" id="id_litA58"><span class="S_LIT_TTL" id="id_litA58_ttl" onMouseOver="marcheaza(id_litA58_ttl,id_litA58)" onMouseOut="demarcheaza(id_litA58_ttl,id_litA58)" onMouseDown="plusMinus(id_litA58_short,id_litA58_bdy)">a)<!----></span> <span class="S_LIT_BDY" id="id_litA58_bdy">natura produselor sau a serviciilor care fac obiectul contractului la momentul încheierii acestuia;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA58_short" onMouseOver="marcheaza(id_litA58_short,id_litA58)" onMouseOut="demarcheaza(id_litA58_short,id_litA58)" onMouseDown="plusMinus(id_litA58_short,id_litA58_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA59"><span class="S_LIT_TTL" id="id_litA59_ttl" onMouseOver="marcheaza(id_litA59_ttl,id_litA59)" onMouseOut="demarcheaza(id_litA59_ttl,id_litA59)" onMouseDown="plusMinus(id_litA59_short,id_litA59_bdy)">b)<!----></span> <span class="S_LIT_BDY" id="id_litA59_bdy">toți factorii care au determinat încheierea contractului;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA59_short" onMouseOver="marcheaza(id_litA59_short,id_litA59)" onMouseOut="demarcheaza(id_litA59_short,id_litA59)" onMouseDown="plusMinus(id_litA59_short,id_litA59_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA60"><span class="S_LIT_TTL" id="id_litA60_ttl" onMouseOver="marcheaza(id_litA60_ttl,id_litA60)" onMouseOut="demarcheaza(id_litA60_ttl,id_litA60)" onMouseDown="plusMinus(id_litA60_short,id_litA60_bdy)">c)<!----></span> <span class="S_LIT_BDY" id="id_litA60_bdy">alte clauze ale contractului sau ale altor contracte de care acesta depinde.</span><span style="display: none" class="S_LIT_SHORT" id="id_litA60_short" onMouseOver="marcheaza(id_litA60_short,id_litA60)" onMouseOut="demarcheaza(id_litA60_short,id_litA60)" onMouseDown="plusMinus(id_litA60_short,id_litA60_bdy)"> ... </span></span></span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA61"><span class="S_ALN_TTL" id="id_litA61_ttl" onMouseOver="marcheaza(id_litA61_ttl,id_litA61)" onMouseOut="demarcheaza(id_litA61_ttl,id_litA61)" onMouseDown="plusMinus(id_litA61_short,id_litA61_bdy)">(6)<!----></span> <span class="S_ALN_BDY" id="id_litA61_bdy">Evaluarea naturii abuzive a clauzelor nu se asociază nici cu definirea obiectului principal al contractului, nici cu calitatea de a satisface cerințele de preț și de plată, pe de o parte, nici cu produsele și serviciile oferite în schimb, pe de altă parte, în măsura în care aceste clauze sunt exprimate într-un limbaj ușor inteligibil.</span></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA62" name="id_artA62"><span class="TAG_COLLAPSED" id="id_cllpsdA62" onMouseOver="marcheaza(id_cllpsdA62,id_artA62)" onMouseOut="demarcheaza(id_cllpsdA62,id_artA62)" onMouseDown="plusMinus(id_artA62_bdy,id_cllpsdA62)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA62_ttl" onMouseOver="marcheaza(id_artA62_ttl,id_artA62)" onMouseOut="demarcheaza(id_artA62_ttl,id_artA62)" onMouseDown="plusMinus(id_artA62_bdy,id_cllpsdA62)">Articolul 5</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA62_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA64">În cazul contractelor standard preformulate, profesionistul are obligația să remită, la cerere, oricărei persoane interesate un exemplar din contractul pe care îl propune.<!----></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA65" name="id_artA65"><span class="TAG_COLLAPSED" id="id_cllpsdA65" onMouseOver="marcheaza(id_cllpsdA65,id_artA65)" onMouseOut="demarcheaza(id_cllpsdA65,id_artA65)" onMouseDown="plusMinus(id_artA65_bdy,id_cllpsdA65)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA65_ttl" onMouseOver="marcheaza(id_artA65_ttl,id_artA65)" onMouseOut="demarcheaza(id_artA65_ttl,id_artA65)" onMouseDown="plusMinus(id_artA65_bdy,id_cllpsdA65)">Articolul 6</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA65_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA67">Clauzele abuzive cuprinse în contract și constatate fie personal, fie prin intermediul organelor abilitate prin lege nu vor produce efecte asupra consumatorului, iar contractul se va derula în continuare, cu acordul consumatorului, numai dacă după eliminarea acestora mai poate continua.<!----></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA68" name="id_artA68"><span class="TAG_COLLAPSED" id="id_cllpsdA68" onMouseOver="marcheaza(id_cllpsdA68,id_artA68)" onMouseOut="demarcheaza(id_cllpsdA68,id_artA68)" onMouseDown="plusMinus(id_artA68_bdy,id_cllpsdA68)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA68_ttl" onMouseOver="marcheaza(id_artA68_ttl,id_artA68)" onMouseOut="demarcheaza(id_artA68_ttl,id_artA68)" onMouseDown="plusMinus(id_artA68_bdy,id_cllpsdA68)">Articolul 7</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA68_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA70">În măsura în care contractul nu își mai poate produce efectele după înlăturarea clauzelor considerate abuzive, consumatorul este îndreptățit să ceară rezilierea contractului, putând solicita, după caz, și daune-interese.<!----></span></span></span></span></span><span class="S_CAP" style="display: block; color:black;" id="id_capA71" name="id_capA71"><span class="TAG_COLLAPSED" id="id_cllpsdA71" onMouseOver="marcheaza(id_cllpsdA71,id_capA71)" onMouseOut="demarcheaza(id_cllpsdA71,id_capA71)" onMouseDown="plusMinus(id_capA71_bdy,id_cllpsdA71)">
+				 + 
+			</span><span class="S_CAP_TTL" id="id_capA71_ttl" onMouseOver="marcheaza(id_capA71_ttl,id_capA71)" onMouseOut="demarcheaza(id_capA71_ttl,id_capA71)" onMouseDown="plusMinus(id_capA71_bdy,id_cllpsdA71)">Capitolul III</span><span class="S_CAP_DEN"> Organele abilitate pentru constatarea contravențiilor și soluționarea litigiilor<!----></span><span class="S_CAP_BDY" id="id_capA71_bdy"><span class="S_ART" style="display: block; color:black;" id="id_artA74" name="id_artA74"><span class="TAG_COLLAPSED" id="id_cllpsdA74" onMouseOver="marcheaza(id_cllpsdA74,id_artA74)" onMouseOut="demarcheaza(id_cllpsdA74,id_artA74)" onMouseDown="plusMinus(id_artA74_bdy,id_cllpsdA74)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA74_ttl" onMouseOver="marcheaza(id_artA74_ttl,id_artA74)" onMouseOut="demarcheaza(id_artA74_ttl,id_artA74)" onMouseDown="plusMinus(id_artA74_bdy,id_cllpsdA74)">Articolul 8</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA74_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA76">Controlul respectării dispozițiilor prezentei legi se face de reprezentanții împuterniciți ai Autorității Naționale pentru Protecția Consumatorilor, precum și de specialiști autorizați ai altor organe ale administrației publice, potrivit competențelor.<!----></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA77" name="id_artA77"><span class="TAG_COLLAPSED" id="id_cllpsdA77" onMouseOver="marcheaza(id_cllpsdA77,id_artA77)" onMouseOut="demarcheaza(id_cllpsdA77,id_artA77)" onMouseDown="plusMinus(id_artA77_bdy,id_cllpsdA77)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA77_ttl" onMouseOver="marcheaza(id_artA77_ttl,id_artA77)" onMouseOut="demarcheaza(id_artA77_ttl,id_artA77)" onMouseDown="plusMinus(id_artA77_bdy,id_cllpsdA77)">Articolul 9</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA77_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA79">Organele de control efectuează verificări la sesizarea persoanelor prejudiciate prevăzute la <span class="S_LGI">art. 2 alin. (1)</span> sau din oficiu.<!----></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA80" name="id_artA80"><span class="TAG_COLLAPSED" id="id_cllpsdA80" onMouseOver="marcheaza(id_cllpsdA80,id_artA80)" onMouseOut="demarcheaza(id_cllpsdA80,id_artA80)" onMouseDown="plusMinus(id_artA80_bdy,id_cllpsdA80)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA80_ttl" onMouseOver="marcheaza(id_artA80_ttl,id_artA80)" onMouseOut="demarcheaza(id_artA80_ttl,id_artA80)" onMouseDown="plusMinus(id_artA80_bdy,id_cllpsdA80)">Articolul 10</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA80_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA82">Profesioniștii au obligația de a prezenta organelor de control, în original, contractele încheiate cu consumatorii.<!----></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA83" name="id_artA83"><span class="TAG_COLLAPSED" id="id_cllpsdA83" onMouseOver="marcheaza(id_cllpsdA83,id_artA83)" onMouseOut="demarcheaza(id_cllpsdA83,id_artA83)" onMouseDown="plusMinus(id_artA83_bdy,id_cllpsdA83)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA83_ttl" onMouseOver="marcheaza(id_artA83_ttl,id_artA83)" onMouseOut="demarcheaza(id_artA83_ttl,id_artA83)" onMouseDown="plusMinus(id_artA83_bdy,id_cllpsdA83)">Articolul 11</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA83_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA85">Organele de control abilitate încheie procese-verbale prin care se consemnează faptele constatate cu ocazia verificărilor făcute, precum și articolele din lege încălcate de profesionist.<!----></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA86" name="id_artA86"><span class="TAG_COLLAPSED" id="id_cllpsdA86" onMouseOver="marcheaza(id_cllpsdA86,id_artA86)" onMouseOut="demarcheaza(id_cllpsdA86,id_artA86)" onMouseDown="plusMinus(id_artA86_bdy,id_cllpsdA86)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA86_ttl" onMouseOver="marcheaza(id_artA86_ttl,id_artA86)" onMouseOut="demarcheaza(id_artA86_ttl,id_artA86)" onMouseDown="plusMinus(id_artA86_bdy,id_cllpsdA86)">Articolul 12</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA86_bdy"><span class="S_ALN" style="display: block; color:blue;" id="id_litA80913934"><span class="S_ALN_TTL" id="id_litA80913934_ttl" onMouseOver="marcheaza(id_litA80913934_ttl,id_litA80913934)" onMouseOut="demarcheaza(id_litA80913934_ttl,id_litA80913934)" onMouseDown="plusMinus(id_litA80913934_short,id_litA80913934_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA80913934_bdy"> În cazul în care constată utilizarea unor contracte de adeziune care conțin clauze abuzive, organele de control prevăzute la <span class="S_LGI">art. 8</span> vor sesiza tribunalul de la domiciliul sau, după caz, sediul profesionistului, pentru a dispune încetarea utilizării clauzelor abuzive pentru viitor și modificarea contractelor aflate în curs de executare, prin eliminarea clauzelor abuzive.<span class="S_PAR" style="display: block; color:blue;white-space:normal;line-height:100%;" id="id_parA26333822">
+			(la 28-05-2022, 
+			Alineatul (1) din Articolul 12 , Capitolul III  a fost modificat de <A href="~/../../../Public/DetaliiDocumentAfis/254946">Punctul 1, Articolul I din ORDONANȚA DE URGENȚĂ nr. 58 din 28 aprilie 2022, publicată în MONITORUL OFICIAL nr. 456 din 06 mai 2022</A>
+			)
+	</span></span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA89"><span class="S_ALN_TTL" id="id_litA89_ttl" onMouseOver="marcheaza(id_litA89_ttl,id_litA89)" onMouseOut="demarcheaza(id_litA89_ttl,id_litA89)" onMouseDown="plusMinus(id_litA89_short,id_litA89_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA89_bdy">La cererea de chemare în judecată va fi anexat procesul-verbal întocmit potrivit <span class="S_LGI">art. 11</span>.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA90"><span class="S_ALN_TTL" id="id_litA90_ttl" onMouseOver="marcheaza(id_litA90_ttl,id_litA90)" onMouseOut="demarcheaza(id_litA90_ttl,id_litA90)" onMouseDown="plusMinus(id_litA90_short,id_litA90_bdy)">(3)<!----></span> <span class="S_ALN_BDY" id="id_litA90_bdy">Asociațiile pentru protecția consumatorului care îndeplinesc condițiile prevăzute la <A href="~/../../../Public/DetaliiDocumentAfis/80603#A183">art. 30 și 32 din Ordonanța Guvernului nr. 21/1992</A> privind protecția consumatorilor, republicată, cu modificările și completările ulterioare, îl pot chema în judecată pe profesionistul care utilizează contracte de adeziune care conțin clauze abuzive, la instanța prevăzută la <span class="S_LGI">alin. (1)</span>, pentru ca aceasta să dispună încetarea folosirii acestora, precum și modificarea contractelor aflate în curs de executare, prin eliminarea clauzelor abuzive. Dispozițiile <span class="S_LGI">art. 13 alin. (1)</span> și <span class="S_LGI">(4)</span> sunt aplicabile.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA91"><span class="S_ALN_TTL" id="id_litA91_ttl" onMouseOver="marcheaza(id_litA91_ttl,id_litA91)" onMouseOut="demarcheaza(id_litA91_ttl,id_litA91)" onMouseDown="plusMinus(id_litA91_short,id_litA91_bdy)">(4)<!----></span> <span class="S_ALN_BDY" id="id_litA91_bdy">Dispozițiile <span class="S_LGI">alin. (1)-(3)</span> nu aduc atingere dreptului consumatorului căruia i se opune un contract de adeziune ce conține clauze abuzive de a invoca nulitatea clauzei pe cale de acțiune ori pe cale de excepție, în condițiile legii.</span></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA114" name="id_artA114"><span class="TAG_COLLAPSED" id="id_cllpsdA114" onMouseOver="marcheaza(id_cllpsdA114,id_artA114)" onMouseOut="demarcheaza(id_cllpsdA114,id_artA114)" onMouseDown="plusMinus(id_artA114_bdy,id_cllpsdA114)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA114_ttl" onMouseOver="marcheaza(id_artA114_ttl,id_artA114)" onMouseOut="demarcheaza(id_artA114_ttl,id_artA114)" onMouseDown="plusMinus(id_artA114_bdy,id_cllpsdA114)">Articolul 13</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA114_bdy"><span class="S_ALN" style="display: block; color:blue;" id="id_litA3772127"><span class="S_ALN_TTL" id="id_litA3772127_ttl" onMouseOver="marcheaza(id_litA3772127_ttl,id_litA3772127)" onMouseOut="demarcheaza(id_litA3772127_ttl,id_litA3772127)" onMouseDown="plusMinus(id_litA3772127_short,id_litA3772127_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA3772127_bdy"> Instanța, în cazul în care constată existența clauzelor abuzive în contract, obligă profesionistul să modifice toate contractele de adeziune în curs de executare și să elimine clauzele abuzive din contractele preformulate, destinate a fi utilizate în cadrul activității profesionale, și obligarea acestuia la publicarea pe site-ul propriu a hotărârilor judecătorești rămase definitive.<span class="S_PAR" style="display: block; color:blue;white-space:normal;line-height:100%;" id="id_parA26333831">
+			(la 28-05-2022, 
+			Alineatul (1) din Articolul 13 , Capitolul III  a fost modificat de <A href="~/../../../Public/DetaliiDocumentAfis/254946">Punctul 2, Articolul I din ORDONANȚA DE URGENȚĂ nr. 58 din 28 aprilie 2022, publicată în MONITORUL OFICIAL nr. 456 din 06 mai 2022</A>
+			)
+	</span></span></span><span class="S_ALN" style="display: block; color:blue;" id="id_litA27306966"><span class="S_ALN_TTL" id="id_litA27306966_ttl" onMouseOver="marcheaza(id_litA27306966_ttl,id_litA27306966)" onMouseOut="demarcheaza(id_litA27306966_ttl,id_litA27306966)" onMouseDown="plusMinus(id_litA27306966_short,id_litA27306966_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA27306966_bdy"> În cazul prevăzut la <span class="S_LGI">alin. (1)</span>, instanța va aplica și amenda prevăzută la <span class="S_LGI">art. 16 alin. (1)</span>.<span class="S_PAR" style="display: block; color:blue;white-space:normal;line-height:100%;" id="id_parA26333832">
+			(la 28-05-2022, 
+			Alineatul (2) din Articolul 13 , Capitolul III  a fost modificat de <A href="~/../../../Public/DetaliiDocumentAfis/254946">Punctul 3, Articolul I din ORDONANȚA DE URGENȚĂ nr. 58 din 28 aprilie 2022, publicată în MONITORUL OFICIAL nr. 456 din 06 mai 2022</A>
+			)
+	</span></span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA118"><span class="S_ALN_TTL" id="id_litA118_ttl" onMouseOver="marcheaza(id_litA118_ttl,id_litA118)" onMouseOut="demarcheaza(id_litA118_ttl,id_litA118)" onMouseDown="plusMinus(id_litA118_short,id_litA118_bdy)">(3)<!----></span> <span class="S_ALN_BDY" id="id_litA118_bdy">Dacă instanța constată că nu sunt clauze abuzive în contract, va anula procesul-verbal întocmit.</span></span><span class="S_ALN" style="display: block; color:black;" id="id_litA119"><span class="S_ALN_TTL" id="id_litA119_ttl" onMouseOver="marcheaza(id_litA119_ttl,id_litA119)" onMouseOut="demarcheaza(id_litA119_ttl,id_litA119)" onMouseDown="plusMinus(id_litA119_short,id_litA119_bdy)">(4)<!----></span> <span class="S_ALN_BDY" id="id_litA119_bdy">Hotărârea este supusă numai apelului*).</span></span><span class="S_ALN" style="display: block; color:blue;" id="id_litA2219722"><span class="S_ALN_TTL" id="id_litA2219722_ttl" onMouseOver="marcheaza(id_litA2219722_ttl,id_litA2219722)" onMouseOut="demarcheaza(id_litA2219722_ttl,id_litA2219722)" onMouseDown="plusMinus(id_litA2219722_short,id_litA2219722_bdy)">(5)<!----></span> <span class="S_ALN_BDY" id="id_litA2219722_bdy"> Autoritatea Națională pentru Protecția Consumatorilor va publica pe site-ul oficial hotărârile judecătorești definitive, în termen de 45 de zile, cu respectarea <A href="~/../../../Public/DetaliiDocumentAfis/201834">Regulamentului (UE) 2016/679</A> al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date de abrogare a Directivei 95/46/CE (Regulamentul general de protecție a datelor). <span class="S_PAR" style="display: block; color:blue;white-space:normal;line-height:100%;" id="id_parA26333833">
+			(la 28-05-2022, 
+			Articolul 13  din  Capitolul III  a fost completat de <A href="~/../../../Public/DetaliiDocumentAfis/254946">Punctul 4, Articolul I din ORDONANȚA DE URGENȚĂ nr. 58 din 28 aprilie 2022, publicată în MONITORUL OFICIAL nr. 456 din 06 mai 2022</A>
+			)
+	</span></span></span><span class="S_ALN" style="display: block; color:blue;" id="id_litA62223125"><span class="S_ALN_TTL" id="id_litA62223125_ttl" onMouseOver="marcheaza(id_litA62223125_ttl,id_litA62223125)" onMouseOut="demarcheaza(id_litA62223125_ttl,id_litA62223125)" onMouseDown="plusMinus(id_litA62223125_short,id_litA62223125_bdy)">(6)<!----></span> <span class="S_ALN_BDY" id="id_litA62223125_bdy"> Asociațiile de consumatori, reglementate în acord cu prevederile <A href="~/../../../Public/DetaliiDocumentAfis/231463">capitolului VI din Ordonanța Guvernului nr. 21/1992</A> privind protecția consumatorilor, republicată, cu modificările și  completările ulterioare, pot publica, în termen de 45 de zile, pe site-ul oficial cu respectarea <A href="~/../../../Public/DetaliiDocumentAfis/201834">Regulamentului (UE) 2016/679</A> al Parlamentului European și al Consiliului din 27 aprilie 2016, hotărârile judecătorești definitive, în situațiile în care acestea au avut calitate procesuală sau speța supusă judecății se află în domeniul pentru care a fost constituită asociația de consumatori. <span class="S_PAR" style="display: block; color:blue;white-space:normal;line-height:100%;" id="id_parA26333834">
+			(la 28-05-2022, 
+			Articolul 13  din  Capitolul III  a fost completat de <A href="~/../../../Public/DetaliiDocumentAfis/254946">Punctul 4, Articolul I din ORDONANȚA DE URGENȚĂ nr. 58 din 28 aprilie 2022, publicată în MONITORUL OFICIAL nr. 456 din 06 mai 2022</A>
+			)
+	</span></span></span><span class="S_ALN" style="display: block; color:blue;" id="id_litA58123199"><span class="S_ALN_TTL" id="id_litA58123199_ttl" onMouseOver="marcheaza(id_litA58123199_ttl,id_litA58123199)" onMouseOut="demarcheaza(id_litA58123199_ttl,id_litA58123199)" onMouseDown="plusMinus(id_litA58123199_short,id_litA58123199_bdy)">(7)<!----></span> <span class="S_ALN_BDY" id="id_litA58123199_bdy"> Prin derogare de la prevederile Codului civil ce reglementează prescripția extinctivă, formularea unei acțiuni în constatarea existenței clauzelor abuzive este imprescriptibilă. <span class="S_PAR" style="display: block; color:blue;white-space:normal;line-height:100%;" id="id_parA26333835">
+			(la 28-05-2022, 
+			Articolul 13  din  Capitolul III  a fost completat de <A href="~/../../../Public/DetaliiDocumentAfis/254946">Punctul 4, Articolul I din ORDONANȚA DE URGENȚĂ nr. 58 din 28 aprilie 2022, publicată în MONITORUL OFICIAL nr. 456 din 06 mai 2022</A>
+			)
+	</span></span></span><span class="S_ALN" style="display: block; color:blue;" id="id_litA33271058"><span class="S_ALN_TTL" id="id_litA33271058_ttl" onMouseOver="marcheaza(id_litA33271058_ttl,id_litA33271058)" onMouseOut="demarcheaza(id_litA33271058_ttl,id_litA33271058)" onMouseDown="plusMinus(id_litA33271058_short,id_litA33271058_bdy)">(8)<!----></span> <span class="S_ALN_BDY" id="id_litA33271058_bdy"> Prin derogare de la <A href="~/../../../Public/DetaliiDocumentAfis/254108">art. 713 alin. (2) din Codul de procedură civilă</A>, instanța de executare are posibilitatea de a examina în cadrul contestației la executare, la cererea consumatorului sau din oficiu, dacă clauzele dintr-un contract încheiat între un profesionist și un consumator ce constituie titlu executoriu au caracter abuziv, o astfel de contestație la executare fiind imprescriptibilă.<span class="S_PAR" style="display: block; color:blue;white-space:normal;line-height:100%;" id="id_parA26333836">
+			(la 28-05-2022, 
+			Articolul 13  din  Capitolul III  a fost completat de <A href="~/../../../Public/DetaliiDocumentAfis/254946">Punctul 4, Articolul I din ORDONANȚA DE URGENȚĂ nr. 58 din 28 aprilie 2022, publicată în MONITORUL OFICIAL nr. 456 din 06 mai 2022</A>
+			)
+	</span></span></span><span class="S_ALN" style="display: block; color:blue;" id="id_litA36365540"><span class="S_ALN_TTL" id="id_litA36365540_ttl" onMouseOver="marcheaza(id_litA36365540_ttl,id_litA36365540)" onMouseOut="demarcheaza(id_litA36365540_ttl,id_litA36365540)" onMouseDown="plusMinus(id_litA36365540_short,id_litA36365540_bdy)">(9)<!----></span> <span class="S_ALN_BDY" id="id_litA36365540_bdy"> Prin derogare de la prevederile <A href="~/../../../Public/DetaliiDocumentAfis/254108">art. 719 alin. (2) și (3) din Codul de procedură civilă</A>, atunci când se solicită suspendarea executării silite, consumatorii sunt exceptați de la plata unei cauțiuni atunci când fac dovada faptului că veniturile lunare nu depășesc valoarea cumulată a două salarii minime pe economie.<span class="S_PAR" style="display: block; color:blue;white-space:normal;line-height:100%;" id="id_parA26333837">
+			(la 28-05-2022, 
+			Articolul 13  din  Capitolul III  a fost completat de <A href="~/../../../Public/DetaliiDocumentAfis/254946">Punctul 4, Articolul I din ORDONANȚA DE URGENȚĂ nr. 58 din 28 aprilie 2022, publicată în MONITORUL OFICIAL nr. 456 din 06 mai 2022</A>
+			)
+	</span></span></span></span></span><span class="S_ART" style="display: block; color:blue;" id="id_artA35442410" name="id_artA35442410"><span class="TAG_COLLAPSED" id="id_cllpsdA35442410" onMouseOver="marcheaza(id_cllpsdA35442410,id_artA35442410)" onMouseOut="demarcheaza(id_cllpsdA35442410,id_artA35442410)" onMouseDown="plusMinus(id_artA35442410_bdy,id_cllpsdA35442410)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA35442410_ttl" onMouseOver="marcheaza(id_artA35442410_ttl,id_artA35442410)" onMouseOut="demarcheaza(id_artA35442410_ttl,id_artA35442410)" onMouseDown="plusMinus(id_artA35442410_bdy,id_cllpsdA35442410)">Articolul 13^1</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA35442410_bdy"><span class="S_PAR" style="display: block; color:blue;" id="id_parA77421887">Instanța are obligația de a examina din oficiu caracterul abuziv al unei clauze contractuale de îndată ce dispune de elementele de drept și de fapt necesare în acest sens. Atunci când consideră că o astfel de clauză este abuzivă, instanța nu o aplică, exceptând cazul în care consumatorul se opune.<!----></span><span class="S_PAR" style="display: block; color:blue;white-space:normal;line-height:100%;" id="id_parA26333838">
+			(la 28-05-2022, 
+			Capitolul III  a fost completat de <A href="~/../../../Public/DetaliiDocumentAfis/254946">Punctul 5, Articolul I din ORDONANȚA DE URGENȚĂ nr. 58 din 28 aprilie 2022, publicată în MONITORUL OFICIAL nr. 456 din 06 mai 2022</A>
+			)
+	</span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA148" name="id_artA148"><span class="TAG_COLLAPSED" id="id_cllpsdA148" onMouseOver="marcheaza(id_cllpsdA148,id_artA148)" onMouseOut="demarcheaza(id_cllpsdA148,id_artA148)" onMouseDown="plusMinus(id_artA148_bdy,id_cllpsdA148)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA148_ttl" onMouseOver="marcheaza(id_artA148_ttl,id_artA148)" onMouseOut="demarcheaza(id_artA148_ttl,id_artA148)" onMouseDown="plusMinus(id_artA148_bdy,id_cllpsdA148)">Articolul 14</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA148_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA150">Consumatorii prejudiciați prin contracte încheiate cu încălcarea prevederilor prezentei legi au dreptul de a se adresa organelor judecătorești în conformitate cu prevederile Codului civil și ale Codului de procedură civilă.<!----></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA151" name="id_artA151"><span class="TAG_COLLAPSED" id="id_cllpsdA151" onMouseOver="marcheaza(id_cllpsdA151,id_artA151)" onMouseOut="demarcheaza(id_cllpsdA151,id_artA151)" onMouseDown="plusMinus(id_artA151_bdy,id_cllpsdA151)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA151_ttl" onMouseOver="marcheaza(id_artA151_ttl,id_artA151)" onMouseOut="demarcheaza(id_artA151_ttl,id_artA151)" onMouseDown="plusMinus(id_artA151_bdy,id_cllpsdA151)">Articolul 15</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA151_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA153">În cazul în care părțile contractante aleg ca lege aplicabilă contractului legea unui stat care nu face parte din Uniunea Europeană, iar contractul are o strânsă legătură cu teritoriul României sau cu al altor state membre ale Uniunii Europene și în cazul în care prezenta lege are prevederi mai favorabile pentru consumator, se vor aplica acestea din urmă.<!----></span></span></span></span></span><span class="S_CAP" style="display: block; color:black;" id="id_capA154" name="id_capA154"><span class="TAG_COLLAPSED" id="id_cllpsdA154" onMouseOver="marcheaza(id_cllpsdA154,id_capA154)" onMouseOut="demarcheaza(id_cllpsdA154,id_capA154)" onMouseDown="plusMinus(id_capA154_bdy,id_cllpsdA154)">
+				 + 
+			</span><span class="S_CAP_TTL" id="id_capA154_ttl" onMouseOver="marcheaza(id_capA154_ttl,id_capA154)" onMouseOut="demarcheaza(id_capA154_ttl,id_capA154)" onMouseDown="plusMinus(id_capA154_bdy,id_cllpsdA154)">Capitolul IV</span><span class="S_CAP_DEN"> Sancțiuni<!----></span><span class="S_CAP_BDY" id="id_capA154_bdy"><span class="S_ART" style="display: block; color:blue;" id="id_artA99030381" name="id_artA99030381"><span class="TAG_COLLAPSED" id="id_cllpsdA99030381" onMouseOver="marcheaza(id_cllpsdA99030381,id_artA99030381)" onMouseOut="demarcheaza(id_cllpsdA99030381,id_artA99030381)" onMouseDown="plusMinus(id_artA99030381_bdy,id_cllpsdA99030381)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA99030381_ttl" onMouseOver="marcheaza(id_artA99030381_ttl,id_artA99030381)" onMouseOut="demarcheaza(id_artA99030381_ttl,id_artA99030381)" onMouseDown="plusMinus(id_artA99030381_bdy,id_cllpsdA99030381)">Articolul 16</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA99030381_bdy"><span class="S_ALN" style="display: block; color:blue;" id="id_litA44450538"><span class="S_ALN_TTL" id="id_litA44450538_ttl" onMouseOver="marcheaza(id_litA44450538_ttl,id_litA44450538)" onMouseOut="demarcheaza(id_litA44450538_ttl,id_litA44450538)" onMouseDown="plusMinus(id_litA44450538_short,id_litA44450538_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA44450538_bdy"> Constituie contravenție, în măsura în care fapta nu este săvârșită în astfel de condiții încât, potrivit legii penale, să fie considerată infracțiune, încălcarea interdicției prevăzute la <span class="S_LGI">art. 1 alin. (3)</span> și se sancționează:<span class="S_LIT" style="display: block; color:blue;" id="id_litA72013836"><span class="S_LIT_TTL" id="id_litA72013836_ttl" onMouseOver="marcheaza(id_litA72013836_ttl,id_litA72013836)" onMouseOut="demarcheaza(id_litA72013836_ttl,id_litA72013836)" onMouseDown="plusMinus(id_litA72013836_short,id_litA72013836_bdy)">a)<!----></span> <span class="S_LIT_BDY" id="id_litA72013836_bdy">cu amendă de la 20.000 lei la 100.000 lei;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA72013836_short" onMouseOver="marcheaza(id_litA72013836_short,id_litA72013836)" onMouseOut="demarcheaza(id_litA72013836_short,id_litA72013836)" onMouseDown="plusMinus(id_litA72013836_short,id_litA72013836_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:blue;" id="id_litA82782891"><span class="S_LIT_TTL" id="id_litA82782891_ttl" onMouseOver="marcheaza(id_litA82782891_ttl,id_litA82782891)" onMouseOut="demarcheaza(id_litA82782891_ttl,id_litA82782891)" onMouseDown="plusMinus(id_litA82782891_short,id_litA82782891_bdy)">b)<!----></span> <span class="S_LIT_BDY" id="id_litA82782891_bdy">în cazul în care se impune aplicarea unor sancțiuni în conformitate cu dispozițiile art. 21 din Regulamentul (UE) 2017/2.394 al Parlamentului European și al Consiliului din 12 decembrie 2017 privind cooperarea dintre autoritățile naționale însărcinate să asigure respectarea legislației în materie de protecție a consumatorului și de abrogare a Regulamentului (CE) nr. 2.006/2004, cu amendă de la 0,1% până la inclusiv 4% din cifra de afaceri anuală a profesionistului realizată în anul financiar anterior sancționării, realizată pe teritoriul României, pentru încălcările pe scară largă și încălcările pe scară largă cu o dimensiune specifică Uniunii Europene astfel cum sunt definite la art. 3 pct. 3 și 4 din Regulamentul (UE) 2017/2.394;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA82782891_short" onMouseOver="marcheaza(id_litA82782891_short,id_litA82782891)" onMouseOut="demarcheaza(id_litA82782891_short,id_litA82782891)" onMouseDown="plusMinus(id_litA82782891_short,id_litA82782891_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:blue;" id="id_litA33259933"><span class="S_LIT_TTL" id="id_litA33259933_ttl" onMouseOver="marcheaza(id_litA33259933_ttl,id_litA33259933)" onMouseOut="demarcheaza(id_litA33259933_ttl,id_litA33259933)" onMouseDown="plusMinus(id_litA33259933_short,id_litA33259933_bdy)">c)<!----></span> <span class="S_LIT_BDY" id="id_litA33259933_bdy">în cazul în care se impune aplicarea unei amenzi în conformitate cu <span class="S_LGI">lit. b)</span>, însă informațiile privind cifra de afaceri anuală a profesionistului realizată în anul financiar anterior sancționării nu sunt disponibile, cu amendă cuprinsă între 200.000 euro-2 milioane euro, echivalent în lei la cursul de schimb comunicat de Banca Națională a României.</span><span style="display: none" class="S_LIT_SHORT" id="id_litA33259933_short" onMouseOver="marcheaza(id_litA33259933_short,id_litA33259933)" onMouseOut="demarcheaza(id_litA33259933_short,id_litA33259933)" onMouseDown="plusMinus(id_litA33259933_short,id_litA33259933_bdy)"> ... </span></span></span></span><span class="S_ALN" style="display: block; color:blue;" id="id_litA94034115"><span class="S_ALN_TTL" id="id_litA94034115_ttl" onMouseOver="marcheaza(id_litA94034115_ttl,id_litA94034115)" onMouseOut="demarcheaza(id_litA94034115_ttl,id_litA94034115)" onMouseDown="plusMinus(id_litA94034115_short,id_litA94034115_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA94034115_bdy"> Următoarele criterii exemplificative și orientative sunt luate în considerare pentru aplicarea de sancțiuni:<span class="S_LIT" style="display: block; color:blue;" id="id_litA6747643"><span class="S_LIT_TTL" id="id_litA6747643_ttl" onMouseOver="marcheaza(id_litA6747643_ttl,id_litA6747643)" onMouseOut="demarcheaza(id_litA6747643_ttl,id_litA6747643)" onMouseDown="plusMinus(id_litA6747643_short,id_litA6747643_bdy)">a)<!----></span> <span class="S_LIT_BDY" id="id_litA6747643_bdy">natura, gravitatea, amploarea și durata încălcării;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA6747643_short" onMouseOver="marcheaza(id_litA6747643_short,id_litA6747643)" onMouseOut="demarcheaza(id_litA6747643_short,id_litA6747643)" onMouseDown="plusMinus(id_litA6747643_short,id_litA6747643_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:blue;" id="id_litA60327864"><span class="S_LIT_TTL" id="id_litA60327864_ttl" onMouseOver="marcheaza(id_litA60327864_ttl,id_litA60327864)" onMouseOut="demarcheaza(id_litA60327864_ttl,id_litA60327864)" onMouseDown="plusMinus(id_litA60327864_short,id_litA60327864_bdy)">b)<!----></span> <span class="S_LIT_BDY" id="id_litA60327864_bdy">orice acțiune întreprinsă de profesioniști pentru a atenua sau a repara prejudiciul suferit de consumatori;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA60327864_short" onMouseOver="marcheaza(id_litA60327864_short,id_litA60327864)" onMouseOut="demarcheaza(id_litA60327864_short,id_litA60327864)" onMouseDown="plusMinus(id_litA60327864_short,id_litA60327864_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:blue;" id="id_litA35302787"><span class="S_LIT_TTL" id="id_litA35302787_ttl" onMouseOver="marcheaza(id_litA35302787_ttl,id_litA35302787)" onMouseOut="demarcheaza(id_litA35302787_ttl,id_litA35302787)" onMouseDown="plusMinus(id_litA35302787_short,id_litA35302787_bdy)">c)<!----></span> <span class="S_LIT_BDY" id="id_litA35302787_bdy">orice încălcare anterioară săvârșită de profesioniști, ce se regăsește în mod obligatoriu în cazierul comercial al Autorității Naționale pentru Protecția Consumatorilor;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA35302787_short" onMouseOver="marcheaza(id_litA35302787_short,id_litA35302787)" onMouseOut="demarcheaza(id_litA35302787_short,id_litA35302787)" onMouseDown="plusMinus(id_litA35302787_short,id_litA35302787_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:blue;" id="id_litA17698852"><span class="S_LIT_TTL" id="id_litA17698852_ttl" onMouseOver="marcheaza(id_litA17698852_ttl,id_litA17698852)" onMouseOut="demarcheaza(id_litA17698852_ttl,id_litA17698852)" onMouseDown="plusMinus(id_litA17698852_short,id_litA17698852_bdy)">d)<!----></span> <span class="S_LIT_BDY" id="id_litA17698852_bdy">beneficiile financiare dobândite sau pierderile evitate de profesioniști datorită încălcării, dacă sunt disponibile datele relevante;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA17698852_short" onMouseOver="marcheaza(id_litA17698852_short,id_litA17698852)" onMouseOut="demarcheaza(id_litA17698852_short,id_litA17698852)" onMouseDown="plusMinus(id_litA17698852_short,id_litA17698852_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:blue;" id="id_litA85835967"><span class="S_LIT_TTL" id="id_litA85835967_ttl" onMouseOver="marcheaza(id_litA85835967_ttl,id_litA85835967)" onMouseOut="demarcheaza(id_litA85835967_ttl,id_litA85835967)" onMouseDown="plusMinus(id_litA85835967_short,id_litA85835967_bdy)">e)<!----></span> <span class="S_LIT_BDY" id="id_litA85835967_bdy">sancțiunile aplicate profesioniștilor pentru aceeași încălcare în alte state membre ale Uniunii Europene în cazurile transfrontaliere în care informațiile cu privire la astfel de sancțiuni sunt disponibile prin mecanismul prevăzut la art. 11-25 din Regulamentul (UE) 2017/2.394;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA85835967_short" onMouseOver="marcheaza(id_litA85835967_short,id_litA85835967)" onMouseOut="demarcheaza(id_litA85835967_short,id_litA85835967)" onMouseDown="plusMinus(id_litA85835967_short,id_litA85835967_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:blue;" id="id_litA2932501"><span class="S_LIT_TTL" id="id_litA2932501_ttl" onMouseOver="marcheaza(id_litA2932501_ttl,id_litA2932501)" onMouseOut="demarcheaza(id_litA2932501_ttl,id_litA2932501)" onMouseDown="plusMinus(id_litA2932501_short,id_litA2932501_bdy)">f)<!----></span> <span class="S_LIT_BDY" id="id_litA2932501_bdy">orice alt factor agravant sau atenuant aplicabil circumstanțelor cazului.</span><span style="display: none" class="S_LIT_SHORT" id="id_litA2932501_short" onMouseOver="marcheaza(id_litA2932501_short,id_litA2932501)" onMouseOut="demarcheaza(id_litA2932501_short,id_litA2932501)" onMouseDown="plusMinus(id_litA2932501_short,id_litA2932501_bdy)"> ... </span></span></span></span><span class="S_ALN" style="display: block; color:blue;" id="id_litA2347516"><span class="S_ALN_TTL" id="id_litA2347516_ttl" onMouseOver="marcheaza(id_litA2347516_ttl,id_litA2347516)" onMouseOut="demarcheaza(id_litA2347516_ttl,id_litA2347516)" onMouseDown="plusMinus(id_litA2347516_short,id_litA2347516_bdy)">(3)<!----></span> <span class="S_ALN_BDY" id="id_litA2347516_bdy"> Neducerea la îndeplinire a măsurilor rămase definitive prin hotărârile judecătorești se sancționează de către Autoritatea Națională pentru Protecția Consumatorilor cu amendă de la 5.000 lei la 200.000 lei.</span></span><span class="S_ALN" style="display: block; color:blue;" id="id_litA53722432"><span class="S_ALN_TTL" id="id_litA53722432_ttl" onMouseOver="marcheaza(id_litA53722432_ttl,id_litA53722432)" onMouseOut="demarcheaza(id_litA53722432_ttl,id_litA53722432)" onMouseDown="plusMinus(id_litA53722432_short,id_litA53722432_bdy)">(4)<!----></span> <span class="S_ALN_BDY" id="id_litA53722432_bdy"> În măsura în care prezenta lege nu prevede altfel, contravențiilor prevăzute la <span class="S_LGI">alin. (1) lit. b)</span> și c) și <span class="S_LGI">alin. (3)</span> le sunt aplicabile dispozițiile <A href="~/../../../Public/DetaliiDocumentAfis/254014">Ordonanței Guvernului nr. 2/2001</A> privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin <A href="~/../../../Public/DetaliiDocumentAfis/35433">Legea nr. 180/2002</A>, cu modificările și completările ulterioare, cu excepția art. 8 alin. (2), a art. 28 alin. (1) și art. 29.</span></span><span class="S_ALN" style="display: block; color:blue;" id="id_litA78308502"><span class="S_ALN_TTL" id="id_litA78308502_ttl" onMouseOver="marcheaza(id_litA78308502_ttl,id_litA78308502)" onMouseOut="demarcheaza(id_litA78308502_ttl,id_litA78308502)" onMouseDown="plusMinus(id_litA78308502_short,id_litA78308502_bdy)">(5)<!----></span> <span class="S_ALN_BDY" id="id_litA78308502_bdy"> Prin derogare de la prevederile <A href="~/../../../Public/DetaliiDocumentAfis/254014">art. 13 alin. (1) din Ordonanța Guvernului nr. 2/2001</A>, aprobată cu modificări și completări prin <A href="~/../../../Public/DetaliiDocumentAfis/35433">Legea nr. 180/2002</A>, cu modificările și completările ulterioare, pentru contravențiile prevăzute de prezenta lege, termenul de prescripție pentru aplicarea sancțiunii contravenționale este de 3 ani de la data săvârșirii faptei.</span></span><span class="S_ALN" style="display: block; color:blue;" id="id_litA44670472"><span class="S_ALN_TTL" id="id_litA44670472_ttl" onMouseOver="marcheaza(id_litA44670472_ttl,id_litA44670472)" onMouseOut="demarcheaza(id_litA44670472_ttl,id_litA44670472)" onMouseDown="plusMinus(id_litA44670472_short,id_litA44670472_bdy)">(6)<!----></span> <span class="S_ALN_BDY" id="id_litA44670472_bdy"> Personalul împuternicit al Autorității Naționale pentru Protecția Consumatorilor aplică amenda prevăzută la <span class="S_LGI">alin. (3)</span> și <span class="S_LGI">(4)</span>.</span></span><span class="S_ALN" style="display: block; color:blue;" id="id_litA15143989"><span class="S_ALN_TTL" id="id_litA15143989_ttl" onMouseOver="marcheaza(id_litA15143989_ttl,id_litA15143989)" onMouseOut="demarcheaza(id_litA15143989_ttl,id_litA15143989)" onMouseDown="plusMinus(id_litA15143989_short,id_litA15143989_bdy)">(7)<!----></span> <span class="S_ALN_BDY" id="id_litA15143989_bdy"> Autoritatea Națională pentru Protecția Consumatorilor notifică Comisiei Europene măsurile prevăzute la <span class="S_LGI">alin. (1)</span> și <span class="S_LGI">(3)</span> și îi comunică acesteia, fără întârziere, orice modificare ulterioară a acestora.</span></span><span class="S_PAR" style="display: block; color:blue;white-space:normal;line-height:100%;" id="id_parA26333839">
+			(la 28-05-2022, 
+			Articolul 16 din Capitolul IV  a fost modificat de <A href="~/../../../Public/DetaliiDocumentAfis/254946">Punctul 6, Articolul I din ORDONANȚA DE URGENȚĂ nr. 58 din 28 aprilie 2022, publicată în MONITORUL OFICIAL nr. 456 din 06 mai 2022</A>
+			)
+	</span><span class="S_NTA" style="display: block; color:black;" id="id_ntaA99030392"><span class="S_NTA_TTL" id="id_ntaA99030392_ttl" onMouseOver="marcheaza(id_ntaA99030392_ttl,id_ntaA99030392)" onMouseOut="demarcheaza(id_ntaA99030392_ttl,id_ntaA99030392)" onMouseDown="plusMinus(id_ntaA99030392_scurt,id_ntaA99030392_lung)">
+						Notă </span><span style="display: none" class="S_NTA_SHORT" id="id_ntaA99030392_scurt">...
+			</span><span id="id_ntaA99030392_lung"><br /><span class="S_NTA_PAR" style="display: block; color:black;">Reproducem mai jos prevederile <A href="~/../../../Public/DetaliiDocumentAfis/254946#A565">art. IV si V din ORDONANȚA DE URGENȚĂ nr. 58 din 28 aprilie 2022</A>, publicată în MONITORUL OFICIAL nr. 456 din 06 mai 2022:</span><br /><span class="S_NTA_PAR" style="display: block; color:black;">Articolul IV</span><br /><span class="S_NTA_PAR" style="display: block; color:black;">(1) Pentru stabilirea și aplicarea sancțiunilor prevăzute la art. 16 alin. (3) din <A href="~/../../../Public/DetaliiDocumentAfis/158981">Legea nr. 193/2000</A> privind clauzele abuzive din contractele încheiate între profesioniști și consumatori, republicată, cu completările ulterioare, la art. 15^4 și 15^5 din <A href="~/../../../Public/DetaliiDocumentAfis/204059">Legea nr. 363/2007</A> privind combaterea practicilor incorecte ale comercianților în relația cu consumatorii și armonizarea reglementărilor cu legislația europeană privind protecția consumatorilor, cu modificările și completările ulterioare, și la art. 28 alin. (5^1)-(5^3) din <A href="~/../../../Public/DetaliiDocumentAfis/214214">Ordonanța de urgență a Guvernului nr. 34/2014</A> privind drepturile consumatorilor în cadrul contractelor încheiate cu profesioniștii, precum și pentru modificarea și completarea unor acte normative, aprobată cu modificări prin <A href="~/../../../Public/DetaliiDocumentAfis/169049">Legea nr. 157/2015</A>, cu modificările și completările ulterioare, la nivelul Autorității Naționale pentru Protecția Consumatorilor se constituie, prin ordin al președintelui Autorității Naționale pentru Protecția Consumatorilor, o comisie ce are ca scop analizarea documentelor de control și stabilirea sancțiunii conform <A href="~/../../../Public/DetaliiDocumentAfis/254014">art. 21 alin. (2) din Ordonanța Guvernului nr. 2/2001</A> privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin <A href="~/../../../Public/DetaliiDocumentAfis/35433">Legea nr. 180/2002</A>, cu modificările și completările ulterioare, cu următoarea componență:</span><br /><span class="S_NTA_PAR" style="display: block; color:black;">a) directorul general al Direcției generale control și supraveghere piață și armonizare europeană sau înlocuitorul desemnat de acesta;</span><br /><span class="S_NTA_PAR" style="display: block; color:black;">b) șeful Serviciului produse și servicii alimentare sau înlocuitorul desemnat de acesta;</span><br /><span class="S_NTA_PAR" style="display: block; color:black;">c) șeful Serviciului juridic sau înlocuitorul desemnat de acesta;</span><br /><span class="S_NTA_PAR" style="display: block; color:black;">d) șeful Serviciului armonizare europeană și parteneriat sau înlocuitorul desemnat de acesta;</span><br /><span class="S_NTA_PAR" style="display: block; color:black;">e) comisar desemnat prin act administrativ de către președintele Autorității Naționale pentru Protecția Consumatorilor, altul decât cel care a întocmit documentul de control.</span><br /><span class="S_NTA_PAR" style="display: block; color:black;">(2) Comisarul ce a întocmit documentul de control sesizează comisia în termen de 24 de ore, iar aceasta se întrunește în termen de maximum 5 zile calendaristice de la primirea documentului de control.</span><br /><span class="S_NTA_PAR" style="display: block; color:black;">(3) În termen de 45 de zile de la intrarea în vigoare a prezentei ordonanțe de urgență, prin ordin al președintelui Autorității Naționale pentru Protecția Consumatorilor se aprobă procedura de lucru a comisiei, ordin ce se publică în Monitorul Oficial al României, Partea I.</span><br /><span class="S_NTA_PAR" style="display: block; color:black;">Articolul V<span class="S_PAR" style="display: block; color:blue;" id="id_parA99030402">(1) Pentru încălcările în mod repetat ale drepturilor consumatorilor, operatorii economici sancționați pentru abaterile din domeniul protecției consumatorilor vor fi consemnați în cazier comercial pentru o perioadă de 3 ani de la întocmirii documentului de control. Anularea documentului de control de către instanța de judecată conduce la radierea sancțiunii din cadrul cazierului comercial.<!----></span><span class="S_PAR" style="display: block; color:blue;" id="id_parA99030403">(2) Datele cuprinse în cazierul comercial vor fi stabilite prin ordin al președintelui Autorității Naționale pentru Protecția Consumatorilor, ce se publică în Monitorul Oficial al României, Partea I, în termen de 3 luni de la data intrării în vigoare a prezentei ordonanțe de urgență.<!----></span><span class="S_PAR" style="display: block; color:blue;" id="id_parA99030404">(3) Implementarea și instrucțiunile referitoare la cazierul comercial se realizează de către Autoritatea Națională pentru Protecția Consumatorilor, în termen de maximum 6 luni de la data intrării în vigoare a prezentei ordonanțe de urgență.<!----></span><span class="S_PAR" style="display: block; color:blue;" id="id_parA99030405">(4) Cazierul comercial reprezintă fișa de evidență în care Autoritatea Națională pentru Protecția Consumatorilor consemnează faptele și sancțiunile aplicate operatorilor economici prin documentele de control.<!----></span></span></span></span></span></span></span></span><span class="S_CAP" style="display: block; color:black;" id="id_capA161" name="id_capA161"><span class="TAG_COLLAPSED" id="id_cllpsdA161" onMouseOver="marcheaza(id_cllpsdA161,id_capA161)" onMouseOut="demarcheaza(id_cllpsdA161,id_capA161)" onMouseDown="plusMinus(id_capA161_bdy,id_cllpsdA161)">
+				 + 
+			</span><span class="S_CAP_TTL" id="id_capA161_ttl" onMouseOver="marcheaza(id_capA161_ttl,id_capA161)" onMouseOut="demarcheaza(id_capA161_ttl,id_capA161)" onMouseDown="plusMinus(id_capA161_bdy,id_cllpsdA161)">Capitolul V</span><span class="S_CAP_DEN"> Dispoziții finale<!----></span><span class="S_CAP_BDY" id="id_capA161_bdy"><span class="S_ART" style="display: block; color:black;" id="id_artA164" name="id_artA164"><span class="TAG_COLLAPSED" id="id_cllpsdA164" onMouseOver="marcheaza(id_cllpsdA164,id_artA164)" onMouseOut="demarcheaza(id_cllpsdA164,id_artA164)" onMouseDown="plusMinus(id_artA164_bdy,id_cllpsdA164)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA164_ttl" onMouseOver="marcheaza(id_artA164_ttl,id_artA164)" onMouseOut="demarcheaza(id_artA164_ttl,id_artA164)" onMouseDown="plusMinus(id_artA164_bdy,id_cllpsdA164)">Articolul 17</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA164_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA166">Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I. La aceeași dată, orice dispoziții contrare se abrogă.<!----></span></span></span><span class="S_ART" style="display: block; color:black;" id="id_artA167" name="id_artA167"><span class="TAG_COLLAPSED" id="id_cllpsdA167" onMouseOver="marcheaza(id_cllpsdA167,id_artA167)" onMouseOut="demarcheaza(id_cllpsdA167,id_artA167)" onMouseDown="plusMinus(id_artA167_bdy,id_cllpsdA167)">
+				 + 
+			</span><span class="S_ART_TTL" id="id_artA167_ttl" onMouseOver="marcheaza(id_artA167_ttl,id_artA167)" onMouseOut="demarcheaza(id_artA167_ttl,id_artA167)" onMouseDown="plusMinus(id_artA167_bdy,id_cllpsdA167)">Articolul 17^1</span><span class="S_ART_DEN"><!----></span><span class="S_ART_BDY" id="id_artA167_bdy"><span class="S_PAR" style="display: block; color:blue;" id="id_parA168">Autoritatea Națională pentru Protecția Consumatorilor informează Comisia Europeană cu privire la adoptarea sau menținerea unor prevederi mai stricte în prezenta ordonanță de urgență decât prevederile Directivei 93/13/CEE a Consiliului din 5 aprilie 1993 privind clauzele abuzive în contractele încheiate cu consumatorii, precum și în legătură cu orice modificare ulterioară a prezentei ordonanțe de urgență, în special în cazul în care respectivele prevederi fie extind testarea caracterului abuziv la clauzele contractuale negociate individual sau la caracterul adecvat al prețului sau remunerației, fie conțin liste de termeni contractuali care vor fi considerați abuzivi.<span class="S_PAR" style="display: block; color:blue;white-space:normal;line-height:100%;" id="id_parA214">
+			(la 13-06-2014, 
+			Art. 17^1 a fost introdus de <A href="~/../../../Public/DetaliiDocumentAfis/158913">alin. (1) al art. 29 din ORDONANȚA DE URGENȚĂ nr. 34 din 4 iunie 2014, publicată în MONITORUL OFICIAL nr. 427 din 11 iunie 2014.</A>
+			)
+	</span><!----></span></span></span></span></span><span class="S_PAR" style="display: block; color:black;" id="id_parA171">*<!----></span><span class="S_PAR" style="display: block; color:black;" id="id_parA172">Prezenta lege transpune prevederile Directivei Consiliului 93/13/CEE din 5 aprilie 1993 privind clauzele abuzive în contractele încheiate cu consumatorii, publicată în Jurnalul Oficial al Uniunii Europene (JOCE) nr. L 95 din 21 aprilie 1993.<!----></span><span class="S_ANX" style="display: block; color:black;" id="id_anxA173" name="id_anxA173"><span class="TAG_COLLAPSED" id="id_cllpsdA173" onMouseOver="marcheaza(id_cllpsdA173,id_anxA173)" onMouseOut="demarcheaza(id_cllpsdA173,id_anxA173)" onMouseDown="plusMinus(id_anxA173_bdy,id_cllpsdA173)">
+				 + 
+			</span><span class="S_ANX_TTL" id="id_anxA173_ttl" onMouseOver="marcheaza(id_anxA173_ttl,id_anxA173)" onMouseOut="demarcheaza(id_anxA173_ttl,id_anxA173)" onMouseDown="plusMinus(id_anxA173_bdy,id_cllpsdA173)">Anexă<!----></span><span class="S_ANX_DEN"><!----></span><span class="S_ANX_BDY" id="id_anxA173_bdy"><span class="S_PAR" style="display: block; color:black;" id="id_parA174">LISTA<!----></span><span class="S_PAR" style="display: block; color:black;" id="id_parA175">cuprinzând clauzele considerate ca fiind abuzive<!----></span><span class="S_ALN" style="display: block; color:black;" id="id_litA176"><span class="S_ALN_TTL" id="id_litA176_ttl" onMouseOver="marcheaza(id_litA176_ttl,id_litA176)" onMouseOut="demarcheaza(id_litA176_ttl,id_litA176)" onMouseDown="plusMinus(id_litA176_short,id_litA176_bdy)">(1)<!----></span> <span class="S_ALN_BDY" id="id_litA176_bdy">Sunt considerate clauze abuzive acele prevederi contractuale care:<span class="S_LIT" style="display: block; color:black;" id="id_litA177"><span class="S_LIT_TTL" id="id_litA177_ttl" onMouseOver="marcheaza(id_litA177_ttl,id_litA177)" onMouseOut="demarcheaza(id_litA177_ttl,id_litA177)" onMouseDown="plusMinus(id_litA177_short,id_litA177_bdy)">a)<!----></span> <span class="S_LIT_BDY" id="id_litA177_bdy">dau dreptul profesionistului de a modifica unilateral clauzele contractului, fără a avea un motiv întemeiat care să fie precizat în contract.</span><span style="display: none" class="S_LIT_SHORT" id="id_litA177_short" onMouseOver="marcheaza(id_litA177_short,id_litA177)" onMouseOut="demarcheaza(id_litA177_short,id_litA177)" onMouseDown="plusMinus(id_litA177_short,id_litA177_bdy)"> ... </span></span></span></span><span class="S_PAR" style="display: block; color:black;" id="id_parA178">Prevederile acestei litere nu se opun clauzelor în temeiul cărora un furnizor de servicii financiare își rezervă dreptul de a modifica rata dobânzii plătibile de către consumator ori datorată acestuia din urmă sau valoarea altor taxe pentru servicii financiare, fără o notificare prealabilă, dacă există o motivație întemeiată, în condițiile în care profesionistul este obligat să informeze cât mai curând posibil despre aceasta celelalte părți contractante și acestea din urmă au libertatea de a rezilia imediat contractul.<!----></span><span class="S_PAR" style="display: block; color:black;" id="id_parA179">Prevederile acestei litere nu se opun, de asemenea, clauzelor prin care profesionistul își rezervă dreptul de a modifica unilateral clauzele unui contract cu durată nedeterminată, în condițiile în care profesionistul are obligația de a-l informa pe consumator, printr-o notificare prealabilă transmisă în termen rezonabil, pentru ca acesta din urmă să aibă libertatea de a rezilia contractul;<span class="S_LIT" style="display: block; color:black;" id="id_litA180"><span class="S_LIT_TTL" id="id_litA180_ttl" onMouseOver="marcheaza(id_litA180_ttl,id_litA180)" onMouseOut="demarcheaza(id_litA180_ttl,id_litA180)" onMouseDown="plusMinus(id_litA180_short,id_litA180_bdy)">b)<!----></span> <span class="S_LIT_BDY" id="id_litA180_bdy">obligă consumatorul să se supună unor condiții contractuale despre care nu a avut posibilitatea reală să ia cunoștință la data semnării contractului;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA180_short" onMouseOver="marcheaza(id_litA180_short,id_litA180)" onMouseOut="demarcheaza(id_litA180_short,id_litA180)" onMouseDown="plusMinus(id_litA180_short,id_litA180_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA181"><span class="S_LIT_TTL" id="id_litA181_ttl" onMouseOver="marcheaza(id_litA181_ttl,id_litA181)" onMouseOut="demarcheaza(id_litA181_ttl,id_litA181)" onMouseDown="plusMinus(id_litA181_short,id_litA181_bdy)">c)<!----></span> <span class="S_LIT_BDY" id="id_litA181_bdy">obligă consumatorul să își îndeplinească obligațiile contractuale, chiar și în situațiile în care profesionistul nu și le-a îndeplinit pe ale sale;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA181_short" onMouseOver="marcheaza(id_litA181_short,id_litA181)" onMouseOut="demarcheaza(id_litA181_short,id_litA181)" onMouseDown="plusMinus(id_litA181_short,id_litA181_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA182"><span class="S_LIT_TTL" id="id_litA182_ttl" onMouseOver="marcheaza(id_litA182_ttl,id_litA182)" onMouseOut="demarcheaza(id_litA182_ttl,id_litA182)" onMouseDown="plusMinus(id_litA182_short,id_litA182_bdy)">d)<!----></span> <span class="S_LIT_BDY" id="id_litA182_bdy">dau dreptul profesionistului să prelungească automat un contract încheiat pentru o perioadă determinată, prin acordul tacit al consumatorului, dacă perioada-limită la care acesta putea să își exprime opțiunea a fost insuficientă;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA182_short" onMouseOver="marcheaza(id_litA182_short,id_litA182)" onMouseOut="demarcheaza(id_litA182_short,id_litA182)" onMouseDown="plusMinus(id_litA182_short,id_litA182_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA183"><span class="S_LIT_TTL" id="id_litA183_ttl" onMouseOver="marcheaza(id_litA183_ttl,id_litA183)" onMouseOut="demarcheaza(id_litA183_ttl,id_litA183)" onMouseDown="plusMinus(id_litA183_short,id_litA183_bdy)">e)<!----></span> <span class="S_LIT_BDY" id="id_litA183_bdy">dau dreptul profesionistului să modifice unilateral, fără acordul consumatorului, clauzele privind caracteristicile produselor și serviciilor care urmează să fie furnizate sau termenul de livrare a unui produs ori termenul de executare a unui serviciu;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA183_short" onMouseOver="marcheaza(id_litA183_short,id_litA183)" onMouseOut="demarcheaza(id_litA183_short,id_litA183)" onMouseDown="plusMinus(id_litA183_short,id_litA183_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA184"><span class="S_LIT_TTL" id="id_litA184_ttl" onMouseOver="marcheaza(id_litA184_ttl,id_litA184)" onMouseOut="demarcheaza(id_litA184_ttl,id_litA184)" onMouseDown="plusMinus(id_litA184_short,id_litA184_bdy)">f)<!----></span> <span class="S_LIT_BDY" id="id_litA184_bdy">dau dreptul profesionistului să constate unilateral conformitatea produselor și serviciilor furnizate cu prevederile contractuale;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA184_short" onMouseOver="marcheaza(id_litA184_short,id_litA184)" onMouseOut="demarcheaza(id_litA184_short,id_litA184)" onMouseDown="plusMinus(id_litA184_short,id_litA184_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA185"><span class="S_LIT_TTL" id="id_litA185_ttl" onMouseOver="marcheaza(id_litA185_ttl,id_litA185)" onMouseOut="demarcheaza(id_litA185_ttl,id_litA185)" onMouseDown="plusMinus(id_litA185_short,id_litA185_bdy)">g)<!----></span> <span class="S_LIT_BDY" id="id_litA185_bdy">dau dreptul exclusiv profesionistului să interpreteze clauzele contractuale;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA185_short" onMouseOver="marcheaza(id_litA185_short,id_litA185)" onMouseOut="demarcheaza(id_litA185_short,id_litA185)" onMouseDown="plusMinus(id_litA185_short,id_litA185_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA186"><span class="S_LIT_TTL" id="id_litA186_ttl" onMouseOver="marcheaza(id_litA186_ttl,id_litA186)" onMouseOut="demarcheaza(id_litA186_ttl,id_litA186)" onMouseDown="plusMinus(id_litA186_short,id_litA186_bdy)">h)<!----></span> <span class="S_LIT_BDY" id="id_litA186_bdy">restrâng sau anulează dreptul consumatorului să pretindă despăgubiri în cazurile în care profesionistul nu își îndeplinește obligațiile contractuale;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA186_short" onMouseOver="marcheaza(id_litA186_short,id_litA186)" onMouseOut="demarcheaza(id_litA186_short,id_litA186)" onMouseDown="plusMinus(id_litA186_short,id_litA186_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA187"><span class="S_LIT_TTL" id="id_litA187_ttl" onMouseOver="marcheaza(id_litA187_ttl,id_litA187)" onMouseOut="demarcheaza(id_litA187_ttl,id_litA187)" onMouseDown="plusMinus(id_litA187_short,id_litA187_bdy)">i)<!----></span> <span class="S_LIT_BDY" id="id_litA187_bdy">obligă consumatorul la plata unor sume disproporționat de mari în cazul neîndeplinirii obligațiilor contractuale de către acesta, comparativ cu pagubele suferite de profesionist;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA187_short" onMouseOver="marcheaza(id_litA187_short,id_litA187)" onMouseOut="demarcheaza(id_litA187_short,id_litA187)" onMouseDown="plusMinus(id_litA187_short,id_litA187_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA188"><span class="S_LIT_TTL" id="id_litA188_ttl" onMouseOver="marcheaza(id_litA188_ttl,id_litA188)" onMouseOut="demarcheaza(id_litA188_ttl,id_litA188)" onMouseDown="plusMinus(id_litA188_short,id_litA188_bdy)">j)<!----></span> <span class="S_LIT_BDY" id="id_litA188_bdy">restrâng sau anulează dreptul consumatorului de a denunța sau de a rezilia unilateral contractul, în cazurile în care:<span class="S_LIN" id="id_linA189"><span class="S_LIN_TTL" id="id_linA189_ttl" onMouseOver="marcheaza(id_linA189_ttl,id_linA189)" onMouseOut="demarcheaza(id_linA189_ttl,id_linA189)" onMouseDown="plusMinus(id_linA189_short,id_linA189_bdy)">– </span><span class="S_LIN_BDY" id="id_linA189_bdy">profesionistul a modificat unilateral clauzele prevăzute la <span class="S_LGI">lit. e)</span>;</span><span style="display:none" class="S_LIN_SHORT" id="id_linA189_short" onMouseOver="marcheaza(id_linA189_short,id_linA189)" onMouseOut="demarcheaza(id_linA189_short,id_linA189)" onMouseDown="plusMinus(id_linA189_short,id_linA189_bdy)"> ... </span></span><span class="S_LIN" id="id_linA190"><span class="S_LIN_TTL" id="id_linA190_ttl" onMouseOver="marcheaza(id_linA190_ttl,id_linA190)" onMouseOut="demarcheaza(id_linA190_ttl,id_linA190)" onMouseDown="plusMinus(id_linA190_short,id_linA190_bdy)">– </span><span class="S_LIN_BDY" id="id_linA190_bdy">profesionistul nu și-a îndeplinit obligațiile contractuale;</span><span style="display:none" class="S_LIN_SHORT" id="id_linA190_short" onMouseOver="marcheaza(id_linA190_short,id_linA190)" onMouseOut="demarcheaza(id_linA190_short,id_linA190)" onMouseDown="plusMinus(id_linA190_short,id_linA190_bdy)"> ... </span></span><span class="S_LIN" id="id_linA191"><span class="S_LIN_TTL" id="id_linA191_ttl" onMouseOver="marcheaza(id_linA191_ttl,id_linA191)" onMouseOut="demarcheaza(id_linA191_ttl,id_linA191)" onMouseDown="plusMinus(id_linA191_short,id_linA191_bdy)">– </span><span class="S_LIN_BDY" id="id_linA191_bdy">profesionistul a impus consumatorului, prin contract, clauze referitoare la plata unei sume fixe în cazul denunțării unilaterale;</span><span style="display:none" class="S_LIN_SHORT" id="id_linA191_short" onMouseOver="marcheaza(id_linA191_short,id_linA191)" onMouseOut="demarcheaza(id_linA191_short,id_linA191)" onMouseDown="plusMinus(id_linA191_short,id_linA191_bdy)"> ... </span></span></span><span style="display: none" class="S_LIT_SHORT" id="id_litA188_short" onMouseOver="marcheaza(id_litA188_short,id_litA188)" onMouseOut="demarcheaza(id_litA188_short,id_litA188)" onMouseDown="plusMinus(id_litA188_short,id_litA188_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA192"><span class="S_LIT_TTL" id="id_litA192_ttl" onMouseOver="marcheaza(id_litA192_ttl,id_litA192)" onMouseOut="demarcheaza(id_litA192_ttl,id_litA192)" onMouseDown="plusMinus(id_litA192_short,id_litA192_bdy)">k)<!----></span> <span class="S_LIT_BDY" id="id_litA192_bdy">exclud sau limitează răspunderea legală a profesionistului în cazul vătămării sau decesului consumatorului, ca rezultat al unei acțiuni sau omisiuni a profesionistului privind utilizarea produselor și serviciilor;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA192_short" onMouseOver="marcheaza(id_litA192_short,id_litA192)" onMouseOut="demarcheaza(id_litA192_short,id_litA192)" onMouseDown="plusMinus(id_litA192_short,id_litA192_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA193"><span class="S_LIT_TTL" id="id_litA193_ttl" onMouseOver="marcheaza(id_litA193_ttl,id_litA193)" onMouseOut="demarcheaza(id_litA193_ttl,id_litA193)" onMouseDown="plusMinus(id_litA193_short,id_litA193_bdy)">l)<!----></span> <span class="S_LIT_BDY" id="id_litA193_bdy">exclud dreptul consumatorului de a întreprinde o acțiune legală sau de a exercita un alt remediu legal, solicitându-i în același timp rezolvarea disputelor în special prin arbitraj;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA193_short" onMouseOver="marcheaza(id_litA193_short,id_litA193)" onMouseOut="demarcheaza(id_litA193_short,id_litA193)" onMouseDown="plusMinus(id_litA193_short,id_litA193_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA194"><span class="S_LIT_TTL" id="id_litA194_ttl" onMouseOver="marcheaza(id_litA194_ttl,id_litA194)" onMouseOut="demarcheaza(id_litA194_ttl,id_litA194)" onMouseDown="plusMinus(id_litA194_short,id_litA194_bdy)">m)<!----></span> <span class="S_LIT_BDY" id="id_litA194_bdy">permit în mod nejustificat impunerea unor restricții în administrarea probelor evidente de care dispune consumatorul sau solicitarea unor probe care, potrivit legii, fac obiectul unei alte părți din contract;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA194_short" onMouseOver="marcheaza(id_litA194_short,id_litA194)" onMouseOut="demarcheaza(id_litA194_short,id_litA194)" onMouseDown="plusMinus(id_litA194_short,id_litA194_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA195"><span class="S_LIT_TTL" id="id_litA195_ttl" onMouseOver="marcheaza(id_litA195_ttl,id_litA195)" onMouseOut="demarcheaza(id_litA195_ttl,id_litA195)" onMouseDown="plusMinus(id_litA195_short,id_litA195_bdy)">n)<!----></span> <span class="S_LIT_BDY" id="id_litA195_bdy">dau dreptul profesionistului să transfere obligațiile contractuale unei terțe persoane - agent, mandatar etc. -, fără acordul consumatorului, dacă acest transfer servește la reducerea garanțiilor sau a altor răspunderi față de consumator;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA195_short" onMouseOver="marcheaza(id_litA195_short,id_litA195)" onMouseOut="demarcheaza(id_litA195_short,id_litA195)" onMouseDown="plusMinus(id_litA195_short,id_litA195_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA196"><span class="S_LIT_TTL" id="id_litA196_ttl" onMouseOver="marcheaza(id_litA196_ttl,id_litA196)" onMouseOut="demarcheaza(id_litA196_ttl,id_litA196)" onMouseDown="plusMinus(id_litA196_short,id_litA196_bdy)">o)<!----></span> <span class="S_LIT_BDY" id="id_litA196_bdy">interzic consumatorului să compenseze o datorie către profesionist cu o creanță pe care el ar avea-o asupra profesionistului;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA196_short" onMouseOver="marcheaza(id_litA196_short,id_litA196)" onMouseOut="demarcheaza(id_litA196_short,id_litA196)" onMouseDown="plusMinus(id_litA196_short,id_litA196_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA197"><span class="S_LIT_TTL" id="id_litA197_ttl" onMouseOver="marcheaza(id_litA197_ttl,id_litA197)" onMouseOut="demarcheaza(id_litA197_ttl,id_litA197)" onMouseDown="plusMinus(id_litA197_short,id_litA197_bdy)">p)<!----></span> <span class="S_LIT_BDY" id="id_litA197_bdy">prevăd că prețul produselor este determinat la momentul livrării sau permit vânzătorilor de produse ori furnizorilor de servicii dreptul de a crește prețurile, fără ca, în ambele cazuri, să acorde consumatorului dreptul de a anula contractul în cazul în care prețul final este prea mare în raport cu prețul convenit la momentul încheierii contractului.</span><span style="display: none" class="S_LIT_SHORT" id="id_litA197_short" onMouseOver="marcheaza(id_litA197_short,id_litA197)" onMouseOut="demarcheaza(id_litA197_short,id_litA197)" onMouseDown="plusMinus(id_litA197_short,id_litA197_bdy)"> ... </span></span><!----></span><span class="S_PAR" style="display: block; color:black;" id="id_parA198">Prevederile acestei litere nu se opun clauzelor de indexare a prețurilor, atât timp cât sunt legale, cu condiția ca metoda prin care prețurile variază să fie descrisă în mod explicit;<span class="S_LIT" style="display: block; color:black;" id="id_litA199"><span class="S_LIT_TTL" id="id_litA199_ttl" onMouseOver="marcheaza(id_litA199_ttl,id_litA199)" onMouseOut="demarcheaza(id_litA199_ttl,id_litA199)" onMouseDown="plusMinus(id_litA199_short,id_litA199_bdy)">r)<!----></span> <span class="S_LIT_BDY" id="id_litA199_bdy">permit profesionistului obținerea unor sume de bani de la consumator, în cazul neexecutării sau finalizării contractului de către acesta din urmă, fără a prevedea existența compensațiilor în sumă echivalentă și pentru consumator, în cazul neexecutării contractului de către profesionist;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA199_short" onMouseOver="marcheaza(id_litA199_short,id_litA199)" onMouseOut="demarcheaza(id_litA199_short,id_litA199)" onMouseDown="plusMinus(id_litA199_short,id_litA199_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA200"><span class="S_LIT_TTL" id="id_litA200_ttl" onMouseOver="marcheaza(id_litA200_ttl,id_litA200)" onMouseOut="demarcheaza(id_litA200_ttl,id_litA200)" onMouseDown="plusMinus(id_litA200_short,id_litA200_bdy)">s)<!----></span> <span class="S_LIT_BDY" id="id_litA200_bdy">dau dreptul profesionistului să anuleze contractul în mod unilateral, fără să prevadă același drept și pentru consumator;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA200_short" onMouseOver="marcheaza(id_litA200_short,id_litA200)" onMouseOut="demarcheaza(id_litA200_short,id_litA200)" onMouseDown="plusMinus(id_litA200_short,id_litA200_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA201"><span class="S_LIT_TTL" id="id_litA201_ttl" onMouseOver="marcheaza(id_litA201_ttl,id_litA201)" onMouseOut="demarcheaza(id_litA201_ttl,id_litA201)" onMouseDown="plusMinus(id_litA201_short,id_litA201_bdy)">t)<!----></span> <span class="S_LIT_BDY" id="id_litA201_bdy">dau dreptul profesionistului să înceteze contractul încheiat pentru o durată nedeterminată fără o notificare prealabilă rezonabilă, cu excepția unor motive întemeiate.</span><span style="display: none" class="S_LIT_SHORT" id="id_litA201_short" onMouseOver="marcheaza(id_litA201_short,id_litA201)" onMouseOut="demarcheaza(id_litA201_short,id_litA201)" onMouseDown="plusMinus(id_litA201_short,id_litA201_bdy)"> ... </span></span><!----></span><span class="S_PAR" style="display: block; color:black;" id="id_parA202">Prevederile acestei litere nu se opun clauzelor prin care furnizorul de servicii financiare își rezervă dreptul de a dispune în mod unilateral încetarea unui contract încheiat pe o perioadă nedeterminată și fără o notificare prealabilă în cazul unui motiv întemeiat, cu condiția ca furnizorul să fie obligat să informeze imediat celelalte părți contractante.<!----></span><span class="S_ALN" style="display: block; color:black;" id="id_litA203"><span class="S_ALN_TTL" id="id_litA203_ttl" onMouseOver="marcheaza(id_litA203_ttl,id_litA203)" onMouseOut="demarcheaza(id_litA203_ttl,id_litA203)" onMouseDown="plusMinus(id_litA203_short,id_litA203_bdy)">(2)<!----></span> <span class="S_ALN_BDY" id="id_litA203_bdy">Dispozițiile <span class="S_LGI">alin. (1) lit. a)</span>, p) și t) nu sunt aplicabile în cazul:<span class="S_LIT" style="display: block; color:black;" id="id_litA204"><span class="S_LIT_TTL" id="id_litA204_ttl" onMouseOver="marcheaza(id_litA204_ttl,id_litA204)" onMouseOut="demarcheaza(id_litA204_ttl,id_litA204)" onMouseDown="plusMinus(id_litA204_short,id_litA204_bdy)">a)<!----></span> <span class="S_LIT_BDY" id="id_litA204_bdy">tranzacțiilor cu valori mobiliare, instrumentelor financiare și altor produse sau servicii, în cazul în care prețul este legat de fluctuațiile cotației bursiere sau ale indicelui bursier ori ale unei rate de schimb pe piața financiară, pe care vânzătorul sau furnizorul nu le poate controla;</span><span style="display: none" class="S_LIT_SHORT" id="id_litA204_short" onMouseOver="marcheaza(id_litA204_short,id_litA204)" onMouseOut="demarcheaza(id_litA204_short,id_litA204)" onMouseDown="plusMinus(id_litA204_short,id_litA204_bdy)"> ... </span></span><span class="S_LIT" style="display: block; color:black;" id="id_litA205"><span class="S_LIT_TTL" id="id_litA205_ttl" onMouseOver="marcheaza(id_litA205_ttl,id_litA205)" onMouseOut="demarcheaza(id_litA205_ttl,id_litA205)" onMouseDown="plusMinus(id_litA205_short,id_litA205_bdy)">b)<!----></span> <span class="S_LIT_BDY" id="id_litA205_bdy">contractelor pentru cumpărarea sau vânzarea de devize, cecuri de călătorie, ordine de plată internaționale emise în devize sau alte instrumente de plată internaționale.</span><span style="display: none" class="S_LIT_SHORT" id="id_litA205_short" onMouseOver="marcheaza(id_litA205_short,id_litA205)" onMouseOut="demarcheaza(id_litA205_short,id_litA205)" onMouseDown="plusMinus(id_litA205_short,id_litA205_bdy)"> ... </span></span></span></span><!----></span><!----></span><span class="S_PAR" style="display: block; color:black;" id="id_parA206">------<!----></span>
+                                    </div>
+                                    <div id="div_Formerepublicate" class="content_forma_act" style="display: none" data-state="empty"></div>
+                                    <div id="div_Formadebaza" class="content_forma_act" style="display: none" data-state="empty"></div>
+
+
+                        </div>
+
+                        <div id="fisa_act_container" style="display: none" data-id="FisaAct" data-state="empty">
+                                <div id="div_Actiunisuferite" class="content_fisa_act" data-state="empty">
+                                </div>
+                                <div id="div_ActiuniInduse" class="content_fisa_act" data-state="empty">
+                                </div>
+                                <div id="div_Referape" class="content_fisa_act" data-state="empty">
+                                </div>
+                                <div id="div_Referitde" class="content_fisa_act" data-state="empty">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+ 
+<script type="text/javascript">
+    if (navigator.appVersion.indexOf("MSIE 8.") != -1) {
+        $("#meniu").css("float", "left");
+        $("#meniu").css("width", "20%");
+        $(".affix-top").css("position", "fixed");
+        $(".affix-top").css("top", "20px");
+        $(".affix-bottom").css("top", "20px");
+        $("#infoactinfoact").css("float", "right");
+        $("#infoactinfoact").css("width", "79%");
+        //var naturalWidth = img.naturalWidth;
+        //var imagini = document.getElementsByTagName("img");
+        //for (i=0;i<imagini.length;i++)
+        //{
+         //   alert(imagini[i].naturalWidth);
+         //   imagini[i].setAttribute("style","max-width:"+imagini[i].naturalWidth+"px");
+       // }
+       //////$("#infoactinfoact img").css("max-width", +"px");
+        /////alert($("#infoactinfoact img").width);
+        $("#infoactinfoact img").css("width", "auto");
+         
+        
+ 
+    }
+    var sbarHeight = null;
+
+    $(function () {
+
+        if (document.getElementsByClassName("alert")[0])
+            document.getElementsByClassName("alert")[0].style.visibility = 'hidden';
+
+        document.getElementById("Actiunisuferite").checked = false;
+        document.getElementById("ActiuniInduse").checked = false;
+        document.getElementById("Referape").checked = false;
+        document.getElementById("Referitde").checked = false;
+
+        //alert(document.getElementById("header_wrapper").offsetHeight);
+        //alert(screen.height);
+
+        var inaltime_meniu_stanga = screen.height - document.getElementById("header_wrapper").offsetHeight;
+        //alert(inaltime_meniu_stanga);
+        //  document.getElementById("meniu_stanga").style.maxHeight = inaltime_meniu_stanga + "px";
+
+        if (window.location.href.indexOf("forma_de_baza") != -1) {
+            document.getElementById("Formadebaza").style.disabled = true;
+            document.getElementById("Formadebaza").nextSibling.style.disabled = true;
+        }
+
+        if (window.location.href.indexOf("isFormaDeBaza") != -1) {
+            if (document.getElementById('istoric_fa'))
+                document.getElementById('istoric_fa').style.display = 'none'
+            document.getElementById("Formadebaza").checked = true;
+        }
+
+        if (window.location.href.indexOf("#A") != -1) {
+            var id_elem = window.location.href.split("#")[1];
+            window.scrollTo(id_elem.offsetHeight, 0);
+        }
+        else
+            window.scrollTo(0, 0);
+
+        //alert(document.getElementById('menu'));
+
+        //afisare/ascundere radio buttons (forme consolidate, forme republicate, forma de baza)
+
+        if (window.innerWidth < 1010) {
+            document.getElementById('sidebar').id = 'sidebar1';
+            document.getElementById('meniutitlu').appendChild(document.getElementById('sidebar1'));
+            document.getElementById('sidebar1').style.display = 'block';
+        }
+
+        $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        && location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top - 0 //offsets for fixed header
+                    }, 50);
+                    return false;
+                }
+            }
+        });
+        //Executed on page load with URL containing an anchor tag.
+        if ($(location.href.split("#")[1])) {
+            var target = $('#' + location.href.split("#")[1]);
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top - 0 //offset height of header here too.
+                }, 50);
+                return false;
+            }
+        }
+        /*
+        $("#sidebar").affix({
+            offset: {
+                top: $("header").outerHeight(true),
+                bottom: $("footer").outerHeight(true)+10
+            }
+        });
+        */
+        //alert(inaltimediv);
+        //document.getElementsByClassName('meniuaffix')[0].style.maxHeight = inaltimediv + "px";
+      $(window).resize(function () {
+            doResizeMenu();
+        });
+        
+        // scroll pe meniu la incarcare pagina (onload jQuery)
+      doResizeMenu();
+      imgSIZE(); // redim poze
+
+      // inaltime initiala sidebar
+      if ($("#sidebar").html())
+          sbarHeight = $("#sidebar").height();
+      else
+          sbarHeight = $("#sidebar1").height();
+        
+      $(window).scroll(function () {
+          if (isScrolledIntoView($(".footer_logo"))) {
+              $("#sidebar").height(sbarHeight - 200);
+          }
+          else {
+              $("#sidebar").height(sbarHeight);
+          }
+      });
+
+      var _tipact = 3;
+        //alert(_tipact);
+        if ((_tipact == 3 || _tipact == 2) && window.location.href.indexOf('isFormaDeBaza') == -1)
+        {
+            if (document.getElementById('Formaconsolidata'))
+            {
+                document.getElementById('Formaconsolidata').checked = true;
+            }
+        }        
+        else
+        {
+            //republicare
+            if (_tipact == 4)
+            {
+                if (document.getElementById('Formerepublicate'))
+                {
+                    document.getElementById('Formerepublicate').checked = true;
+                }
+                else if (document.getElementById('Formadebaza'))
+                {
+                    document.getElementById('Formadebaza').checked = true;
+                }
+            }
+            else
+                if (document.getElementById('Formadebaza'))
+                {
+                    document.getElementById('Formadebaza').checked = true;
+                }
+        }
+        //republicata (fortez forma de baza)
+        if (_tipact == 5)
+        {
+            if (document.getElementById('Formaconsolidata'))
+            {
+                document.getElementById('Formaconsolidata').checked = true;
+            }
+        }
+
+    }); // onload jQuery END
+
+    function doResizeMenu() {
+        var proc = 65;
+        var wh = window.innerHeight;
+        var dy = Math.floor(proc*wh/100);
+        var inaltimediv = window.innerHeight;
+        //var inaltimediv = window.innerHeight - $('#header_footer').height() - 400; // $("#footer_wrapper").height();
+        var inaltimediv1 = window.innerHeight - $('#header_wrapper').height();
+        
+        $("#sidebar").height(dy);
+        $("#sidebar1").height(inaltimediv1);
+    }
+
+    function AfiseazaTextModificat(e) {
+        // console.log($(e).prop("checked"));
+    }
+    function toggle_cuprins() {
+        if (document.getElementById('tree_cuprins_act').style.display != 'none')
+            document.getElementById('tree_cuprins_act').style.display = 'none'
+        else
+            document.getElementById('tree_cuprins_act').style.display = 'block';
+    }
+
+    function toggle_fisaact() {
+        if (document.getElementById('content_fisaact').style.display != 'none') {
+            document.getElementById('label_fisaact_plus_minus').innerHTML = '+';
+            document.getElementById('content_fisaact').style.display = 'none'
+        }
+        else {
+            document.getElementById('label_fisaact_plus_minus').innerHTML = '&#8212;&#160;';
+            document.getElementById('content_fisaact').style.display = 'block';
+        }
+    }
+
+    function toggle_istoric_forme_actz() {
+        if (document.getElementById('istoric_fa').style.display != 'none') {
+            document.getElementById('istoric_fa').style.display = 'none';
+            document.getElementById('label_forme_actz').innerHTML = "&nbsp;&nbsp;&nbsp;+&nbsp;istoric consolidari";
+        }
+        else {
+            document.getElementById('istoric_fa').style.display = 'block';
+            document.getElementById('label_forme_actz').innerHTML = "&nbsp;&nbsp;&nbsp;&#8212;&nbsp;istoric consolidari";
+        }
+    }
+    function scroll_to_fa() {
+        if (document.getElementById('fa_selectata'))
+            document.getElementById('meniu_stanga').scrollTop = document.getElementById('fa_selectata').offsetTop;
+    }
+    function ArataFisaAct(elem) {
+        //alert(elem.id);
+        if (elem.id == 'Actiunisuferite')
+        {
+            if (document.getElementById('actiuni_suferite').innerHTML == '')
+            {
+                $("#loaderDiv").show();
+                $.post("/Public/actiuniSuferite", { contor: document.getElementById('id_act').value }, function (result) {
+                    if (result.acte.indexOf('Nu exist') != -1)
+                        document.getElementById('actiuni_suferite').style.height = '30px';
+                    document.getElementById('actiuni_suferite').innerHTML = result.acte;
+                    $("#loaderDiv").hide();
+                });
+            }
+
+            if (document.getElementById('actiuni_suferite').style.display == 'none')
+                document.getElementById('actiuni_suferite').style.display = 'block';            
+            else
+                document.getElementById('actiuni_suferite').style.display = 'none';
+            
+        }
+
+        if (elem.id == 'ActiuniInduse')
+        {
+            if (document.getElementById('actiuni_induse').innerHTML == '')
+            {
+                $("#loaderDiv").show();
+                $.post("/Public/actiuniInduse", { contor: document.getElementById('id_act').value }, function (result) {
+                    if (result.acte.indexOf('Nu exist') != -1)
+                        document.getElementById('actiuni_induse').style.height = '30px';
+                    document.getElementById('actiuni_induse').innerHTML = result.acte;
+                    $("#loaderDiv").hide();
+                });
+            }
+
+            if (document.getElementById('actiuni_induse').style.display == 'none')
+                document.getElementById('actiuni_induse').style.display = 'block';
+            else
+                document.getElementById('actiuni_induse').style.display = 'none';
+        }
+
+        if (elem.id == 'Referape')
+        {
+            if (document.getElementById('refera_pe').innerHTML == '')
+            {
+                $("#loaderDiv").show();
+                $.post("/Public/referaPe", { contor: document.getElementById('id_act').value }, function (result) {
+                    if (result.acte.indexOf('Nu exist') != -1)
+                        document.getElementById('refera_pe').style.height = '30px';
+                    document.getElementById('refera_pe').innerHTML = result.acte;
+                    $("#loaderDiv").hide();
+                });
+            }
+
+            if (document.getElementById('refera_pe').style.display == 'none')
+                document.getElementById('refera_pe').style.display = 'block';
+            else
+                document.getElementById('refera_pe').style.display = 'none';
+        }
+
+        if (elem.id == 'Referitde')
+        {
+            if (document.getElementById('referit_de').innerHTML == '')
+            {
+                $("#loaderDiv").show();
+                $.post("/Public/referitDe", { contor: document.getElementById('id_act').value }, function (result) {
+                    if (result.acte.indexOf('Nu exist') != -1)
+                        document.getElementById('referit_de').style.height = '30px';
+                    document.getElementById('referit_de').innerHTML = result.acte;
+                    $("#loaderDiv").hide();
+                });
+            }
+
+            if (document.getElementById('referit_de').style.display == 'none')
+                document.getElementById('referit_de').style.display = 'block';
+            else
+                document.getElementById('referit_de').style.display = 'none';
+        }
+        window.scrollTo(0, 0);
+
+    }
+    function alege_articol(tip, select) {
+        var element_selectat = select.options[select.selectedIndex].text;
+        var id_elem = '';
+
+        if (tip == 1)
+            id = "actiuni_suferite";
+        else if (tip == 2)
+            id = "actiuni_induse";
+        else if (tip == 3)
+            id = "refera_pe";
+        else
+            id = "referit_de";
+
+        var linii_tabel = document.getElementById(id).childNodes[4].childNodes[0].childNodes;
+
+        if (element_selectat == 'Toate sectiunile')
+            for (i = 0; i < linii_tabel.length; i++) {
+                linii_tabel[i].style.display = 'table-row';
+            }
+        else {
+            linii_tabel[0].style.display = 'table-row';
+            for (i = 1; i < linii_tabel.length; i++) {
+                var element_gasit = linii_tabel[i].childNodes[0].innerHTML;
+                if (element_selectat != element_gasit)
+                    linii_tabel[i].style.display = 'none';
+                else
+                    linii_tabel[i].style.display = 'table-row';
+            }
+        }
+    }
+
+    function alege_articol_ref(select) {
+        var element_selectat = select.options[select.selectedIndex].text;
+
+        $("#loaderDiv").show();
+        $.post("/Public/getReferitDe", { contor: document.getElementById('id_act').value, element: element_selectat }, function (result) {
+            if (result.acte.indexOf('Nu exist') != -1)
+                document.getElementById('referit_de').style.height = '30px';
+            document.getElementById('referit_de').innerHTML = result.acte;
+            $("#loaderDiv").hide();
+        });
+
+    }
+
+    function incarcaFormaDeBaza(contor) {
+        $.post("/Public/DetaliiDocument/140214", { isFormaDeBaza: true }, function (result) {
+            window.location.href = result.Url;
+        });
+    }
+    function myFunction() {
+        var latime = window.innerWidth;
+        if (latime < 1010) {
+            if (document.getElementById('sidebar')) {
+                document.getElementById('meniutitlu').appendChild(document.getElementById('sidebar'));
+                document.getElementById('sidebar').style.display = 'block';
+                // $("#sidebar").hide(); // display : none
+                // $("#sidebar").show(); // display : default
+                document.getElementById('sidebar').id = 'sidebar1';
+            }
+        }
+        else {
+            if (document.getElementById('sidebar1')) {
+                document.getElementById('meniu').insertBefore(document.getElementById('sidebar1'), document.getElementById('infoact'));
+                document.getElementById('sidebar1').style.display = 'block';
+                document.getElementById('sidebar1').id = 'sidebar';
+                setTimeout(function () { $("#sidebar").height(sbarHeight); }, 1000);
+                
+            }
+            else {
+                document.getElementById('meniu').insertBefore(document.getElementById('sidebar'), document.getElementById('infoact'));
+                document.getElementById('sidebar').style.display = 'block';
+                //document.getElementById('sidebar').id = 'sidebar';
+            }
+        }
+    }
+    //document.getElementById('menu').appendChild(document.getElementById('sidebar'));
+    //document.getElementById('sidebar').style.display = 'inline';
+    //document.getElementById('sidebar').style.zIndex = '999';
+    window.onresize = myFunction;
+
+    function isScrolledIntoView(elem) {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
+
+        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
+    $(document).ready(function () {
+        doResizeMenu();
+    });
+    $(window).resize(function () {
+        doResizeMenu();
+    });
+</script>
+                </div>
+                <div class="clear"></div>
+
+            </div>
+            <div class="clear"></div>
+ 
+        </div>
+        <footer>
+            <div id="footer_wrapper">
+                <div class="footer_wrapper_inner bs-docs-footer">
+                    <div class="footer_inner">
+                        <div class="footer_logo"></div>
+                        <ul class="top_menu">
+                            <li class="floatnone" style="margin-left: -70px;">
+                                <center>
+                                    <div style="max-width:1024px;">
+                                        <br /><img src="/Content/Images/Site/justitie_logo.png" style="max-width:90px; position:relative; z-index:9999; width:100%; margin-top:-35px;" align="left" alt="logo" />
+                                        <p style="text-transform:none;">Conținutul acestui material nu reprezintă în mod obligatoriu poziția oficială a Uniunii Europene sau a Guvernului României.</p>
+                                        <br />
+                                        <center><p style="text-transform:none;">Pentru informații detaliate despre celelalte programe cofinanțate de Uniunea Europeană, vă invităm să vizitați <a onmouseover="this.style.color = '#386897'" onmouseout="    this.style.color = '#ffffff'" style="color: #ffffff; font-weight:bold;" href="http://www.fonduri-ue.ro">www.fonduri-ue.ro</a>.</p></center>
+                                    </div>
+                                </center>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <div class="footer_inner">
+                        <div class="copyright left">
+                            Copyright &copy; 2026 - Ministerul Justiției. Toate drepturile rezervate. - <a href="/Public/Termeni">Termeni și Condiții</a>
+                            <div id="meniufooter">
+
+                            </div>
+                        </div>
+                        <div class="copyright right">        <li class="meniufooter">
+            <a style="color: #386897;" onmouseover="this.style.color = '#fafafa'" onmouseout="this.style.color = '#386897'" href="/Public/Acasa">
+
+    &nbsp;&#124;&nbsp;Acasă
+
+</a>
+        </li>
+        <li class="meniufooter">
+            <a style="color: #386897;" onmouseover="this.style.color = '#fafafa'" onmouseout="this.style.color = '#386897'" href="/Public/NLEX">
+
+    &nbsp;&#124;&nbsp;Despre Proiect
+
+</a>
+        </li>
+        <li class="meniufooter">
+            <a style="color: #386897;" onmouseover="this.style.color = '#fafafa'" onmouseout="this.style.color = '#386897'" href="/Public/Functionalitati">
+
+    &nbsp;&#124;&nbsp;Facilități Oferite 
+
+</a>
+        </li>
+        <li class="meniufooter">
+            <a style="color: #386897;" onmouseover="this.style.color = '#fafafa'" onmouseout="this.style.color = '#386897'" href="/Public/LegaturiUtile">
+
+    &nbsp;&#124;&nbsp;Legături Utile
+
+</a>
+        </li>
+
+
+</div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.toggle-menu').jPushMenu();
+
+                $('ul.mainmenu li.dropdown').hover(function () {
+                    $(this).find('a.main_link').addClass('active');
+                    $(this).find('.level2_menu').show();
+                    $('li.dropdown_2').hover(function () {
+                        $(this).find('a.second_link').addClass('second_active');
+                        $(this).find('.level3_menu').show();
+
+                    }, function () {
+                        $(this).find('a.second_link').removeClass('second_active');
+                        $('.level3_menu').hide();
+                    });
+
+                }, function () {
+                    $(this).find('a.main_link').removeClass('active');
+                    $('.level2_menu').hide();
+                });
+    
+                if (navigator.appVersion.indexOf("MSIE 8.") != -1) {
+
+                    $('#mesajIe8Modal').modal('show');
+
+                }
+            });
+            //
+
+
+
+            $(document).ready(function () {
+
+
+                //stick in the fixed 100% height behind the navbar but don't wrap it
+                $('#slide-nav.navbar-inverse').after($('<div class="inverse" id="navbar-height-col"></div>'));
+
+                $('#slide-nav.navbar-default').after($('<div id="navbar-height-col"></div>'));
+
+                // Enter your ids or classes
+                var toggler = '.navbar-toggle';
+                var pagewrapper = '#page-content';
+                var navigationwrapper = '.navbar-header';
+                var menuwidth = '100%'; // the menu inside the slide menu itself
+                var slidewidth = '60%';
+                var menuneg = '-100%';
+                var slideneg = '-60%';
+
+
+                $("#slide-nav").on("click", toggler, function (e) {
+
+                    var selected = $(this).hasClass('slide-active');
+
+                    $('#slidemenu').stop().animate({
+                        left: selected ? menuneg : '0px'
+                    });
+
+                    $('#navbar-height-col').stop().animate({
+                        left: selected ? slideneg : '0px'
+                    });
+
+                    $(pagewrapper).stop().animate({
+                        left: selected ? '0px' : slidewidth
+                    });
+
+                    $(navigationwrapper).stop().animate({
+                        left: selected ? '0px' : slidewidth
+                    });
+
+
+                    $(this).toggleClass('slide-active', !selected);
+                    $('#slidemenu').toggleClass('slide-active');
+
+
+                    $('#page-content, .navbar, body, .navbar-header').toggleClass('slide-active');
+
+
+                });
+
+
+                var selected = '#slidemenu, #page-content, body, .navbar, .navbar-header';
+
+
+                $(window).on("resize", function () {
+
+                    if ($(window).width() > 1010 && $('.navbar-toggle').is(':hidden')) {
+                        $(selected).removeClass('slide-active');
+                    }
+
+
+                });
+
+
+            });
+        </script>
+        
+    </div>
+    <script>
+
+        function replaceScript() {
+            var toReplace = '<a href="javascript:;">Proiect</a>';
+            var replaceWith = '';
+            document.body.innerHTML = document.body.innerHTML.replace(toReplace, replaceWith);
+        }
+        replaceScript();
+
+        if (navigator.appVersion.indexOf("MSIE 8.") != -1) {
+            $("#toTop").hide();
+            $(".meniunu").hide();
+            $(".icon-bar").hide();
+            $("#btnNavbar").hide();
+            $(".navbar-header").hide();
+            $("body").css("min-width", "600px");
+
+        }
+
+       /* if (navigator.appName.indexOf("Netscape") != -1) {
+            $("#page_wrapper").css("transform", "scale(0.8)");
+            alert(0);
+            $("#page_wrapper").css("transform-origin", "50% 0% ");
+        }*/
+    </script>
+    
+    <!-- BETA Mesaj -->
+    <div class="modal fade" id="mesajBetaModal" tabindex="-1" role="dialog" aria-labelledby="mesajBetaModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 700px; margin: 5% auto; ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Inchide</span></button>
+                    <br /><div class="alert alert-danger" role="alert"> <center>Versiune Beta</center></div>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        A fost lansata versiunea Beta a Portalului Legislativ<br /><br /><br />
+                    Fiind o versiune Beta, este posibil ca unele facilitati sa nu functioneze in mod corect.</center>  
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" data-dismiss="modal" class="btn btn-primary">Inchide mesajul de atentionare</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- IE8 Mesaj -->
+    <div class="modal fade" id="mesajIe8Modal" tabindex="-1" role="dialog" aria-labelledby="mesajIe8ModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 700px; margin: 5% auto; ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Inchide</span></button>
+                    <br /><div class="alert alert-danger" role="alert"> <center>Datorita faptului ca folositi o versiune de Internet Explorer (Internet Explorer 8) foarte veche este posibil ca unele functionalitati sa fie dezactivate sau sa nu functioneze corect!</center></div>
+                </div>
+                <div class="modal-body">
+                    <div style="width:100%;">
+                        <div style="width:50%; float:left; text-transform:uppercase;">
+                            <span style="font-size:18px; font-weight:bold; text-transform:none;">Ce browser sa aleg?</span>
+                            <br /><br /><br />
+                            <div class="row">
+                                <img src="/Content/Images/Site/browsere/chrome.jpg" align="left" width="69" style="padding-right:10px;" /><b>Google Chrome</b><br />
+                                <br /><a href="http://www.google.com/chrome" target="_blank"><span style="text-transform:none; font-size:13px;">Descarca Browser</span></a>
+                            </div><br />
+
+                            <div class="row">
+                                <img src="/Content/Images/Site/browsere/firefox.jpg" align="left" width="69" style="padding-right:10px;" /><b>Mozilla Firefox</b><br />
+                                <br /><a href="https://www.mozilla.org/en-US/firefox/all/?q=romania" target="_blank"><span style="text-transform:none; font-size:13px;">Descarca Browser</span></a>
+                            </div><br />
+                            <div class="row">
+                                <img src="/Content/Images/Site/browsere/ie.jpg" align="left" width="69" style="padding-right:10px;" /><b>Internet Explorer</b><br />
+                                <br />
+                                <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank"><span style="text-transform:none; font-size:13px;">Descarca Browser</span></a>
+                            </div><br />
+                            <div class="row">
+                                <img src="/Content/Images/Site/browsere/safari.jpg" align="left" width="69" style="padding-right:10px;" /><b>Apple Safari</b><br />
+                                <br /><a href="http://www.apple.com/safari/" target="_blank"><span style="text-transform:none; font-size:13px;">Descarca Browser</span></a>
+                            </div>
+                        </div>
+                        <div style="width:50%; float:left;">
+                            <span style="font-size:18px; font-weight:bold;">De ce sa actualizez browserul?</span>
+                            <br /><br /><br />
+                            Browserele invechite, cum ar fi Internet Explorer 8 (lansat în 2001) nu respecta standardele web, nu ofera unele facilitati noi browser-ului, cum ar fi de navigatie sau descarcare, managerul de tab-uri, si au probleme de securitate.
+                            <br /><br />
+                            Aceasta afecteaza, de asemenea, calitatea de redare site-uri web.
+                            <br /><br /><br />
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" data-dismiss="modal" class="btn btn-primary">Inchide mesajul de atentionare</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

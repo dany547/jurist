@@ -1,0 +1,98 @@
+# lemma	expansiune1|expansiune2|expansiune3|...
+consimțământ	consimțământ|consimțământul|consimțământului|acord|opt-in
+prelucrare	prelucrare|prelucrării|prelucrarii|prelucrează|procesare
+operator	operator|operatorului|operatori|operatorilor
+împuternicit	împuternicit|împuternicitului|împuterniciți|procesator
+retragere	retragere|retrage|retragerii|14 zile|paisprezece zile
+cookie	cookie|cookies|echipament terminal|stocare|accesare
+clauză	clauză|clauze|clauzelor|abuziv|abuzive
+preț	preț|prețul|prețuri|prețurilor
+garanție	garanție|garanții|conformitate|remediu|remedii
+abonament	abonament|abonamente|subscription|reînnoire|reînnoit
+informare	informare|informații|informarea|precontractual
+consumator	consumator|consumatori|consumatorului|consumers
+comerciant	comerciant|comercianți|profesionist|profesioniști
+securitate	securitate|securitatea|măsuri tehnice|organizatorice
+breach	breach|încălcare|încălcarea|incident|notificare
+retentie	tenție|păstrare|stocare|termen de păstrare
+marketing	marketing|comercială|newsletter|comunicare comercială
+profilare	profilare|profilarea|profil
+transfer	transfer|transferuri|țară terță|destinatar
+platforma	platformă|platforme|marketplace|intermediar
+contract	contract|contracte|încheiere|executare|încetare
+# === Concept -> formulare legala ===
+uitat	ștergere|ștergerea|stergere|stergerea|sterge|dreptul la ștergere
+uitare	ștergere|ștergerea|stergere|stergerea|anulare
+banner	stocare|stocarea de informații|stocarea de informatii|echipament terminal|acces la informații|acces la informatii
+politica de confidentialitate	informații furnizate|informatii furnizate|informațiile|informatiile|informație|informatie|informare|transparenta|transparență
+temei legal	legalitatea prelucrării|legalitatea prelucrarii|temeiul|conditii|condiții|condiția
+bresa	încălcarea securității|incalcare a securitatii datelor|incident de securitate|breach
+scurgere de date	încălcarea securității|incalcare a securitatii datelor|compromitere|pierdere
+DPO	responsabil cu protecția datelor|responsabil cu protectia datelor|responsabil protecție|responsabil protectie
+DPA	contract de prelucrare|persoana împuternicită|persoana imputernicita|imputernicit
+contract procesare	contract de prelucrare|persoana împuternicită|persoana imputernicita|prelucrare în numele|prelucrare in numele
+retur	retragere|restituire|rambursare|returnare|dreptul de retragere
+garantie	conformitate|neconformitate|remediere|remediu|reparare|înlocuire|inlocuire
+abonament	contract pe durată|contract pe durata|reînnoire|reinnoire|serviciu prestat continuu|furnizare continuă|furnizare continua
+termeni si conditii	clauze contractuale|clauză|clauza|condiții generale|conditii generale|clauze abuzive
+cont sters	ștergere|stergere|retragerea consimțământului|retragerea consimtamantului
+# === Din eval: termeni specifici ===
+confidentialitate	confidențialitate|confidentialitate|protecția vieții private|protectia vietii private
+comert electronic	comerț electronic|comert electronic|servicii ale societății informaționale|servicii ale societatii informationale
+clauze abuzive	clauze abuzive|clauză abuzivă|clauza abuziva|nenegociată|nenegociata
+produs defect	neconformitate|lipsa de conformitate|defect|defectiune|garanție legală|garantie legala
+continut digital	continut digital|conținut digital|servicii digitale|furnizare conținut|furnizare continut
+platforma raspundere	răspunderea platformei|raspunderea platformei|intermediar|găzduire|gazduire|exonerare de răspundere|exonerare de raspundere
+informatii firma	informații despre furnizor|informatii despre furnizor|date de identificare|date despre firmă|date despre firma
+identificare comerciant	obligații de identificare|obligatii de identificare|date de identificare|identificarea comerciantului
+returnare produs	retragere|returnare|returnare produs|drept de retragere|restituire|rambursare
+banii inapoi	rambursare|restituire|rambursarea|restituirea|rambursare în 14 zile|rambursare in 14 zile
+# === Intrebari eval: punti directe ===
+dovedesc	demonstreze|demonstrare|dovada|poate demonstra
+valabil	valabilă|valabil|legitimă|corespunzătoare|îndeplinită|indeplinita
+contului	ștergere|stergere|date cu caracter personal|cont
+portabilitatea	portabilitate|portabilitatea datelor|primi datele|format structurat
+procesatorul	împuternicită|imputernicita|persoană împuternicită|persoana imputernicita
+subimputernicit	 subcontractant|sub-împuternicit|subimputernicit|subcontractare
+statele unite	țară terță|tara terta|transfer international|transfer într-o țară terță|transfer intr-o tara terta
+scurgere	încălcarea securității|incalcare a securitatii|breach|compromitere
+informatii date	informații|informatii|elementele de identificare|identificarea|date de contact
+firma date	furnizor|date de identificare|identificare|număr de înregistrare|numar de inregistrare
+identificare	identificare|date de identificare|număr de înregistrare|numar de inregistrare|numele|denumirea
+abonament software	furnizare|furnizare de conținut|furnizare de continut|conținut digital|continut digital|serviciu digital|servicii digitale
+neconform	neconformitate|lipsă de conformitate|lipsa de conformitate|neconform cu contractul
+defect	neconformitate|defect|defectiune|lipsa de conformitate|prezumată a fi existat
+garantie bunuri	garanție|garantie|conformitate|neconformitate|răspundere|raspundere|remediere
+banii inapoi timp	rambursare|rambursarea|restituire|restituirea|termen de rambursare
+informatii comanda	informații|informatii|elementele|informarea|înainte de contract|inainte de contract
+# === Leme pentru actele adaugate 2026-09-29 ===
+eco	ecologic|de mediu|durabilitate|afirmație legată de mediu|verde
+durabil	durabilitate|de durabilitate|sustenabil|ecologic|longeviv
+greenwashing	afirmație legată de mediu|etichetă de durabilitate|sistem de certificare
+semnătură	semnătură electronică|semnătura electronică|semnătură calificată|subsemnat|semnare
+marca temporală	marcă temporală|marcaj temporal|etichetă de timp
+produs	defect|defectuos|nesigur|periculos|siguranța produsului|răspundere
+rechemare	rechemarea produsului|retragere de pe piață|avertizare|safety gate
+cloud	procesarea datelor|serviciu de prelucrare a datelor|furnizor de servicii
+date	partajare|punere la dispoziție|acces|utilizare|deținător
+chatbot	inteligență artificială|sistem de IA|interacționează cu persoanele
+AI	inteligență artificială|IA|sistem de IA|generat
+instanta	instanța competentă|competența judiciară|jurisdicție|forum
+legea aplicabilă	legea aplicabilă contractului|legea guvernează|alegerea legii|Roma I
+SAL	soluționarea alternativă a litigiilor|entitate SAL|Centrul SAL
+ODR	soluționarea online a litigiilor|platforma de soluționare|524/2013
+plată	operațiune de plată|instrument de plată|prestator de servicii de plată|autorizare
+autentificare	autentificare strictă|autentificarea clienților|elemente de securitate
+preț	prețul de vânzare|preț pe unitatea de măsură|indicarea prețurilor|listă de prețuri
+bot	bot|chatbot|inteligență artificială|automat
+judecata	chema|chemare|acțiune|instanță|competență
+muva	muta|mutare|transfera|comutare
+mute	mutare|comutare|transfer|trecere
+botul	chatbot|inteligență artificială
+eticheta	etichetă|marcaj|etichetă de durabilitate
+calitate	conformitate|siguranță|defect|neconform
+ranit	rănit|leziuni|vătămare|daune|răspundere
+stricat	defect|nefuncțional|reparare|înlocuire
+asigurari	asigurări|asigurare|produs de asigurări
+credit	creditare|împrumut|acord de credit
+factura	factură|document justificativ|e-Factura
