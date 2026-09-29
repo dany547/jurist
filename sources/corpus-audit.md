@@ -2,9 +2,9 @@
 
 ## Rezumat
 
-`corpus.yaml` este sursa unică de adevăr pentru **46 de acte UE/RO (17 România + 29 UE)** din zona privacy, comerț electronic, protecția consumatorului, plăți, semnătură electronică, produse și servicii digitale. `registry.json` definește sursele oficiale și metodele de rezolvare. Actele sunt descărcate din sursele oficiale prin `scripts/fetch_corpus.py` (SOAP Portal Legislativ + LinkHtml; Cellar/EUR-Lex) și ingerate în `data/legal.db` prin `scripts/ingest_corpus.py`; proveniența fiecărei manifestări (URL oficial, checksum, `retrieved_at`) stă pe `act_versions`, iar numerele live le randează `jurist corpus-status --json`. Relațiile EU↔RO (transpunere, completare, modificare) sunt în `sources/relations.tsv` — 50 de rânduri, fiecare cu dovada din textul oficial.
+`corpus.yaml` este sursa unică de adevăr pentru **48 de acte UE/RO (19 România + 29 UE)** din zona privacy, comerț electronic, protecția consumatorului, plăți, semnătură electronică, produse și servicii digitale. `registry.json` definește sursele oficiale și metodele de rezolvare. Actele sunt descărcate din sursele oficiale prin `scripts/fetch_corpus.py` (SOAP Portal Legislativ + LinkHtml; Cellar/EUR-Lex) și ingerate în `data/legal.db` prin `scripts/ingest_corpus.py`; proveniența fiecărei manifestări (URL oficial, checksum, `retrieved_at`) stă pe `act_versions`, iar numerele live le randează `jurist corpus-status --json`. Relațiile EU↔RO (transpunere, completare, modificare) sunt în `sources/relations.tsv` — 50 de rânduri, fiecare cu dovada din textul oficial.
 
-Extinderea din 2026-09-29 (28 → 46 acte) pornește din notele de cercetare din `docs/research-2026-09-29/` (surse oficiale: Cellar notices, texte integrale, SOAP Portal Legislativ, OEIL).
+Extinderea din 2026-09-29 (28 → 48 acte) pornește din notele de cercetare din `docs/research-2026-09-29/` (surse oficiale: Cellar notices, texte integrale, SOAP Portal Legislativ, OEIL).
 
 ## Acoperire
 
@@ -22,8 +22,9 @@ Extinderea din 2026-09-29 (28 → 46 acte) pornește din notele de cercetare din
 | Litigii și protecție generală | Directiva 2013/11/UE + OG 38/2015 (SAL); Regulamentul 2024/3228 (abrogarea ODR); OG 21/1992; Legea 193/2000 |
 | Securitate cibernetică | NIS2 2022/2555; OUG 155/2024 |
 | Lege aplicabilă și competență (clauze din T&C) | Roma I 593/2008; Bruxelles I bis (recast) 1215/2012 |
+| Dreptul comun al contractelor și identificarea firmei | Codul civil — Legea 287/2009, **parțial** (`ingest_articles`: art. 1164–1762 și 2500–2544); Legea 31/1990 — **doar art. 74** |
 
-Numărul de acte: **29 UE + 17 România = 46**. Fiecare intrare are `id`, `fetch`, `authority_class`, `version_coverage`, `domains`, `aliases`, `summary_ro`, identificator oficial și link de sursă; `scope_provisions` este prezent unde delimitarea este utilă.
+Numărul de acte: **29 UE + 19 România = 48** (Codul civil și Legea 31/1990 ingerate parțial, prin `ingest_articles`). Fiecare intrare are `id`, `fetch`, `authority_class`, `version_coverage`, `domains`, `aliases`, `summary_ro`, identificator oficial și link de sursă; `scope_provisions` este prezent unde delimitarea este utilă.
 
 ## Candidați verificați și decizie
 
@@ -40,8 +41,6 @@ Deciziile listei inițiale sunt explicite în `candidate_decisions`; extinderea 
 
 - **OUG 18/2026** (transpunerea RO pentru Directivele 2024/825 și 2023/2673; în vigoare 26.03.2026, DetaliiDocument/308474) este identificată prin research, dar neingestrată. Până la ingest, Legea 363/2007 și OUG 34/2014 din corpus răspund pe textul pre-modificare; regulile noi se aplică de la 27.09.2026 (2024/825), respectiv 19.06.2026 (2023/2673). Prioritar.
 - **eIDAS 2.0 (Regulamentul (UE) 2024/1183)** este roadmap, nu duplicat al eIDAS în v1; corpusul păstrează 910/2014 ca identificator de bază (amendat din 20.05.2024). Stratul RO (Legea 214/2024) este deja în corpus: <https://eur-lex.europa.eu/eli/reg/2024/1183/oj>.
-- **Codul civil (Legea 287/2009)** — adăugare scoped propusă (formarea contractelor, clauze standard art. 1202–1203, executare, răspundere, prescripție), nu integral; neingestrat: <https://legislatie.just.ro/Public/DetaliiDocument/109883>.
-- **Legea 31/1990, art. 74** — adăugare scoped propusă (obligația de identificare pe factură/ofertă/comandă/tarif/prospect); neingestrată: <https://legislatie.just.ro/Public/DetaliiDocument/798>.
 - **Right to Repair (Directiva (UE) 2024/1799)** — în afara corpusului; transpunerea RO **negăsită** prin SOAP (termenul de transpunere, 31.07.2026, a trecut); amendă Directiva 2019/771 din 30.07.2024. Watchlist până apare transpunerea: <https://eur-lex.europa.eu/eli/dir/2024/1799/oj>.
 - **PLD (Directiva (UE) 2024/2853)** este în corpus; transpunerea RO **negăsită** (SOAP). Termenul de transpunere este 09.12.2026, când abrogă Directiva 85/374; Legea 240/2004 (transpunerea veche, în afara corpusului) intră atunci în sunset.
 - **CCD2 (Directiva (UE) 2023/2225, credit de consum)** — P2; acoperă BNPL; aplicabilă 20.11.2026; transpunere RO negăsită: <https://eur-lex.europa.eu/eli/dir/2023/2225/oj>.

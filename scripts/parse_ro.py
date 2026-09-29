@@ -35,7 +35,10 @@ SKIP_CLASSES = {CLS_ALN, CLS_LIT, CLS_PCT, "S_LIT_SHORT", "S_PCT_SHORT", "S_NTA"
 # A unit's own text excludes nested legal units; they are rendered separately.
 UNIT_CLASSES = (CLS_ALN, CLS_LIT, CLS_PCT)
 
-ARTICLE_NUM_RE = re.compile(r"art(?:icolul)?\.?\s*([0-9]+(?:\s*\^\s*[0-9]+)?)[\s.]*", re.I)
+# Codes past article 999 write a thousands dot ("Articolul 1.164"); the dot is
+# stripped when the number is read (see _article_number).
+ARTICLE_NUM_RE = re.compile(
+    r"art(?:icolul)?\.?\s*((?:[0-9]{1,3}(?:\.[0-9]{3})+|[0-9]+)(?:\s*\^\s*[0-9]+)?)[\s.]*", re.I)
 # Pure amending acts number their own articles with roman numerals ("Articolul I",
 # "Articolul II"). The negative lookahead keeps ordinary words ("Articolul curent")
 # from being read as a numeral.
@@ -243,7 +246,7 @@ def _iter_host_articles(root: _Element, drop_log: list[dict] | None = None):
                     title = normalize(_text(title_el, include_units=True)) if title_el else ""
                     m = ARTICLE_NUM_RE.search(title)
                     drop_log.append({
-                        "article": m.group(1).replace(" ", "") if m else "",
+                        "article": m.group(1).replace(" ", "").replace(".", "") if m else "",
                         "title": title,
                         "reason": "QUOTED_ARTICLE_OF_OTHER_ACT",
                     })
@@ -393,7 +396,7 @@ def parse_ro_html(html: str, *, jurisdiction: str = "RO", act_type: str = "LEGE"
         if title_el is None:
             return ""
         match = pattern.search(normalize(_text(title_el, include_units=True)))
-        return match.group(1).replace(" ", "").upper() if match else ""
+        return match.group(1).replace(" ", "").replace(".", "").upper() if match else ""
 
     host_articles = list(_iter_host_articles(root, drop_log))
     roman_only = not any(numeral(el, ARTICLE_NUM_RE) for el in host_articles)

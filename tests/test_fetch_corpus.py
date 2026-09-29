@@ -547,9 +547,9 @@ def test_fetch_ro_gate_failure_keeps_existing(tmp_path, monkeypatch):
 
 def test_build_plan_covers_whole_corpus():
     acts = fc.load_corpus()
-    assert len(acts) == 46, "corpus.yaml should currently list 46 acts"
+    assert len(acts) == 48, "corpus.yaml should currently list 48 acts"
     plan, warnings = fc.build_plan(acts)
-    assert len(plan) == 46
+    assert len(plan) == 48
     assert isinstance(warnings, list)
     by_id = {e["id"]: e for e in plan}
     assert by_id["RO:LEGE:506:2004"]["path"] == "raw/ro/LEGE_506_2004.html"
@@ -557,7 +557,7 @@ def test_build_plan_covers_whole_corpus():
     assert by_id["EU:REG:2018:302"]["path"] == "ingest/eu/32018R0302.html"
     # GDPR e pinat pe consolidarea oficială disponibilă (cea mai nouă <= data de astăzi).
     assert by_id["EU:REG:2016:679"]["celex_downloaded"] == "02016R0679-20160504"
-    assert sum(1 for e in plan if e["jurisdiction"] == "RO") == 17
+    assert sum(1 for e in plan if e["jurisdiction"] == "RO") == 19
     assert sum(1 for e in plan if e["jurisdiction"] == "EU") == 29
 
 
@@ -569,7 +569,7 @@ def test_filter_acts_by_only_and_jurisdiction():
     sel, unknown = fc.filter_acts(acts, jurisdiction="EU")
     assert len(sel) == 29 and not unknown
     sel, unknown = fc.filter_acts(acts, jurisdiction="RO")
-    assert len(sel) == 17 and not unknown
+    assert len(sel) == 19 and not unknown
 
 
 def test_main_unknown_only_id_exits_2(capsys):
@@ -593,15 +593,15 @@ def test_main_exit_code_reflects_failures(monkeypatch):
     assert fc.main([]) == 1                              # any failure → non-zero
 
 
-def test_cli_dry_run_lists_all_46_acts():
+def test_cli_dry_run_lists_all_48_acts():
     proc = subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "fetch_corpus.py"), "--dry-run"],
         capture_output=True, text=True, cwd=ROOT, timeout=60)
     assert proc.returncode == 0, proc.stderr
     data = json.loads(proc.stdout)
     assert data["dry_run"] is True
-    assert data["count"] == 46
-    assert len(data["acts"]) == 46
+    assert data["count"] == 48
+    assert len(data["acts"]) == 48
     ids = {e["id"] for e in data["acts"]}
     assert {"RO:LEGE:506:2004", "EU:REG:2018:302"} <= ids
     for e in data["acts"]:

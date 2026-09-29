@@ -67,6 +67,27 @@ def _ro_filename_to_meta(filename: str) -> tuple[str, str, int]:
     return act_type, number, year
 
 
+def _filter_articles(provisions: list[dict], spec: list[str] | None) -> list[dict]:
+    """Keep only provisions whose article falls in corpus.yaml ``ingest_articles``.
+
+    ``spec`` lists single articles or inclusive ranges of base numbers, e.g.
+    ["74", "1164-1762"]; "1203^1" matches as base 1203. Used for acts that are
+    ingested only in part (Codul civil, Legea 31/1990). No spec = keep all.
+    """
+    if not spec:
+        return provisions
+    ranges: list[tuple[int, int]] = []
+    for item in spec:
+        low, _, high = str(item).partition("-")
+        ranges.append((int(low), int(high or low)))
+
+    def wanted(article: str | None) -> bool:
+        base = re.match(r"\d+", article or "")
+        return bool(base) and any(lo <= int(base.group()) <= hi for lo, hi in ranges)
+
+    return [p for p in provisions if wanted(p.get("article"))]
+
+
 def _safe_summary(entry) -> str:
     if isinstance(entry, dict):
         return entry.get("draft", "")
@@ -237,6 +258,10 @@ def main() -> int:
                 provisions = parse_ro_html(html, act_type=act_type, number=number, year=year)
             except Exception as exc:
                 stats["errors"].append(f"RO parse error {act_id}: {exc}")
+                continue
+            provisions = _filter_articles(provisions, y.get("ingest_articles"))
+            if not provisions:
+                stats["errors"].append(f"RO {act_id}: no provisions left after ingest_articles filter")
                 continue
 
             result = engine.ingest_snapshot(act, version, provisions)

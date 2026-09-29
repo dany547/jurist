@@ -372,6 +372,15 @@ def fetch_ro_act(act: dict, *, root: Path = ROOT) -> dict:
         # Decode-safe write: raw bytes must be valid UTF-8 for ingest_corpus.
         text = ro_stable_text(data.decode("utf-8", errors="replace"))
         ok, reason = content_gate.check(text, "ro")
+        consolidated = _lazy_consolidation_link(text)
+        if not ok and consolidated:
+            # Very large acts (Codul civil) come back as a shell page that loads
+            # the current consolidated form lazily from another document id;
+            # follow that official link once.
+            link = consolidated
+            _nap()
+            text = ro_stable_text(_http_get(link, {}).decode("utf-8", errors="replace"))
+            ok, reason = content_gate.check(text, "ro")
         if not ok:
             raise FetchError(f"content gate: {reason}")
         data = text.encode("utf-8")
@@ -390,6 +399,15 @@ def fetch_ro_act(act: dict, *, root: Path = ROOT) -> dict:
     except Exception as exc:  # noqa: BLE001 — reported per act, never fatal
         out["error"] = f"{type(exc).__name__}: {exc}"
     return out
+
+
+_LAZY_FORM_RE = re.compile(r"/Public/DetaliiDocumentAfis/(\d+)")
+
+
+def _lazy_consolidation_link(text: str) -> str | None:
+    """DetaliiDocument URL of the lazily loaded consolidated form, if any."""
+    match = _LAZY_FORM_RE.search(text)
+    return f"https://legislatie.just.ro/Public/DetaliiDocument/{match.group(1)}" if match else None
 
 
 def fetch_eu_act(act: dict, *, root: Path = ROOT) -> dict:

@@ -1,7 +1,7 @@
 # question	expected canonical provision IDs
-# Scris contra corpusului REAL (46 acte, 10.187 provizii, extins 2026-09-29). Fiecare ID a
-# fost verificat ca exista in data/legal.db. 40 de întrebări inițiale + 23 adăugate
-# la 2026-09-29 = 63 în total (green claims, GPSR, Data Act, AI Act, PLD, SCC/DPF, NIS2,
+# Scris contra corpusului REAL (48 acte, 11.304 provizii, extins 2026-09-29). Fiecare ID a
+# fost verificat ca exista in data/legal.db. 40 de întrebări inițiale + 30 adăugate
+# la 2026-09-29 = 70 în total (green claims, GPSR, Data Act, AI Act, PLD, SCC/DPF, NIS2,
 # semnătură electronică, plăți, SAL, prețuri, DSA/ANCOM, lege aplicabilă și competență).
 trebuie banner de cookies pe site	RO:LEGE:506:2004:ART:4:P:5,RO:LEGE:506:2004:ART:4:P:5:L:a,EU:DIR:2002:58:ART:5:P:3
 pot pune cookies fara sa intreb utilizatorul	RO:LEGE:506:2004:ART:4:P:5,RO:LEGE:506:2004:ART:4:P:5:L:a,EU:DIR:2002:58:ART:5:P:3
@@ -66,3 +66,10 @@ trimit datele clientilor pe AWS in Statele Unite mai am nevoie de clauze	EU:DEC:
 ce pun in contractul cu o firma din strainatate care imi stocheaza datele clientilor	EU:DEC:2021:914:ANN:1,EU:DEC:2021:914:ART:1,EU:REG:2016:679:ART:46
 pe cine reclam la ANCOM pentru continut ilegal de pe o platforma	RO:LEGE:50:2024:ART:21:P:1,RO:LEGE:50:2024:ART:8,RO:LEGE:50:2024:ART:23:P:1
 masuri de securitate cibernetica pentru magazinul meu online	EU:DIR:2022:2555:ART:21:P:1,EU:DIR:2022:2555:ART:6,RO:OUG:155:2024:ART:21
+clientul bifeaza termenii si conditiile, e valabila clauza care imi limiteaza raspunderea	RO:LEGE:287:2009:ART:1203
+pot invoca forta majora daca nu am livrat comanda la timp	RO:LEGE:287:2009:ART:1351:P:2,RO:LEGE:287:2009:ART:1351:P:1
+firma care mi-a cumparat marfa reclama vicii ascunse dupa livrare	RO:LEGE:287:2009:ART:1707:P:1
+o clauza neclara din contractul standard se interpreteaza in favoarea cui	RO:LEGE:287:2009:ART:1269:P:2,RO:LEGE:287:2009:ART:1269:P:1
+in cat timp se prescrie dreptul de a cere plata unei facturi neplatite	RO:LEGE:287:2009:ART:2517
+ce date despre firma trebuie sa apara pe site-ul magazinului	RO:LEGE:31:1990:ART:74:P:5,RO:LEGE:31:1990:ART:74:P:1
+trebuie sa trec capitalul social pe facturi la SRL	RO:LEGE:31:1990:ART:74:P:3

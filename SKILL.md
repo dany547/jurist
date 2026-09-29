@@ -8,7 +8,8 @@ description: >
   contracte la distanță, clauze abuzive, semnătură electronică, plăți,
   siguranța și răspunderea pentru produse, green claims, Data Act,
   transparența AI Act, lege aplicabilă/competență în T&C, transferuri
-  SCC/DPF, DSA cu aplicarea RO (ANCOM) și NIS2 — RO+UE. Nu folosi pentru
+  SCC/DPF, DSA cu aplicarea RO (ANCOM), NIS2, dreptul comun al contractelor
+  din Codul civil (parțial) și datele de identificare ale firmei — RO+UE. Nu folosi pentru
   afirmații verificate în materii fiscale, de muncă sau penale.
   Nu inventa articole, date sau citate.
 ---
@@ -62,7 +63,9 @@ Corpusul acoperă RO+UE: GDPR și date personale, cookies, e-commerce, contracte
 
 ## Când îl folosești
 
-Privacy, cookies, e-commerce, contracte la distanță, clauze abuzive, semnătură electronică, plăți, siguranța și răspunderea pentru produse, green claims, Data Act, transparență AI Act, T&C (lege aplicabilă/competență), transferuri SCC/DPF, DSA/ANCOM, NIS2 — RO+UE. Pentru o întrebare din afara corpusului, `jurist corpus-status --json`; nu completa din memorie.
+Privacy, cookies, e-commerce, contracte la distanță, clauze abuzive, semnătură electronică, plăți, siguranța și răspunderea pentru produse, green claims, Data Act, transparență AI Act, T&C (lege aplicabilă/competență, clauze standard, forță majoră, vicii ascunse, prescripție), datele de identificare ale firmei pe site și documente, transferuri SCC/DPF, DSA/ANCOM, NIS2 — RO+UE. Pentru o întrebare din afara corpusului, `jurist corpus-status --json`; nu completa din memorie.
+
+Codul civil e ingerat **parțial** (art. 1164–1762 și 2500–2544), iar Legea 31/1990 doar cu art. 74. Un articol din afara acestor intervale lipsește din corpus: e `out_of_corpus`, nu inexistent.
 
 ## Procedură
 

@@ -231,3 +231,42 @@ punere pe piata	product_safety,product_information
 punerea la dispozitie pe piata	product_safety,product_information
 lege straina	governing_law,contracts
 legea altui stat	governing_law,contracts
+# --- Codul civil: drept comun al contractelor (fraze specifice, 2+ cuvinte) ---
+clauze standard	terms_and_conditions,contracts
+clauza standard	terms_and_conditions,contracts
+clauze neuzuale	terms_and_conditions,contracts
+clauza neuzuala	terms_and_conditions,contracts
+accepta termenii	terms_and_conditions,contracts
+acceptarea termenilor	terms_and_conditions,contracts
+bifeaza termenii	terms_and_conditions,contracts
+interpretarea contractului	contracts,terms_and_conditions
+clauza neclara	contracts,terms_and_conditions
+forta majora	contracts
+caz fortuit	contracts
+daune-interese	contracts
+daune interese	contracts
+clauza penala	contracts
+rezolutiunea contractului	contracts
+rezilierea contractului	contracts
+reziliez contractul	contracts
+formarea contractului	contracts
+oferta de a contracta	contracts
+vicii ascunse	sales,conformity
+viciu ascuns	sales,conformity
+termen de prescriptie	disputes
+termenul de prescriptie	disputes
+se prescrie	disputes
+# --- Legea 31/1990 art. 74: datele de identificare ale societății ---
+datele firmei	commercial_information,transparency
+date de identificare a firmei	commercial_information,transparency
+datele de identificare ale societatii	commercial_information,transparency
+cod unic de inregistrare	commercial_information,transparency
+numarul de ordine in registrul comertului	commercial_information,transparency
+registrul comertului	commercial_information,transparency
+capitalul social pe site	commercial_information,transparency
+capitalul social	commercial_information,transparency
+# --- GDPR art. 7: dovada consimțământului persoanei vizate (distinct de consimțământul părților din Codul civil) ---
+userul a consimtit	personal_data,privacy
+utilizatorul a consimtit	personal_data,privacy
+dovada consimtamantului	personal_data,privacy
+dovedesc consimtamantul	personal_data,privacy

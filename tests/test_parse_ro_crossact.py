@@ -43,7 +43,8 @@ def _host_article_numbers(html: str) -> list[str]:
                 if not inside_article:
                     match = P.ARTICLE_NUM_RE.search(text)
                     if match:
-                        arabic.append(match.group(1).replace(" ", ""))
+                        # "Articolul 1.164" -> "1164" (thousands dot), as in the parser.
+                        arabic.append(match.group(1).replace(" ", "").replace(".", ""))
                     else:
                         roman_match = P.ROMAN_ARTICLE_NUM_RE.search(text)
                         if roman_match:

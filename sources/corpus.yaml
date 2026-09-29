@@ -1124,3 +1124,53 @@ acts:
       url: "https://publications.europa.eu/resource/celex/32012R1215"
       format: "xhtml"
       retrieval_status: "fetched"
+  - id: "RO:LEGE:287:2009"
+    version_coverage: "current_only"
+    title: "Legea nr. 287/2009 privind Codul civil (republicată) — ingestie parțială"
+    jurisdiction: "RO"
+    authority_class: "ro_law"
+    status: "include"
+    aliases: ["Codul civil", "Cod civil", "codul civil roman", "Legea 287/2009", "C. civ.", "NCC"]
+    domains: ["contracts", "terms_and_conditions", "sales", "conformity", "disputes"]
+    summary_ro:
+      draft: "Dreptul comun al contractelor: formarea contractului, clauzele standard și neuzuale, interpretarea, executarea și neexecutarea obligațiilor, forța majoră, daunele-interese, vânzarea cu garanția contra viciilor și prescripția extinctivă. Ingerat parțial (vezi ingest_articles)."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 1166-1206", "art. 1266-1269", "art. 1350-1351", "art. 1516-1548", "art. 1707-1715", "art. 2500-2544"]
+    ingest_articles: ["1164-1762", "2500-2544"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/109884"]
+      identifiers: [{type: "national", value: "Legea nr. 287/2009"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "LEGE"
+      numar: 287
+      an: 2009
+      url: "http://legislatie.just.ro/apiws"
+      format: "html_linkhtml"
+      retrieval_status: "not_fetched"
+  - id: "RO:LEGE:31:1990"
+    version_coverage: "current_only"
+    title: "Legea societăților nr. 31/1990 (republicată) — doar art. 74"
+    jurisdiction: "RO"
+    authority_class: "ro_law"
+    status: "include"
+    aliases: ["Legea 31/1990", "Legea societatilor", "legea societăților comerciale"]
+    domains: ["commercial_information", "transparency", "ecommerce"]
+    summary_ro:
+      draft: "Art. 74: datele de identificare ale societății (denumire, formă juridică, sediu, număr de înregistrare, cod unic, capital social) care trebuie să apară pe facturi, oferte, comenzi și celelalte documente ale societății, inclusiv în format electronic. Ingerat doar art. 74."
+      confidence: "draft_neconfirmat"
+    scope_provisions: ["art. 74"]
+    ingest_articles: ["74"]
+    source:
+      links: ["https://legislatie.just.ro/Public/DetaliiDocument/798"]
+      identifiers: [{type: "national", value: "Legea nr. 31/1990"}]
+    fetch:
+      source_id: "portal_legislativ"
+      method: "soap"
+      tip: "LEGE"
+      numar: 31
+      an: 1990
+      url: "http://legislatie.just.ro/apiws"
+      format: "html_linkhtml"
+      retrieval_status: "not_fetched"

@@ -8,7 +8,7 @@ Ce **nu** este: nu e consultanță juridică, nu declară un document „conform
 
 ## Ce conține corpusul
 
-46 de acte (17 RO + 29 UE), ~10.000 de prevederi, 50 de relații UE↔RO, toate descărcate din surse oficiale:
+48 de acte (19 RO + 29 UE), ~11.300 de prevederi, 50 de relații UE↔RO, toate descărcate din surse oficiale:
 
 | Domeniu | UE | România |
 |---|---|---|
@@ -19,6 +19,8 @@ Ce **nu** este: nu e consultanță juridică, nu declară un document „conform
 | Produse | GPSR 2023/988, PLD 2024/2853 | — |
 | Date, AI, securitate | Data Act 2023/2854, AI Act 2024/1689, NIS2 2022/2555 | OUG 155/2024 |
 | Semnătură electronică, plăți | eIDAS 910/2014 (consolidat, include 2024/1183), PSD2 2015/2366 | Legea 214/2024, Legea 209/2019 |
+| Dreptul comun al contractelor | — | Codul civil (Legea 287/2009), **parțial**: art. 1164–1762 (obligații, formarea și interpretarea contractului, clauze standard, forță majoră, daune, vânzare și vicii ascunse) și art. 2500–2544 (prescripția extinctivă) |
+| Identificarea firmei | — | Legea 31/1990, **doar art. 74** (datele de identificare pe facturi, oferte, comenzi și pe site) |
 | Contracte transfrontaliere | Roma I 593/2008, Bruxelles I bis 1215/2012 | — |
 | Accesibilitate | Directiva 2019/882 | Legea 232/2022 |
 
@@ -51,6 +53,51 @@ Scriptul:
 Căi alternative: `JURIST_GLOBAL_SKILL=/alt/dir` și `JURIST_BIN_DIR=/alt/bin`. Dacă `~/.local/bin` nu e în `PATH`, scriptul te avertizează.
 
 Claude Code încarcă automat skill-urile din `~/.claude/skills/`, deci după instalare skill-ul `jurist` apare în lista de skill-uri și se activează pe întrebări despre GDPR, cookies, e-commerce etc. (vezi `description` din `SKILL.md`). Se poate invoca și explicit cu `/jurist`.
+
+Actualizarea unei instalări existente: `git pull && ./scripts/install_skill.sh`. Scriptul e idempotent.
+
+### Instalare de către un agent AI
+
+Pași neinteractivi, pentru un agent (Claude Code, Codex etc.) căruia i s-a cerut „instalează skill-ul jurist”. Execută-i în ordine și oprește-te la primul eșec.
+
+```bash
+# 1. codul (sau `git pull` dacă directorul există deja)
+git clone https://github.com/dany547/jurist.git ~/src/jurist
+cd ~/src/jurist
+
+# 2. dependența Python, doar în user site (fără sudo)
+python3 -c "import yaml" 2>/dev/null || python3 -m pip install --user 'PyYAML>=6.0'
+
+# 3. instalarea propriu-zisă
+./scripts/install_skill.sh
+
+# 4. verificare (comenzi independente de directorul curent)
+cd /tmp
+jurist corpus-status --json | python3 -c "import json,sys; d=json.load(sys.stdin); assert d['ok'] and d['counts']['acts'] >= 48, d; print('OK', d['counts'])"
+JURIST_SESSION=install-check jurist provision --act GDPR --article 6 --paragraph 1 --json | python3 -c "import json,sys; d=json.load(sys.stdin); assert d['ok'], d; print('OK', d['provision']['provision_id'])"
+```
+
+Instalarea e reușită dacă pasul 3 se termină cu `verificare: True {...}` și ambele comenzi din pasul 4 afișează `OK`.
+
+Repository-ul e privat: clonarea cere acces la GitHub. Folosește `gh repo clone dany547/jurist ~/src/jurist` dacă `gh` e autentificat, sau URL-ul SSH `git@github.com:dany547/jurist.git`. Dacă nu ai acces, cere-l utilizatorului; nu căuta copii ale repository-ului în altă parte.
+
+Reguli pentru agent:
+
+- **Nu** folosi `sudo`, `pip install` fără `--user` sau `pip install .` fără `-e`.
+- **Nu** rula `fetch_corpus.py` sau `ingest_corpus.py` la instalare. `data/legal.db` vine gata construit în repository; reconstruirea descarcă ~30 MB din surse oficiale și durează minute.
+- **Nu** modifica fișiere din repository și nu copia manual în `~/.claude/skills/`. Totul trece prin `install_skill.sh`.
+- Pentru alt agent decât Claude Code, setează directorul lui de skill-uri: `JURIST_GLOBAL_SKILL=<dir>/jurist ./scripts/install_skill.sh`. Apoi agentul trebuie să citească `SKILL.md` din acel director.
+- La final, raportează utilizatorului ieșirea pașilor 3–4, fără să o parafrazezi.
+
+| Eșec | Ce faci |
+|---|---|
+| `jurist: e nevoie de Python >= 3.10` | Oprește-te și spune-i utilizatorului; nu instala alt Python. |
+| `lipsește PyYAML` după pasul 2 | `pip` nu e disponibil. Raportează; nu încerca `sudo apt`. |
+| `SQLite ... fără FTS5` | Python-ul are un SQLite prea vechi. Raportează versiunea afișată. |
+| `lipsește data/legal.db` | Clonare incompletă sau director greșit. Verifică `git status` și că ești în rădăcina repository-ului; nu reconstrui baza fără acordul utilizatorului. |
+| `jurist: command not found` la pasul 4 | `~/.local/bin` nu e în `PATH`. Folosește `~/.local/bin/jurist` în pasul 4 și spune-i utilizatorului să adauge directorul în `PATH`. |
+| `No module named jurist` | Launcher-ul nu găsește copia instalată. Rulează din nou pasul 3. |
+| `database is locked` | Altă comandă `jurist`/ingest rulează. Așteaptă câteva secunde și reia o singură dată. |
 
 ### Doar CLI, pentru dezvoltare
 
@@ -174,8 +221,8 @@ Coduri: `UNKNOWN_CITATION` (nu există în corpus), `CITED_WITHOUT_RETRIEVAL` (n
 python3 scripts/fetch_corpus.py --dry-run          # ce s-ar descărca
 python3 scripts/fetch_corpus.py                    # tot corpusul (sau --only ID1,ID2 / --jurisdiction RO)
 python3 scripts/ingest_corpus.py --fresh           # reconstruiește data/legal.db
-python3 -m pytest -q                               # 121 de teste
-python3 scripts/eval_recall.py                     # 63 de întrebări, recall@10 trebuie ≥ 0.9
+python3 -m pytest -q                               # 136 de teste
+python3 scripts/eval_recall.py                     # 70 de întrebări, recall@10 trebuie ≥ 0.9
 ./scripts/install_skill.sh                         # publică în copia instalată
 ```
 
@@ -186,6 +233,8 @@ python3 scripts/eval_recall.py                     # 63 de întrebări, recall@1
 1. **`sources/corpus.yaml`**: intrare nouă după modelul celor existente (`id`, `title`, `jurisdiction`, `authority_class`, `version_coverage`, `aliases`, `domains`, `summary_ro`, `source`, `fetch`).
    - RO: `fetch: {method: soap, tip: LEGE|OUG|OG|HG, numar, an}`.
    - UE: `fetch: {method: cellar, celex: 3AAAATNNNN}` și, dacă există consolidări, `consolidated:` cu cea mai nouă în vigoare. O găsești cu `python3 scripts/fetch_corpus.py --list-consolidations 32011L0083`.
+   - Act mare din care interesează doar o parte: `ingest_articles: ["1164-1762", "2500-2544"]` (intervale inclusive; `1203^1` intră ca 1203). Verifică limitele pe textul descărcat înainte de ingest.
+   - Pentru actele foarte mari, portalul întoarce o pagină-cadru care încarcă forma consolidată din alt document; `fetch_corpus.py` urmează automat linkul `DetaliiDocumentAfis/<id>`.
 2. **`sources/relations.tsv`**: relațiile în ambele sensuri (`transposed_by`/`transposes` etc.), cu dovada din textul oficial în coloana 4.
 3. **`sources/tags.tsv`**: domenii pe articolele-cheie. **`sources/routing_keywords.tsv`**: fraze de utilizator → domenii. Potrivirea e pe subșir, deci folosește fraze specifice de 2+ cuvinte (un cuvânt scurt precum „rată” prinde și „declarată”).
 4. **`tests/eval_questions_40.tsv`**: 1–3 întrebări formulate ca de utilizator, cu ID-urile corecte juridic. Nu ajusta ID-urile așteptate după ce returnează căutarea.
@@ -196,7 +245,7 @@ python3 scripts/eval_recall.py                     # 63 de întrebări, recall@1
 | Verificare | Comandă | Prag |
 |---|---|---|
 | Teste unitare și de contract | `python3 -m pytest -q` | toate trec |
-| Recall pe întrebări reale | `python3 scripts/eval_recall.py` | recall@10 ≥ 0.9 (acum 0.984) |
+| Recall pe întrebări reale | `python3 scripts/eval_recall.py` | recall@10 ≥ 0.9 (acum 0.986) |
 | Copia instalată e la zi | `python3 scripts/sync_skill.py --check` | exit 0 |
 
 Testul `test_global_skill_copy_has_no_drift` pică dacă ai modificat repo-ul și n-ai rulat `install_skill.sh`.

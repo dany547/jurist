@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.6 — 2026-09-29
+
+- Corpus 46 → 48 acte: **Codul civil** (Legea 287/2009), ingerat parțial: art. 1164–1762 (obligații, contracte, clauze standard, interpretare, forță majoră, daune, vânzare și vicii ascunse) și 2500–2544 (prescripția extinctivă). **Legea 31/1990**, doar art. 74 (datele de identificare ale societății pe documente și pe site).
+- `corpus.yaml` acceptă `ingest_articles` (intervale inclusive de articole) pentru acte ingerate parțial.
+- `parse_ro.py`: numerele de articol peste 999 scrise cu punct de mii („Articolul 1.164”) erau citite ca 1 și se suprapuneau cu art. 1–999; acum se citesc corect.
+- `fetch_corpus.py`: pentru actele foarte mari, portalul întoarce o pagină-cadru; se urmează automat linkul oficial `DetaliiDocumentAfis/<id>` către forma consolidată curentă.
+- Rutare: fraze specifice pentru clauze standard, forță majoră, vicii ascunse, prescripție și datele firmei, plus dovada consimțământului GDPR (ca să nu fie confundat cu consimțământul părților din Codul civil).
+- Eval: 70 de întrebări, recall@10 = 0.986. Teste noi în `tests/test_partial_acts.py`.
+- README: secțiune de instalare pentru agenți AI (pași neinteractivi, verificare, reguli, tabel de erori). SKILL.md: acoperirea parțială a Codului civil e marcată explicit.
+
 ## 0.1.5 — 2026-09-29
 
 - `jurist related` și `transposed_by` din `search`/`resolve` listează doar relațiile de ieșire ale actului interogat. `relations.tsv` le stochează în ambele sensuri, deci înainte fiecare relație apărea de două ori, iar o lege RO apărea ca „transpusă de” directiva pe care o transpune.
