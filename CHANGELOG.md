@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.4 — 2026-09-29
+
+- README rescris: instalare pas cu pas, cum funcționează (rutare pe 3 niveluri, semnale, citări canonice, pipeline de build), utilizare CLI cu exemple reale, validatorul de citări, actualizarea și adăugarea de acte, depanare, limite.
+- `scripts/install_skill.sh`: instalare reproductibilă ca skill Claude Code (verifică Python/PyYAML/FTS5, sync, copiază `data/legal.db`, scrie launcher-ul `jurist`).
+- `pyproject.toml`: versiunea aliniată cu CHANGELOG.
+
 ## 0.1.3 — 2026-09-29
 
 - Engine fixes: article-level `provision` lookup (whole article reconstructed from its paragraph/letter children when no article row exists); single canonical payload keys — `matches` (resolve), `results` (search), `provision` (provision); corpus-status source counters computed from the acts table (fixes the `jurislatie_just_ro` typo).
