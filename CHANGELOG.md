@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.5 — 2026-09-29
+
+- `jurist related` și `transposed_by` din `search`/`resolve` listează doar relațiile de ieșire ale actului interogat. `relations.tsv` le stochează în ambele sensuri, deci înainte fiecare relație apărea de două ori, iar o lege RO apărea ca „transpusă de” directiva pe care o transpune.
+- Index nou `idx_provisions_id` pe `provisions(id)`: căutarea FTS făcea un scan complet al tabelei pentru fiecare potrivire (8,6 s → 0,08 s per căutare; eval-ul complet în ~1 s). Indexul se creează automat la deschiderea unei baze existente.
+- `tests/test_relations.py`: regresie pentru direcția relațiilor.
+
 ## 0.1.4 — 2026-09-29
 
 - README rescris: instalare pas cu pas, cum funcționează (rutare pe 3 niveluri, semnale, citări canonice, pipeline de build), utilizare CLI cu exemple reale, validatorul de citări, actualizarea și adăugarea de acte, depanare, limite.

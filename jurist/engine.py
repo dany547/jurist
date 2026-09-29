@@ -330,6 +330,8 @@ class JuristEngine:
             CREATE TABLE IF NOT EXISTS corpus_status (source TEXT PRIMARY KEY, last_sync TEXT, status TEXT NOT NULL, documents INTEGER NOT NULL DEFAULT 0, method TEXT);
             CREATE TABLE IF NOT EXISTS retrieval_log (session_id TEXT NOT NULL, provision_id TEXT NOT NULL, act_id TEXT NOT NULL, as_of TEXT, retrieved_at TEXT NOT NULL);
             CREATE INDEX IF NOT EXISTS idx_provisions_actpath ON provisions(act_id, article, paragraph);
+            -- FTS hits join provisions by id; without this each search scans the whole table per hit.
+            CREATE INDEX IF NOT EXISTS idx_provisions_id ON provisions(id);
             CREATE INDEX IF NOT EXISTS idx_act_versions_act ON act_versions(act_id, valid_from);
             CREATE INDEX IF NOT EXISTS idx_aliases_alias ON aliases(alias);
             CREATE INDEX IF NOT EXISTS idx_acts_status ON acts(status);
@@ -636,20 +638,23 @@ class JuristEngine:
                     return rows
         return run()
 
-    def _related_targets(self, act_id: str, relation: str | None = None) -> list[dict[str, Any]]:
+    def _outgoing_relations(self, act_id: str, relation_types: list[str] | None = None) -> list[sqlite3.Row]:
+        # relations.tsv stores every relation in both directions (transposed_by <->
+        # transposes, ...), so the act's outgoing rows already carry the correct
+        # direction; reading incoming rows too would list each relation twice.
         sql = """SELECT r.*, a.title AS target_title, a.status AS target_status
-                 FROM act_relations r JOIN acts a ON a.id = CASE WHEN r.source_act_id=? THEN r.target_act_id ELSE r.source_act_id END
-                 WHERE r.source_act_id=? OR r.target_act_id=?"""
-        args: list[Any] = [act_id, act_id, act_id]
-        if relation:
-            sql += " AND r.relation_type=?"
-            args.append(relation)
-        output = []
-        for r in self.conn.execute(sql, args):
-            output.append({"act_id": r["target_act_id"] if r["source_act_id"] == act_id else r["source_act_id"],
-                           "title": r["target_title"], "status": r["target_status"],
-                           "relation_type": r["relation_type"], "source_reference": r["source_reference"]})
-        return output
+                 FROM act_relations r JOIN acts a ON a.id = r.target_act_id
+                 WHERE r.source_act_id=?"""
+        args: list[Any] = [act_id]
+        if relation_types:
+            sql += f" AND r.relation_type IN ({','.join('?' for _ in relation_types)})"
+            args.extend(relation_types)
+        return list(self.conn.execute(sql + " ORDER BY r.relation_type, r.target_act_id", args))
+
+    def _related_targets(self, act_id: str, relation: str | None = None) -> list[dict[str, Any]]:
+        return [{"act_id": r["target_act_id"], "title": r["target_title"], "status": r["target_status"],
+                 "relation_type": r["relation_type"], "source_reference": r["source_reference"]}
+                for r in self._outgoing_relations(act_id, [relation] if relation else None)]
 
     def _human_reference(self, query: str) -> str | None:
         """Resolve simple human citations such as ``GDPR art. 6`` deterministically."""
@@ -932,19 +937,10 @@ class JuristEngine:
         row = self._resolve_act_id(target)
         canonical = row["id"] if row else target
         if row:
-            sql = """SELECT r.*, a.title AS target_title, a.status AS target_status
-                     FROM act_relations r JOIN acts a ON a.id = CASE WHEN r.source_act_id=? THEN r.target_act_id ELSE r.source_act_id END
-                     WHERE r.source_act_id=? OR r.target_act_id=?"""
-            args: list[Any] = [canonical, canonical, canonical]
-            if relations:
-                placeholders = ",".join("?" for _ in relations)
-                sql += f" AND r.relation_type IN ({placeholders})"
-                args.extend(relations)
-            result = []
-            for rel in self.conn.execute(sql, args):
-                result.append({"source_act_id": rel["source_act_id"], "target_act_id": rel["target_act_id"],
-                               "relation_type": rel["relation_type"], "target_title": rel["target_title"],
-                               "target_status": rel["target_status"], "source_reference": rel["source_reference"]})
+            result = [{"source_act_id": rel["source_act_id"], "target_act_id": rel["target_act_id"],
+                       "relation_type": rel["relation_type"], "target_title": rel["target_title"],
+                       "target_status": rel["target_status"], "source_reference": rel["source_reference"]}
+                      for rel in self._outgoing_relations(canonical, relations)]
         else:
             result = []
         meta = self._meta(row) if row else {"warnings": []}
