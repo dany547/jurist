@@ -538,46 +538,46 @@ Do not assume each act applies to every business. Applicability must be determin
 
 ## 6. Repository architecture
 
-Recommended layout:
+Actual layout (v0.1.x):
 
     jurist/
     ├── AGENTS.md                 # executable architecture contract (primary)
-    ├── SKILL.md
-    ├── CONTEXT.md                # historical source artifact (kept, not edited)
+    ├── SKILL.md                  # short runtime instructions loaded by the agent
+    ├── README.md, CHANGELOG.md
+    ├── .github/workflows/ci.yml  # tests, eval, validators; automatic releases on main
+    ├── jurist/                   # engine.py (schema, FTS5, routing, 5 commands) + __main__.py (CLI)
     ├── scripts/
-    │   ├── jurist.py              # CLI: resolve | search | provision | related | corpus-status
     │   ├── fetch_corpus.py        # corpus.yaml fetcher: RO SOAP+LinkHtml, EU Cellar (Etapa C)
     │   ├── fetch_ro.py            # SOAP legislatie.just.ro helpers (imported by fetch_corpus.py)
+    │   ├── content_gate.py        # rejects non-legal downloads before they are saved
     │   ├── parse_ro.py            # Portal Legislativ HTML parser (Etapa D)
     │   ├── parse_eu.py            # XHTML/Formex parser (Etapa D)
-    │   ├── normalize.py           # NFC, cedilă→virgulă, whitespace (Etapa E)
-    │   ├── build_index.py         # SQLite + FTS5 + lemmas (Etapa E)
-    │   ├── tag_domains.py         # domains on acts + provisions (Etapa F)
-    │   ├── diff_versions.py       # per-provision diff, CHANGELOG.md (Etapa H)
-    │   ├── eval_recall.py         # 40-question eval, recall@10 (Etapa G)
+    │   ├── ingest_corpus.py       # builds data/legal.db: parse, normalize, FTS5, relations, tags (Etapa E)
+    │   ├── tag_domains.py         # domain coverage check (--check) (Etapa F)
+    │   ├── validate.py            # structural/temporal DB validation
+    │   ├── validate_sources.py    # corpus.yaml metadata validation
+    │   ├── eval_recall.py         # question eval, recall@10 (Etapa G)
     │   ├── citation_validator.py  # deterministic validator over retrieval log (Etapa I)
-    │   ├── validate.py
-    │   └── update_manifest.py
+    │   ├── perception_risk.py     # risk derivation for audit_perception
+    │   ├── sync_skill.py, install_skill.sh   # install as a Claude Code skill
+    │   └── release_info.py        # version + CHANGELOG notes for CI releases
     ├── sources/
     │   ├── corpus.yaml            # canonical corpus definition (Etapa B)
+    │   ├── relations.tsv, tags.tsv
     │   ├── lemmas_ro.tsv          # hand-written RO lemma/synonym table (§10)
     │   ├── routing_keywords.tsv   # hand-written keyword→domain table (§13)
+    │   ├── perception_signals.tsv, registry.json
+    │   ├── corpus-audit.md        # coverage and roadmap
     │   └── README.md
     ├── data/
     │   ├── legal.db
     │   ├── manifest.json
     │   └── schema_version.txt
-    ├── tests/
-    │   ├── test_known_citations.py
-    │   ├── test_versions.py
-    │   ├── test_status.py
-    │   ├── test_relations.py
-    │   ├── test_citation_grammar.py
-    │   ├── test_normalization.py
-    │   ├── eval_questions_40.tsv   # question → expected provisions
-    │   └── fixtures/
+    ├── tests/                     # pytest suite, eval_questions_40.tsv, fixtures/
     ├── ingest/                    # intermediate fetch/parse staging (RO/EU workspace)
-    └── raw/                        # immutable source archive (audit trail)
+    └── raw/                       # immutable source archive (audit trail)
+
+The per-provision version diff (Etapa H) and the daily update job are not implemented yet; the update cycle is fetch_corpus.py → ingest_corpus.py → tests → eval (README).
 
 Runtime retrieval uses only the local normalized database. Scripts are for build/update and MUST NOT be placed in the model context.
 
@@ -941,7 +941,7 @@ Two concrete problems MUST be fixed at ingest AND applied to every query:
 
    Diacritics folding alone does not make "consimțământ" find "consimțământului". FTS5 `unicode61 remove_diacritics 2` (SQLite ≥ 3.27.0) folds diacritics; lemmas are added by a HAND-WRITTEN table of ~200 legal terms (consimțământ, prelucrare, operator, împuternicit, retragere, clauze abuzive, drept de retragere, …) stored in `sources/lemmas_ro.tsv` and applied as query expansion (§10, §13 Level 3). One afternoon of handwriting beats embeddings on this corpus — this is the real reason embeddings are post-v1, not merely phase ordering.
 
-Normalization pipeline (scripts/normalize.py):
+Normalization pipeline (`normalize()` / `fold()` in jurist/engine.py, applied by scripts/ingest_corpus.py):
 
     strip BOM → NFC → cedilă→virgulă → collapse whitespace → (optional) ASCII-fold copy for alias/FTS matching.
 
@@ -1796,7 +1796,7 @@ The jurist agent MUST NOT:
 
 Each stage produces a persistent artifact and stops at a mechanically verifiable gate. A stage can be re-run without re-doing earlier stages (download, parse, index are separated). Timelines and file paths from §6.
 
-Etapa A — this document (AGENTS.md), the executable architecture contract, updated per R1–R15 (CONTEXT.md kept as the historical source artifact).
+Etapa A — this document (AGENTS.md), the executable architecture contract, updated per R1–R15.
 
     Gate: §12 read in isolation is sufficient to call the 5 subcommands correctly; each new official endpoint answers a HEAD/GET probe (done for legislatie.just.ro SOAP: apiws + WSDL + docs page all live).
 

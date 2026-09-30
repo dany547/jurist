@@ -277,12 +277,17 @@ scripts/fetch_ro.py       client SOAP legislatie.just.ro (folosit de fetch_corpu
 scripts/parse_ro.py       parser HTML Portal Legislativ
 scripts/parse_eu.py       parser XHTML EUR-Lex/Cellar
 scripts/ingest_corpus.py  construiește data/legal.db
+scripts/validate*.py      validarea bazei (validate.py) și a corpus.yaml (validate_sources.py)
+scripts/tag_domains.py    verifică acoperirea domeniilor (--check)
+scripts/eval_recall.py    eval-ul recall@10
+scripts/citation_validator.py  validatorul de citări
 scripts/install_skill.sh  instalare ca skill Claude Code
-sources/                  corpus.yaml, relații, taguri, rutare, leme, registry, audit
+scripts/release_info.py   versiunea și notele ei, pentru release-ul automat
+sources/                  corpus.yaml, relații, taguri, rutare, leme, registry, corpus-audit.md
 data/legal.db             baza gata construită
 raw/, ingest/             arhiva oficială descărcată (audit, reproductibilitate)
 tests/                    teste + setul de eval
-docs/                     planuri și rapoartele de cercetare din 2026-09-29
+.github/workflows/ci.yml  CI: teste, eval, validări, release automat
 ```
 
 ## Depanare

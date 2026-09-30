@@ -4,7 +4,7 @@
 
 `corpus.yaml` este sursa unică de adevăr pentru **48 de acte UE/RO (19 România + 29 UE)** din zona privacy, comerț electronic, protecția consumatorului, plăți, semnătură electronică, produse și servicii digitale. `registry.json` definește sursele oficiale și metodele de rezolvare. Actele sunt descărcate din sursele oficiale prin `scripts/fetch_corpus.py` (SOAP Portal Legislativ + LinkHtml; Cellar/EUR-Lex) și ingerate în `data/legal.db` prin `scripts/ingest_corpus.py`; proveniența fiecărei manifestări (URL oficial, checksum, `retrieved_at`) stă pe `act_versions`, iar numerele live le randează `jurist corpus-status --json`. Relațiile EU↔RO (transpunere, completare, modificare) sunt în `sources/relations.tsv` — 50 de rânduri, fiecare cu dovada din textul oficial.
 
-Extinderea din 2026-09-29 (28 → 48 acte) pornește din notele de cercetare din `docs/research-2026-09-29/` (surse oficiale: Cellar notices, texte integrale, SOAP Portal Legislativ, OEIL).
+Extinderea din 2026-09-29 (28 → 48 acte) a pornit de la o cercetare pe surse oficiale (notice-uri Cellar, texte integrale, SOAP Portal Legislativ, OEIL); dovada fiecărei relații e în coloana 4 din `sources/relations.tsv`.
 
 ## Acoperire
 
@@ -28,7 +28,7 @@ Numărul de acte: **29 UE + 19 România = 48** (Codul civil și Legea 31/1990 in
 
 ## Candidați verificați și decizie
 
-Deciziile listei inițiale sunt explicite în `candidate_decisions`; extinderea din 2026-09-29 este documentată în `docs/research-2026-09-29/eu_laws.md` și `ro_laws.md`, cu sursele oficiale citate acolo.
+Deciziile listei inițiale sunt explicite în `candidate_decisions`; pentru actele adăugate la 2026-09-29, sursa oficială e în `source.links` din `corpus.yaml`, iar relațiile au dovada în `relations.tsv`.
 
 - **Legea 363/2007 — include.** Actul național relevant pentru practici comerciale incorecte; link Portal Legislativ: <https://legislatie.just.ro/Public/DetaliiDocument/88290>. Reper UE: <https://eur-lex.europa.eu/eli/dir/2005/29/oj>.
 - **Directiva (UE) 2019/770 — include.** Reper UE pentru conținut/servicii digitale; transpunerea română este OUG 141/2021: <https://eur-lex.europa.eu/eli/dir/2019/770/oj>, <https://legislatie.just.ro/Public/DetaliiDocument/250054>.

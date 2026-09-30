@@ -49,6 +49,14 @@ jobs:
           JURIST_SESSION: ci
         run: python -m pytest -q
 
+      - name: Validate corpus.yaml, database and domain coverage
+        env:
+          JURIST_SESSION: ci
+        run: |
+          python scripts/validate_sources.py
+          python scripts/validate.py --db data/legal.db
+          python scripts/tag_domains.py --check
+
       - name: Retrieval eval (recall@10 >= 0.9)
         env:
           JURIST_SESSION: ci

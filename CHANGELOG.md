@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.9 — 2026-09-30
+
+- Curățenie: șterse `CONTEXT.md` (artefact istoric), `docs/` (rapoarte de audit și cercetare, planuri de mod editorial) și scripturile moarte `build_index.py`, `diff_versions.py`, `normalize.py`, `update.py`, `update_manifest.py`, `scripts/jurist.py`. Istoricul rămâne în git.
+- CI rulează și `validate_sources.py`, `validate.py` și `tag_domains.py --check`.
+- AGENTS.md §6 descrie structura reală a repository-ului; README și `corpus-audit.md` nu mai trimit la fișierele șterse.
+
 ## 0.1.8 — 2026-09-30
 
 - CI GitHub Actions (`.github/workflows/ci.yml`): teste pe Python 3.10 și 3.13, verificarea FTS5, eval-ul recall@10 și notele din CHANGELOG, la fiecare push și pull request.
