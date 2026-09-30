@@ -1,5 +1,8 @@
 # jurist
 
+> [!WARNING]
+> **jurist nu înlocuiește un avocat sau un profesionist în domeniul juridic.** Este un instrument de cercetare și un punct de plecare: găsește și citează texte de lege, dar nu oferă consultanță juridică și nu garantează că un răspuns, un document sau o practică este legală ori conformă. Rezultatele trebuie verificate de un specialist înainte de orice decizie. **Folosirea se face pe propria răspundere.** Detalii în [Declinarea răspunderii](#declinarea-răspunderii).
+
 Skill de cercetare juridică *grounded* pentru dreptul românesc și al Uniunii Europene, gândit pentru afaceri online: site-uri, SaaS, magazine online, platforme. Un agent AI (Claude Code sau orice agent care poate rula comenzi) întreabă un corpus local de legislație oficială prin CLI-ul `jurist`, în loc să citeze legea din memorie.
 
 Principiul: **RETRIEVE → VERIFY → REASON → CITE**. Fiecare concluzie juridică trebuie să se sprijine pe un text de lege extras în sesiune, cu citare canonică, dată și statut verificate.
@@ -290,3 +293,12 @@ docs/                     planuri și rapoartele de cercetare din 2026-09-29
 - **Căutare lexicală, fără embeddings:** întrebările cu vocabular foarte diferit de lege depind de `routing_keywords.tsv` și `lemmas_ro.tsv`.
 - **Rezumatele `summary_ro`** din `corpus.yaml` sunt marcate `draft_neconfirmat`.
 - Pentru litigii, amenzi mari, breșe majore, AI cu risc ridicat, sănătate sau penal: research grounded, apoi avocat.
+
+## Declinarea răspunderii
+
+- **Nu este consultanță juridică.** jurist este un instrument de cercetare. Răspunsurile lui, și ale oricărui agent AI care îl folosește, nu reprezintă consultanță juridică și nu creează o relație avocat–client.
+- **Nu înlocuiește un profesionist.** Aplicarea legii la o situație concretă depinde de fapte, de jurisprudență, de practica autorităților și de interpretări pe care acest instrument nu le acoperă. Pentru orice decizie cu efecte juridice, consultă un avocat sau un alt specialist calificat.
+- **Este un punct de plecare.** Folosește-l ca să găsești textele de lege relevante și să îți pregătești întrebările pentru specialist, nu ca verdict final.
+- **Fără garanții.** Corpusul poate fi incomplet sau neactualizat, parserele pot greși, iar un agent AI poate interpreta greșit un text corect. Textele consolidate sunt forme de lucru, nu publicațiile oficiale autentice (Monitorul Oficial, Jurnalul Oficial al UE). Nu există nicio garanție privind exactitatea, actualitatea sau caracterul complet al rezultatelor.
+- **Documentele generate nu sunt „conforme” prin simplul fapt că au fost generate.** Termenii și condițiile, politicile de confidențialitate, contractele și celelalte texte redactate cu ajutorul acestui skill trebuie revizuite de un specialist înainte de publicare sau semnare.
+- **Pe propria răspundere.** Folosind acest instrument, accepți că autorii și contribuitorii nu răspund pentru nicio pierdere, sancțiune sau prejudiciu rezultat din folosirea sau interpretarea rezultatelor.
