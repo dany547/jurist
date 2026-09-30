@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.7 — 2026-09-30
+
+- README: titlul devine „Jurist - Asistent juridic cu AI”; avertisment vizibil la început și secțiunea „Declinarea răspunderii” (nu înlocuiește un avocat, punct de plecare, folosire pe propria răspundere).
+- Versiunile sunt marcate cu tag-uri git anotate `vX.Y.Z`, începând cu v0.1.3.
+
 ## 0.1.6 — 2026-09-29
 
 - Corpus 46 → 48 acte: **Codul civil** (Legea 287/2009), ingerat parțial: art. 1164–1762 (obligații, contracte, clauze standard, interpretare, forță majoră, daune, vânzare și vicii ascunse) și 2500–2544 (prescripția extinctivă). **Legea 31/1990**, doar art. 74 (datele de identificare ale societății pe documente și pe site).

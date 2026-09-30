@@ -1,4 +1,4 @@
-# Jurist - Avocat cu Inteligența Artificială
+# Jurist - Asistent juridic cu AI
 
 > [!WARNING]
 > **jurist nu înlocuiește un avocat sau un profesionist în domeniul juridic.** Este un instrument de cercetare și un punct de plecare: găsește și citează texte de lege, dar nu oferă consultanță juridică și nu garantează că un răspuns, un document sau o practică este legală ori conformă. Rezultatele trebuie verificate de un specialist înainte de orice decizie. **Folosirea se face pe propria răspundere.** Detalii în [Declinarea răspunderii](#declinarea-răspunderii).
@@ -242,6 +242,15 @@ python3 scripts/eval_recall.py                     # 70 de întrebări, recall@1
 3. **`sources/tags.tsv`**: domenii pe articolele-cheie. **`sources/routing_keywords.tsv`**: fraze de utilizator → domenii. Potrivirea e pe subșir, deci folosește fraze specifice de 2+ cuvinte (un cuvânt scurt precum „rată” prinde și „declarată”).
 4. **`tests/eval_questions_40.tsv`**: 1–3 întrebări formulate ca de utilizator, cu ID-urile corecte juridic. Nu ajusta ID-urile așteptate după ce returnează căutarea.
 5. Fetch → ingest → teste → eval → `install_skill.sh`.
+
+### Lansarea unei versiuni
+
+Versionare semantică `MAJOR.MINOR.PATCH`. Versiunea curentă e în `pyproject.toml`, istoricul în `CHANGELOG.md`, iar fiecare versiune are un tag git anotat `vX.Y.Z`.
+
+1. Crește `version` în `pyproject.toml`: PATCH pentru corecturi și documentație, MINOR pentru acte noi sau funcții noi, MAJOR pentru schimbări incompatibile ale contractului CLI.
+2. Adaugă în `CHANGELOG.md` o secțiune `## X.Y.Z — AAAA-LL-ZZ` cu ce s-a schimbat.
+3. Rulează testele și eval-ul, apoi `./scripts/install_skill.sh`.
+4. Commit, apoi `git tag -a vX.Y.Z -m "jurist X.Y.Z"` și `git push --follow-tags`.
 
 ## Teste și calitate
 
