@@ -5,6 +5,7 @@
 - CI GitHub Actions (`.github/workflows/ci.yml`): teste pe Python 3.10 și 3.13, verificarea FTS5, eval-ul recall@10 și notele din CHANGELOG, la fiecare push și pull request.
 - Release automat: la un push pe `main` cu o versiune nouă în `pyproject.toml`, CI-ul creează tag-ul `vX.Y.Z` și GitHub Release-ul cu notele din secțiunea corespunzătoare din CHANGELOG.
 - `scripts/release_info.py` (versiunea curentă și notele ei) și `tests/test_release_info.py`.
+- Acțiuni pe Node 24 (`actions/checkout@v5`, `actions/setup-python@v6`) și runner fixat pe `ubuntu-24.04`.
 
 ## 0.1.7 — 2026-09-30
 
