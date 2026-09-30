@@ -1,4 +1,4 @@
-# jurist
+# Jurist - Avocat cu Inteligența Artificială
 
 > [!WARNING]
 > **jurist nu înlocuiește un avocat sau un profesionist în domeniul juridic.** Este un instrument de cercetare și un punct de plecare: găsește și citează texte de lege, dar nu oferă consultanță juridică și nu garantează că un răspuns, un document sau o practică este legală ori conformă. Rezultatele trebuie verificate de un specialist înainte de orice decizie. **Folosirea se face pe propria răspundere.** Detalii în [Declinarea răspunderii](#declinarea-răspunderii).
