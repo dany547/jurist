@@ -245,12 +245,14 @@ python3 scripts/eval_recall.py                     # 70 de întrebări, recall@1
 
 ### Lansarea unei versiuni
 
-Versionare semantică `MAJOR.MINOR.PATCH`. Versiunea curentă e în `pyproject.toml`, istoricul în `CHANGELOG.md`, iar fiecare versiune are un tag git anotat `vX.Y.Z`.
+Versionare semantică `MAJOR.MINOR.PATCH`. Versiunea curentă e în `pyproject.toml`, istoricul în `CHANGELOG.md`, iar fiecare versiune are un tag `vX.Y.Z` și un GitHub Release. Release-ul îl face CI-ul (`.github/workflows/ci.yml`).
 
 1. Crește `version` în `pyproject.toml`: PATCH pentru corecturi și documentație, MINOR pentru acte noi sau funcții noi, MAJOR pentru schimbări incompatibile ale contractului CLI.
-2. Adaugă în `CHANGELOG.md` o secțiune `## X.Y.Z — AAAA-LL-ZZ` cu ce s-a schimbat.
-3. Rulează testele și eval-ul, apoi `./scripts/install_skill.sh`.
-4. Commit, apoi `git tag -a vX.Y.Z -m "jurist X.Y.Z"` și `git push --follow-tags`.
+2. Adaugă în `CHANGELOG.md` o secțiune `## X.Y.Z — AAAA-LL-ZZ` cu ce s-a schimbat. Fără ea, CI-ul pică.
+3. Local: testele, eval-ul și `./scripts/install_skill.sh`.
+4. Commit și `git push` pe `main`. **Nu crea tag-ul manual.**
+
+La fiecare push și pull request, CI-ul rulează testele pe Python 3.10 și 3.13, eval-ul (recall@10 ≥ 0.9) și verifică dacă există note în CHANGELOG pentru versiunea curentă. Pe `main`, dacă versiunea nu are încă un Release, creează tag-ul `vX.Y.Z` pe commit-ul testat și publică Release-ul cu notele din CHANGELOG (`scripts/release_info.py`). Un push fără schimbare de versiune nu publică nimic.
 
 ## Teste și calitate
 
