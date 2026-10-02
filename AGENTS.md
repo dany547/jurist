@@ -2,7 +2,7 @@
 
 Arhitectură executabilă pentru skill-ul `jurist`: cercetare juridică *grounded* pentru dreptul românesc și dreptul Uniunii Europene, peste un corpus local determinist (SQLite + FTS5). Acest document este sursa unică de adevăr pentru implementare; fiecare etapă are un gate verificabil mecanic (vezi §32).
 
-## 0. Repository operations (Hermes-QA view)
+## 0. Repository operations
 
 > §1–§37 de mai jos = specificația de domeniu (sursa de adevăr pentru implementare).
 > Secțiunea asta = contractul operațional pentru repo-ul **de azi** (verificat 2026-10-02).
@@ -28,7 +28,7 @@ versiunea și `CHANGELOG.md` sunt consistente cu `scripts/release_info.py notes`
 sincronizarea corpus ↔ DB ↔ acoperire pe domenii · validatorul de citări (§25) · pragul de retrieval ·
 fluxul de release automat.
 
-**NU atinge Hermes-QA**: secrete, `.github/workflows/*`, releases/tags, `main`, Administration.
+**Nu se atinge (orice agent)**: secrete, `.github/workflows/*`, releases/tags, `main`, Administration.
 
 **Severitate**: `BLOCK` = citare/text juridic incorect sau inventat, corpus ↔ DB nepotrivit, recall sub prag
 pe `main`, release publicat greșit, date de client în repo public. `WARN` = drift între documentație și
