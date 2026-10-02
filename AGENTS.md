@@ -2,6 +2,40 @@
 
 Arhitectură executabilă pentru skill-ul `jurist`: cercetare juridică *grounded* pentru dreptul românesc și dreptul Uniunii Europene, peste un corpus local determinist (SQLite + FTS5). Acest document este sursa unică de adevăr pentru implementare; fiecare etapă are un gate verificabil mecanic (vezi §32).
 
+## 0. Repository operations (Hermes-QA view)
+
+> §1–§37 de mai jos = specificația de domeniu (sursa de adevăr pentru implementare).
+> Secțiunea asta = contractul operațional pentru repo-ul **de azi** (verificat 2026-10-02).
+
+**Layout**: `jurist/` (pachetul + CLI `jurist`) · `tests/` (8 module) · `scripts/` (ingestie, validare,
+`release_info.py`) · `sources/corpus.yaml` (lista autoritară de acte) · `data/legal.db` (SQLite + FTS5,
+**artefact versionat**) · `raw/` · `SKILL.md`, `README.md`, `CHANGELOG.md`.
+
+**Comenzi**: `python -m pip install "PyYAML>=6.0" pytest` · `python -m pytest -q` ·
+`python scripts/release_info.py notes > /dev/null` · `jurist corpus-status --json`.
+`pip install -e .` **eșuează** (layout flat) — nu-l folosi; detectarea automată a comenzilor greșește aici.
+
+**CI** (`.github/workflows/ci.yml`, push/PR pe `main`, Python 3.10 + 3.13): install → FTS5
+`remove_diacritics 2` → notele de versiune există → `pytest -q` → validare corpus/acoperire pe domenii →
+evaluare de retrieval (**recall@10 ≥ 0.9**) → pe `main`, publică release-ul dacă versiunea nu are unul.
+Un merge pe `main` poate deveni o versiune publică; tag-urile/releases nu se ating manual.
+
+**Gata =** `pytest -q` verde; validarea corpusului și pragul de recall sunt **gate-uri, nu rapoarte**;
+corpusul se schimbă prin `sources/corpus.yaml` + pipeline-ul de ingestie (nu prin editarea `data/legal.db`);
+versiunea și `CHANGELOG.md` sunt consistente cu `scripts/release_info.py notes`.
+
+**Sensibile**: `data/legal.db` (regenerare greșită = regresie de date, nu doar fișier modificat) ·
+sincronizarea corpus ↔ DB ↔ acoperire pe domenii · validatorul de citări (§25) · pragul de retrieval ·
+fluxul de release automat.
+
+**NU atinge Hermes-QA**: secrete, `.github/workflows/*`, releases/tags, `main`, Administration.
+
+**Severitate**: `BLOCK` = citare/text juridic incorect sau inventat, corpus ↔ DB nepotrivit, recall sub prag
+pe `main`, release publicat greșit, date de client în repo public. `WARN` = drift între documentație și
+versiune, sursă nouă fără proveniență în `sources/`, test care nu acoperă schimbarea de corpus. `NIT` = formatare.
+
+**Owner**: Dan Mutu (`dany547`, adcelerum.ro)
+
 ## 1. Purpose
 
 jurist is a grounded legal-research skill for Romanian and European Union law.
